@@ -1,0 +1,5 @@
+# Only the built site is published; everything else stays local
+*
+!.gitignore
+!docs/
+!docs/**
