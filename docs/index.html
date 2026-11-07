@@ -685,7 +685,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-
 .evrow{padding:8px;border-bottom:1px solid #262626} .evrow:target,.evrow.hl{background:#232323} .evrow b{font-size:13px} .evrow .m{display:block}
 .dow{color:var(--mute);text-align:center;font-size:11px} #evlist a{color:#8cf}
 #info{position:fixed;right:0;top:0;bottom:0;width:360px;max-width:92vw;box-sizing:border-box;background:var(--panel);padding:12px max(16px,env(safe-area-inset-right,0px)) 12px max(16px,env(safe-area-inset-left,0px));padding-top:calc(var(--uih,72px) + 8px);overflow:auto;border-left:1px solid var(--line);display:none;z-index:999}
-#info h2{margin:0 0 6px;font-size:16px} #info h3{margin:14px 0 4px;font-size:13px;color:#ccc} .m{color:var(--mute)} #info a{color:#8cf}
+#info h2{margin:0 0 6px;font-size:16px} #info ul{padding-left:18px;margin:4px 0} #info li{margin:3px 0} .morebtn{background:#222;color:#8cf;border:1px solid #444;border-radius:4px;padding:4px 8px;margin:4px 0;cursor:pointer;font:inherit} #info h3{margin:14px 0 4px;font-size:13px;color:#ccc} .m{color:var(--mute)} #info a{color:#8cf}
 #info li{margin:3px 0} #info ul{padding-left:18px;margin:4px 0}
 .badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;margin-right:4px}
 .closed{background:#5a1d1d;color:#f99} .dormant{background:#4d3b12;color:#fc6} .active{background:#163d1e;color:#8e8} .unknown{background:#333;color:#aaa}
@@ -901,11 +901,14 @@ function localSubgraph(p){
 function focusPlace(id){const n=byId[id]; if(!n) return; show(id); if(mode==='map'&&n.lat){map.panTo([n.lat,n.lng]); localSubgraph(n);} }
 
 // ---------- INFO PANEL
+let curId=null;
 function show(id){
-  const n=byId[id]; if(!n) return;
+  const n=byId[id]; if(!n) return; curId=id;
   $('info').style.display='block';
-  const rel=DATA.links.filter(l=>l.s===id||l.t===id).map(l=>{const o=byId[l.s===id?l.t:l.s];const dir=l.s===id?'→':'←';
-    return `<li>${dir} <b>${l.rel||''}</b> <a href="#" onclick="focusPlace('${o.id}');return false">${o?o.name:'?'}</a> ${l.when?'<span class=m>'+l.when+'</span>':''} ${l.note?'<span class=m>— '+l.note+'</span>':''} ${l.src?'<a class=m href="'+l.src+'" target=_blank>[src]</a>':''}</li>`}).join('');
+  const relL=DATA.links.filter(l=>l.s===id||l.t===id);
+  const relItems=relL.map(l=>{const oid=l.s===id?l.t:l.s;const o=byId[oid];const dir=l.s===id?'→':'←';
+    return `<li>${dir} <b>${l.rel||''}</b> <a href="#" onclick="focusPlace('${oid}');return false">${o?o.name:oid}</a> ${l.when?'<span class=m>'+l.when+'</span>':''} ${l.note?'<span class=m>— '+l.note+'</span>':''} ${l.src?'<a class=m href="'+l.src+'" target=_blank>[src]</a>':''}</li>`});
+  const evs=placeEvents(id);
   const st=n.status||'unknown';
   const v=n.volunteering;
   $('infobody').innerHTML=`<h2>${n.name}</h2>
@@ -916,7 +919,25 @@ function show(id){
   ${v?'<h3>Volunteering: '+(v.available||'?')+'</h3><div>'+(v.roles||'')+'<br>'+(v.how||'')+'<br><span class=m>'+(v.notes||'')+'</span>'+(v.source?' <a class=m target=_blank href="'+v.source+'">[src]</a>':'')+'</div>':''}
   ${n.lat&&mode!=='map'?'<p><a href="#" onclick="setMode(\'map\');focusPlace(\''+id+'\');return false">show on map →</a></p>':''}
   <div id="local"></div>
-  <h3>Relations (${rel?DATA.links.filter(l=>l.s===id||l.t===id).length:0})</h3><ul>${rel}</ul>`;
+  <h3>Upcoming events (${evs.length})</h3>${evs.length?moreList(evs.map(evItem),5,'more events'):'<p class=m>None recorded'+(n.events_url?' — check the events link above':'')+'.</p>'}
+  <h3>Relations (${relItems.length})</h3>${moreList(relItems,10,'more relations')}`;
+}
+function placeEvents(id){
+  const t=dstr(TODAY);
+  return EV.filter(e=>(e.venue_id===id||(e.presenter_ids||[]).includes(id)||(e.artist_ids||[]).includes(id)) && ((e.end||e.start||'').slice(0,10)>=t))
+    .sort((a,b)=>{const as=(a.start||'').slice(0,10)<t?t:a.start, bs=(b.start||'').slice(0,10)<t?t:b.start; return as<bs?-1:as>bs?1:spanDays(a)-spanDays(b);});
+}
+function fmtD(s){ if(!s) return ''; const d=new Date(s.slice(0,10)+'T00:00'); let o=d.toLocaleDateString('en-AU',{weekday:'short',day:'numeric',month:'short'}); if(s.length>10) o+=' '+s.slice(11,16); return o; }
+function evItem(e){
+  const t=dstr(TODAY), s=(e.start||'').slice(0,10), en=(e.end||'').slice(0,10);
+  const when=en&&en!==s?(s<t?'now – '+fmtD(en):fmtD(e.start)+' – '+fmtD(en)):fmtD(e.start);
+  const link=e.tickets&&e.tickets.startsWith('http')?e.tickets:e.source;
+  return `<li><span class=m>${when}</span> <a href="${link}" target=_blank><b>${e.title}</b></a>${e.recurring?' <span class=m>('+e.recurring+')</span>':''}<br><span class=m>${e.category||''}${e.price&&e.price!=='unknown'?' · '+e.price:''}${e.venue_name&&e.venue_id!==curId?' · @ '+e.venue_name:''} · <a href="#" onclick="setMode('events');setTimeout(()=>evFocus('${e.id}'),60);return false">in calendar</a> · <a href="${e.source}" target=_blank>[src]</a></span></li>`;
+}
+function moreList(items,n,label){
+  if(items.length<=n) return '<ul>'+items.join('')+'</ul>';
+  return '<ul>'+items.slice(0,n).join('')+'</ul><ul style="display:none">'+items.slice(n).join('')+'</ul>'+
+    `<button class=morebtn onclick="const u=this.previousElementSibling,o=u.style.display==='none';u.style.display=o?'block':'none';this.textContent=o?'show less':'show ${items.length-n} ${label}'">show ${items.length-n} ${label}</button>`;
 }
 $('close').onclick=()=>$('info').style.display='none';
 $('more-btn').onclick=()=>{$('ui').classList.toggle('open'); setUIH();};
