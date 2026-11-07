@@ -669,7 +669,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-
 #ui{position:fixed;top:0;left:0;right:0;padding:6px max(16px,env(safe-area-inset-right,0px)) 6px max(16px,env(safe-area-inset-left,0px));padding-top:calc(6px + env(safe-area-inset-top,0px));background:rgba(17,17,17,.94);display:flex;gap:8px;flex-wrap:wrap;align-items:center;z-index:1000;border-bottom:1px solid var(--line)}
 #ui input,#ui select,#ui button{background:#222;color:#eee;border:1px solid #444;padding:4px 6px;border-radius:4px;font:inherit}
 #ui button.on{background:#e6553f;border-color:#e6553f;color:#fff}
-#ui label{white-space:nowrap} #more-btn{display:none} #more{display:contents}
+#ui label{white-space:nowrap} #more{display:contents} #ui.hidef #more{display:none}
 #views{position:fixed;top:0;left:0;right:0;bottom:0}
 #graph,#map{position:absolute;left:0;right:0;bottom:0;top:var(--uih,72px)}
 #map{display:none;background:#0f1a22}
@@ -695,11 +695,11 @@ body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-
 #graph svg{width:100%;height:100%} #graph svg text{pointer-events:none;fill:#ddd;font-size:10px}
 .leaflet-container{font:inherit} .leaflet-tooltip{background:#222;color:#eee;border:1px solid #444}
 .vlabel{background:rgba(17,17,17,.75);color:#eee;border:none;box-shadow:none;font-size:11px;padding:1px 5px;display:none} .leaflet-tooltip-right.vlabel:before{display:none} .z15 .vlabel{display:block}
-#close{position:absolute;right:10px;top:calc(var(--uih,72px) - 24px);cursor:pointer;color:#aaa;font-size:18px;padding:6px}
+#close{position:fixed;right:max(10px,env(safe-area-inset-right,0px));top:calc(var(--uih,72px) + 4px);cursor:pointer;color:#ccc;font-size:18px;line-height:1;padding:6px 8px;z-index:1101;background:var(--panel);border-radius:4px}
+#info h2{padding-right:32px}
 .sublabel{color:#6a6a6a;font-size:10px;white-space:nowrap;text-transform:uppercase;letter-spacing:.06em;pointer-events:none}
 @media (max-width:700px){
   #ui{font-size:12px;gap:6px} #ui b{width:100%} #ui input#q{width:120px}
-  #more-btn{display:inline-block} #more{display:none} #ui.open #more{display:contents}
   #info{width:100%;max-width:100%;z-index:1100}
   #close{font-size:22px}
   #calgrid .ev{display:inline-block;width:8px;height:8px;border-radius:50%;padding:0;margin:1px;border:none;background:#999;color:transparent;overflow:hidden;vertical-align:middle}
@@ -715,13 +715,14 @@ body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-
 </style></head><body>
 <div id="ui"><b>Naarm live/sound/AV scene</b>
 <button id="vGraph" class="on">Graph</button><button id="vMap">Map</button><button id="vEvents">Events</button>
-<input id="q" placeholder="search…" size="18"><button id="more-btn">filters</button>
+<input id="q" placeholder="search…" size="18"><button id="more-btn" title="show/hide filters">filters ▴</button>
 <span id="more"><select id="fk"><option value="">all kinds</option></select>
 <select id="fs"><option value="">all structures</option></select>
 <select id="fst"><option value="">any status</option><option value="active">active</option><option value="closed">closed</option><option value="dormant">dormant</option><option value="relocated">relocated</option><option value="unknown">unknown</option></select>
 <label><input type="checkbox" id="hc"> hide closed/dormant</label>
 <label><input type="checkbox" id="hx" checked> hide excluded</label>
 <label><input type="checkbox" id="vo"> volunteering only</label>
+<select id="fev" title="only places/people with events in the next N days"><option value="">events: any</option><option value="1">events today</option><option value="7">events next 7 days</option><option value="14">events next 14 days</option><option value="30">events next 30 days</option><option value="90">events next 90 days</option></select>
 <label>min deg <input id="md" type="number" value="0" min="0" style="width:46px"></label></span>
 <span id="cnt" class="m"></span></div>
 <div id="views"><div id="graph"><svg></svg></div><div id="map"></div>
@@ -812,7 +813,19 @@ function ok(n){
   return (!$('hx').checked||n.relevance!=='exclude') && (!$('hc').checked||!isDead(n)) && (!$('fst').value||(n.status||'unknown')===$('fst').value)
    && (!$('fk').value||n.kind===$('fk').value) && (!$('fs').value||n.structure===$('fs').value)
    && (!$('vo').checked||(n.volunteering&&n.volunteering.available==='yes')) && ((deg[n.id]||0)>=+$('md').value)
+   && (!$('fev').value||evIds().has(n.id))
    && (!q || (n.name||'').toLowerCase().includes(q) || (n.suburb||'').toLowerCase().includes(q));
+}
+let _evIdsKey=null,_evIds=null;
+function evIds(){ // ids of venues/presenters/artists with an event overlapping [today, today+N)
+  const N=+$('fev').value; if(_evIdsKey===N) return _evIds;
+  const t0=dstr(TODAY), t1=dstr(new Date(TODAY.getTime()+N*864e5-1));
+  const S=new Set();
+  for(const e of EV){ const s=(e.start||'').slice(0,10), en=(e.end||s).slice(0,10);
+    if(en<t0||s>t1) continue;
+    if($('hx').checked&&e.venue_relevance==='exclude') continue;
+    [e.venue_id,...(e.presenter_ids||[]),...(e.artist_ids||[])].forEach(x=>x&&S.add(x)); }
+  _evIdsKey=N; _evIds=S; return S;
 }
 const match = n => { const q=$('q').value.toLowerCase(); return q && (n.name||'').toLowerCase().includes(q); };
 
@@ -940,9 +953,12 @@ function moreList(items,n,label){
     `<button class=morebtn onclick="const u=this.previousElementSibling,o=u.style.display==='none';u.style.display=o?'block':'none';this.textContent=o?'show less':'show ${items.length-n} ${label}'">show ${items.length-n} ${label}</button>`;
 }
 $('close').onclick=()=>$('info').style.display='none';
-$('more-btn').onclick=()=>{$('ui').classList.toggle('open'); setUIH();};
+function setFilters(hide){ $('ui').classList.toggle('hidef',hide); $('more-btn').textContent=hide?'filters ▾':'filters ▴'; setUIH(); }
+(function(){ let pref=null; try{pref=localStorage.getItem('hideFilters');}catch(e){}
+  setFilters(pref===null ? window.innerWidth<=700 : pref==='1'); })();
+$('more-btn').onclick=()=>{ const h=!$('ui').classList.contains('hidef'); setFilters(h); try{localStorage.setItem('hideFilters',h?'1':'0');}catch(e){} };
 function setUIH(){ document.documentElement.style.setProperty('--uih', $('ui').offsetHeight+'px'); if(map) map.invalidateSize(); }
-window.addEventListener('resize',setUIH); setUIH();
+window.addEventListener('resize',setUIH); if(window.ResizeObserver) new ResizeObserver(setUIH).observe($('ui')); setUIH();
 
 // ---------- EVENTS VIEW
 const EV = DATA.events||[]; const TODAY=new Date(); TODAY.setHours(0,0,0,0);
@@ -991,7 +1007,7 @@ let mode='graph';
 let setMode=function(m){mode=m; ['graph','map','events'].forEach(k=>{$('v'+k[0].toUpperCase()+k.slice(1)).classList.toggle('on',m===k); $(k).style.display=m===k?'block':'none';}); render(); if(m==='map') setTimeout(()=>map.invalidateSize(),50);}
 function render(){ mode==='graph'?renderGraph():mode==='map'?renderMap():renderEvents(); }
 $('vGraph').onclick=()=>setMode('graph'); $('vMap').onclick=()=>setMode('map'); $('vEvents').onclick=()=>setMode('events');
-['q','fk','fs','fst','hc','hx','vo','md'].forEach(id=>$(id).addEventListener('input',render));
+['q','fk','fs','fst','hc','hx','vo','md','fev'].forEach(id=>$(id).addEventListener('input',()=>{_evIdsKey=null;render();}));
 function fromHash(){ const h=(location.hash||'').replace('#',''); if(['graph','map','events'].includes(h) && h!==mode) setMode(h); else if(!h) render(); }
 const _setMode=setMode; setMode=function(m){ _setMode(m); try{ if(location.hash!=='#'+m) history.replaceState(null,'','#'+m); }catch(e){} };
 window.addEventListener('hashchange',fromHash);
