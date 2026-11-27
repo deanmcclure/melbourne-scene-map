@@ -16,7 +16,9 @@ The page is the viewer. The scene graph lives in versioned JSON so it can be dif
 | `docs/data/v1/base.json` | Coast, lake and river shapes. |
 | `docs/data/v1/osm.json` | Inner-Melbourne streets drawn when raster tiles are blocked. |
 | `docs/data/v1/manifest.json` | Version, date, and the scene-tag name. |
-| `scripts/check_data.py` | Checks ids, links and event pointers. |
+| `docs/arts.html` | Planner for fringe, live/performance, audiovisual and interactive events, Jan–Mar 2027. |
+| `docs/data/v1/arts-events-2027q1.json` | Those listings. A JSON array, separate from the scene-graph `events.json`. |
+| `scripts/check_data.py` | Checks ids, links, event pointers, and the arts listings. |
 
 `suburbs`, `base` and `osm` are map geometry. A scene update should not need to touch them.
 
@@ -80,13 +82,31 @@ Past listings stay in the file so the calendar can still move back through the f
 
 `source` is the page to open. `tickets` is the ticket URL when it differs. `fetched` is the day the row was taken. `confidence` is optional.
 
+## Arts calendar
+
+`docs/arts.html` is a separate page for planning and buying tickets. It is not part of the scene graph. The scene map links to it, and it links back. It fetches `docs/data/v1/arts-events-2027q1.json` and does not inline the listings, so new rows are appended in that file only.
+
+The file is a JSON array. Each object is one listing. Append to the array; do not edit `arts.html` to add an event.
+
+Required: `id` (unique slug), `title`, `start_date`, `end_date` (`YYYY-MM-DD`, end on or after start), `venue`, `suburb`, `organiser`, `artists`, `categories`, `region_focus`, `price`, `ticket_url`, `source_urls`, `status`, `description`, `why_dean`, `confidence`.
+
+`artists` is a list of `{ "name", "origin" }`. An empty list is fine when the lineup is unknown. `categories` is a non-empty list of slugs (`exhibition`, `performance`, `audiovisual`, `music-experimental`, `installation`, `interactive`, `festival`, `dance`, `live-art`, `club-av`, `talk`, `workshop`, or a new lowercase slug). `region_focus` is a non-empty list drawn from `local`, `asia-pacific`, `se-asian`, `first-nations`, `international-other`.
+
+`status` is `on-sale`, `announced`, `expected`, `tba`, or `sold-out`. `confidence` is `high`, `medium`, or `low`. `source_urls` is a non-empty list of `http` or `https` URLs. `ticket_url` is one of those too.
+
+Optional, and either omitted or `null`: `date_note`, `times`, `ticket_release_date`, `lat`, `lng`. `lat` and `lng` are both set or both absent. The map skips a row with no coordinates. `ticket_release_date`, when set, is `YYYY-MM-DD`.
+
+A row has to overlap 1 Jan–31 Mar 2027. `expected` means the dates are an estimate: set `date_note` to say so. `tba` means the dates are public but the program is not. Low-confidence rows are shown with a warning so they are checked before buying.
+
+The page has a month grid, a sortable list, and a Leaflet map. Multi-day runs are bars on the days they cover. Exhibitions and installations longer than 14 days, and expected or TBA seasons longer than 14 days, are month spans instead of a bar on every week. “Hide ongoing exhibitions” removes those long exhibition and installation rows. Filters (category, region, status, free/paid, text, that toggle, and a date range) are stored in the URL hash. Each event, and the filtered set, can be downloaded as `.ics`.
+
 ## How to update
 
-1. Edit `nodes.json`, `links.json` or `events.json`. Keep every new claim tied to a `sources` / `src` / `source` URL. If a page was not opened, say so and lower `confidence`.
+1. Edit `nodes.json`, `links.json` or `events.json`. Keep every new claim tied to a `sources` / `src` / `source` URL. If a page was not opened, say so and lower `confidence`. Fringe and AV listings for the arts calendar are appended to `arts-events-2027q1.json`, not `events.json`.
 2. Promote matching `ig-` stubs instead of creating a second node. Search `instagram` and `name` before adding an id.
 3. For a gig still to come, add an event and the `performed_at` / `programmed_at` links. For an older gig, a link with `when` is enough unless it falls inside the calendar window (this file’s listings start in September 2025).
 4. Recompute `status` on events if the “today” you care about has moved. The viewer does not recalculate it.
-5. Run `python3 scripts/check_data.py`.
-6. Serve `docs/` and check Graph, Map and Events, including the scene filter set to “post club”.
+5. Run `python3 scripts/check_data.py`. It checks the scene graph and `arts-events-2027q1.json`.
+6. Serve `docs/` and check Graph, Map and Events, including the scene filter set to “post club”. For an arts listing, reload `arts.html` and confirm the new row. Filters live in the hash, so a shared link should reopen the same view.
 
 The previous build that inlined `const DATA` into `index.html` was not in this repo (`.gitignore` publishes `docs/` only). Do not paste the JSON back into the HTML. The viewer loads `data/v1/` itself.

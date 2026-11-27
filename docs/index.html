@@ -1,5 +1,6 @@
 <!doctype html><html><head><meta charset="utf-8"><title>Naarm Scene Map</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="favicon.ico">
 <style>/* required styles */
 
 .leaflet-pane,
@@ -667,8 +668,9 @@ svg.leaflet-image-layer.leaflet-interactive path {
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-serif;overflow:hidden}
 #ui{position:fixed;top:0;left:0;right:0;padding:6px max(16px,env(safe-area-inset-right,0px)) 6px max(16px,env(safe-area-inset-left,0px));padding-top:calc(6px + env(safe-area-inset-top,0px));background:rgba(17,17,17,.94);display:flex;gap:8px;flex-wrap:wrap;align-items:center;z-index:1000;border-bottom:1px solid var(--line)}
-#ui input,#ui select,#ui button{background:#222;color:#eee;border:1px solid #444;padding:4px 6px;border-radius:4px;font:inherit}
+#ui input,#ui select,#ui button,#ui a.nav{background:#222;color:#eee;border:1px solid #444;padding:4px 6px;border-radius:4px;font:inherit;text-decoration:none;white-space:nowrap}
 #ui button.on{background:#e6553f;border-color:#e6553f;color:#fff}
+#ui a.nav{border-color:#e6553f;color:#fff}
 #ui label{white-space:nowrap} #evtypes{display:none;flex-basis:100%;flex-wrap:wrap;gap:4px 10px;align-items:center;font-size:12px} #evtypes.on{display:flex} #ui.hidef #evtypes{display:none} #evtypes button{padding:2px 8px} #more{display:contents} #ui.hidef #more{display:none}
 #views{position:fixed;top:0;left:0;right:0;bottom:0}
 #graph,#map{position:absolute;left:0;right:0;bottom:0;top:var(--uih,72px)}
@@ -714,7 +716,7 @@ body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.4 system-ui,sans-
 #tilewarn{display:none;position:fixed;left:50%;top:80px;transform:translateX(-50%);background:#5a1d1d;color:#fdd;padding:8px 12px;border-radius:4px;z-index:1001;font-size:12px}
 </style></head><body>
 <div id="ui"><b>Naarm live/sound/AV scene</b>
-<button id="vGraph" class="on">Graph</button><button id="vMap">Map</button><button id="vEvents">Events</button>
+<button id="vGraph" class="on">Graph</button><button id="vMap">Map</button><button id="vEvents">Events</button><a class="nav" href="arts.html">Arts calendar</a>
 <input id="q" placeholder="search…" size="18"><button id="more-btn" title="show/hide filters">filters ▴</button>
 <span id="more"><select id="fk"><option value="">all kinds</option></select>
 <select id="fs"><option value="">all structures</option></select>
