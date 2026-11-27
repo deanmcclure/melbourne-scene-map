@@ -3135,15 +3135,15 @@
     ],
     "artist_ids": [
       "ig-charms-vt",
-      "ig-djplead",
-      "ig-extr-emelyne",
+      "dj-plead",
+      "emelyne",
       "ig-kassoy33",
       "ig-katerellim",
       "ig-lousehome",
       "ig-orb-0o",
       "ig-piezopz",
       "ig-simocellmusic",
-      "ig-tarquin-manek-presense",
+      "tarquin-manek",
       "yl-hooi",
       "ig-zeger94"
     ],
@@ -3291,7 +3291,7 @@
     "id": "2026-11-14-mutations-weekender-miscellania",
     "title": "Mutations Weekender",
     "start": "2026-11-14T14:00",
-    "end": null,
+    "end": "2026-11-15",
     "venue_id": "miscellania",
     "venue_name": "Miscellania",
     "address": "2/401 Swanston St, Melbourne VIC 3000",
@@ -3302,27 +3302,38 @@
       "dbridge",
       "ccl",
       "kiernan-laveaux",
-      "simo-cell",
-      "piezo",
+      "ig-simocellmusic",
+      "ig-piezopz",
       "moopie",
       "nerve",
-      "dj-mum",
+      "ig-ravensburger-xp",
       "emelyne",
       "ig-charms-vt",
       "ig-gillielove",
-      "kate-miller"
+      "ig-katerellim",
+      "dj-plead",
+      "tarquin-manek",
+      "yl-hooi",
+      "ig-lousehome",
+      "ig-orb-0o",
+      "ig-jc-viva"
     ],
     "category": "other",
     "structure": "collective",
     "price": "unknown (via RA)",
     "tickets": "https://ra.co/events/2544749",
-    "description": "Day-into-night club weekender at Miscellania; dance-music adjacent to the experimental crowd (date conflict on listing: 14 vs 15 Nov).",
+    "description": "Day-into-night club weekender at Miscellania; dance-music adjacent to the experimental crowd (date conflict on listing: 14 vs 15 Nov). Instagram dataset (27 Nov 2026): captions and https://events.humanitix.com/mutations-weekender name a 14–15 Nov 2026 span, with b2bs Emelyne b2b Charms, YL Hooi b2b Louis, and Piezo b2b DJ Plead. The earlier listing already noted a 14 vs 15 Nov conflict, so the row keeps both dates and stays medium confidence.",
     "source": "https://www.technoairlines.com/event/mutations-weekender-miscellania-2026-11-14",
     "fetched": "2026-11-07",
     "recurring": null,
     "venue_relevance": "core",
     "venue_structure": "commercial_venue",
-    "status": "past"
+    "status": "past",
+    "confidence": "medium",
+    "sources": [
+      "https://events.humanitix.com/mutations-weekender",
+      "https://www.pixnoy.com/profile/extr.emelyne/"
+    ]
   },
   {
     "id": "2026-11-14-mess-recording-basics",
@@ -7682,10 +7693,11 @@
     "structure": "diy",
     "price": "$20 presale / $25 door",
     "tickets": "https://events.humanitix.com/discharge-november-27",
-    "description": "Hosted by Pris Crisis. Extremely limited capacity, BYO, 2-hour DJ sets. Tags: techno, deconstructed club, dub, trap, bass. Lineup: Winged Mantis, Emerald Dream Machine, Charms, Anastasia. First Nations free entry via DM @piss.sample. Humanitix marks the location TBA and says it is sent on the day; Techno Airlines names 58 Irving St.",
+    "description": "Hosted by Pris Crisis. Extremely limited capacity, BYO, 2-hour DJ sets. Tags: techno, deconstructed club, dub, trap, bass. Lineup: Winged Mantis, Emerald Dream Machine, Charms, Anastasia. First Nations free entry via DM @piss.sample. Humanitix marks the location TBA and says it is sent on the day; Techno Airlines names 58 Irving St. Instagram dataset (27 Nov 2026): a SPIT caption bills @g0th_mansi0n (Index) and @obelisk.__ (Obelisk) in the slots this Humanitix page names Winged Mantis and Emerald Dream Machine. Those billed-name nodes are kept; the duo link is low confidence.",
     "source": "https://events.humanitix.com/discharge-november-27",
     "sources": [
-      "https://www.technoairlines.com/event/discharge-tba-spit-58-irving-st-footscray-2026-11-27"
+      "https://www.technoairlines.com/event/discharge-tba-spit-58-irving-st-footscray-2026-11-27",
+      "https://www.pixnoy.com/profile/rest_in_spit/"
     ],
     "confidence": "high",
     "fetched": "2026-11-27",
@@ -8160,13 +8172,14 @@
       "pris-crisis"
     ],
     "artist_ids": [
-      "aaliyah-salem"
+      "aaliyah-salem",
+      "ig-blairdemilo"
     ],
     "category": "post_club",
     "structure": "diy",
     "price": "unknown",
     "tickets": "https://events.humanitix.com/discharge-may-23",
-    "description": "SPIT, Footscray. Lineup in the research, from this Humanitix page: Blair de Milo, Aaliyah Salem, Osama Bin Banger. Tags include techno, house, hyperpop, deconstructed club, bass, jacking. The page was not re-fetched on 27 Nov 2026.",
+    "description": "SPIT, Footscray. Lineup in the research, from this Humanitix page: Blair de Milo, Aaliyah Salem, Osama Bin Banger. Tags include techno, house, hyperpop, deconstructed club, bass, jacking. The page was not re-fetched on 27 Nov 2026. Instagram dataset (27 Nov 2026): a caption also bills Blair de Milo and poster artist @yaegyl, with Osama Bin Banger, at SPIT.",
     "source": "https://events.humanitix.com/discharge-may-23",
     "confidence": "high",
     "fetched": "2026-11-27",
@@ -8175,7 +8188,10 @@
     "venue_relevance": "core",
     "venue_structure": "diy",
     "address": "58 Irving Street, Footscray VIC 3011",
-    "status": "past"
+    "status": "past",
+    "sources": [
+      "https://www.pixnoy.com/profile/coshnow/"
+    ]
   },
   {
     "id": "2026-06-05-slamross-miscellania",
@@ -8342,6 +8358,148 @@
     "venue_relevance": "core",
     "venue_structure": "diy",
     "address": "58 Irving Street, Footscray VIC 3011",
+    "status": "past"
+  },
+  {
+    "id": "2026-02-20-discharge-misc-rooftop",
+    "title": "DISCHARGE at Misc Rooftop",
+    "start": "2026-02-20",
+    "end": "2026-02-20",
+    "venue_id": "ig-miscrooftop",
+    "venue_name": "Misc Rooftop",
+    "address": "Level 2, 401 Swanston St, Melbourne VIC 3000",
+    "presenter_ids": [
+      "discharge",
+      "pris-crisis"
+    ],
+    "artist_ids": [
+      "ig-polyharmony",
+      "ig-stevzar",
+      "pris-crisis",
+      "ig-coshnow",
+      "anastasia",
+      "ig-happygalagher"
+    ],
+    "category": "post_club",
+    "structure": "commercial_venue",
+    "price": "unknown",
+    "tickets": null,
+    "description": "DISCHARGE on the Miscellania rooftop. The caption bills Polyharmony, Stev Zar, Pris Crisis, Osama Bin Banger, #ANASTASIA and @happygalagher. The same dataset calls @happygalagher a poster artist. The caption gives the day and month and not the year; 2026 is the dataset window, so this row is medium confidence.",
+    "source": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "medium",
+    "fetched": "2026-11-27",
+    "recurring": null,
+    "reviewed": false,
+    "venue_relevance": "core",
+    "venue_structure": "commercial_venue",
+    "status": "past"
+  },
+  {
+    "id": "2026-06-19-discharge-misc-rooftop",
+    "title": "DISCHARGE at Misc Rooftop",
+    "start": "2026-06-19",
+    "end": "2026-06-19",
+    "venue_id": "ig-miscrooftop",
+    "venue_name": "Misc Rooftop",
+    "address": "Level 2, 401 Swanston St, Melbourne VIC 3000",
+    "presenter_ids": [
+      "discharge",
+      "pris-crisis"
+    ],
+    "artist_ids": [
+      "ig-enter-other",
+      "ig-quell",
+      "female-wizard",
+      "pris-crisis",
+      "ig-m3n1o"
+    ],
+    "category": "post_club",
+    "structure": "commercial_venue",
+    "price": "unknown",
+    "tickets": null,
+    "description": "DISCHARGE on the Miscellania rooftop. The caption bills nadeem tiafau eshraghi, Bensin, Female Wizard, Pris Crisis and @m3n1o. The same dataset calls @m3n1o a poster and animation artist. The caption gives the day and month and not the year; 2026 is the dataset window, so this row is medium confidence.",
+    "source": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "medium",
+    "fetched": "2026-11-27",
+    "recurring": null,
+    "reviewed": false,
+    "venue_relevance": "core",
+    "venue_structure": "commercial_venue",
+    "status": "past"
+  },
+  {
+    "id": "2026-10-31-discharge-x-goblin",
+    "title": "DISCHARGE x Goblin",
+    "start": "2026-10-31",
+    "end": "2026-10-31",
+    "venue_id": null,
+    "venue_name": "not named in the caption",
+    "address": null,
+    "presenter_ids": [
+      "discharge",
+      "pris-crisis",
+      "ig-goblin-rave"
+    ],
+    "artist_ids": [
+      "ig-d-i-esel",
+      "ig-st4cey4101",
+      "ig-rydeenetc",
+      "sovblkpssy",
+      "female-wizard",
+      "ig-coshnow",
+      "emelyne",
+      "ig-katerellim",
+      "ig-k8m055",
+      "ig-partylegendstatus",
+      "ig-bududududadadadada",
+      "ig-0bolzak0",
+      "ig-badartistpresents"
+    ],
+    "category": "post_club",
+    "structure": "unknown",
+    "price": "unknown",
+    "tickets": null,
+    "description": "DISCHARGE co-promoted with Goblin Sound System. The caption does not name the room. Billed: @d.i.esel, @st4cey4101, Rydeen, SOVBLKPSSY, Female Wizard, Osama Bin Banger, Emelyne, Kate Miller, @k8m055, Miette King, and poster handles @bududududadadadada and @0bolzak0. Bad Artist Presents is credited with a Bad:Goblin performance. Emelyne b2b Kate Miller. The caption gives the day and month and not the year; 2026 is the dataset window, so this row is medium confidence.",
+    "source": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium",
+    "fetched": "2026-11-27",
+    "recurring": null,
+    "reviewed": false,
+    "venue_relevance": "unknown",
+    "venue_structure": "unknown",
+    "status": "past"
+  },
+  {
+    "id": "2026-11-13-transactions-milneys",
+    "title": "Transactions at Milney's",
+    "start": "2026-11-13",
+    "end": "2026-11-13",
+    "venue_id": "ig-milneys",
+    "venue_name": "Milney's",
+    "address": null,
+    "presenter_ids": [
+      "ig-transactions",
+      "ig-shrieking"
+    ],
+    "artist_ids": [
+      "female-wizard",
+      "ig-wyrmsfae",
+      "ig-avadinhvu",
+      "ig-f1nn-p4lma",
+      "anastasia"
+    ],
+    "category": "post_club",
+    "structure": "unknown",
+    "price": "unknown",
+    "tickets": null,
+    "description": "Queer fundraiser slumber party at Milney's, Fitzroy. Transactions organised it, with Aoifa nic giolla Bhríde (Shrieking) on styling. Live: @wyrmsfae, @avadinhvu (live coding) and @f1nn_p4lma (AV). Female Wizard is billed, and #ANASTASIA says they played. The street address did not resolve; the pin is the Fitzroy centroid.",
+    "source": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "high",
+    "fetched": "2026-11-27",
+    "recurring": null,
+    "reviewed": false,
+    "venue_relevance": "core",
+    "venue_structure": "unknown",
     "status": "past"
   }
 ]

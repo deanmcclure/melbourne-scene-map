@@ -14257,7 +14257,7 @@
   },
   {
     "s": "liquid-architecture",
-    "t": "ig-r-rebeiro",
+    "t": "rohan-rebeiro",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14265,7 +14265,7 @@
   },
   {
     "s": "liquid-architecture",
-    "t": "ig-tangerine-tangerinee",
+    "t": "tangerine",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14273,7 +14273,7 @@
   },
   {
     "s": "liquid-architecture",
-    "t": "ig-tarquin-manek-presense",
+    "t": "tarquin-manek",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14545,7 +14545,7 @@
   },
   {
     "s": "make-it-up-club",
-    "t": "ig-r-rebeiro",
+    "t": "rohan-rebeiro",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14553,7 +14553,7 @@
   },
   {
     "s": "make-it-up-club",
-    "t": "ig-tangerine-tangerinee",
+    "t": "tangerine",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14561,7 +14561,7 @@
   },
   {
     "s": "make-it-up-club",
-    "t": "ig-tarquin-manek-presense",
+    "t": "tarquin-manek",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -14601,7 +14601,7 @@
   },
   {
     "s": "make-it-up-club",
-    "t": "ig-r-rebeiro",
+    "t": "rohan-rebeiro",
     "rel": "collaborated_with",
     "when": "2026-09",
     "note": "mentioned in caption",
@@ -15313,7 +15313,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-djplead",
+    "t": "dj-plead",
     "rel": "collaborated_with",
     "when": "2026-11",
     "note": "mentioned in caption",
@@ -15321,7 +15321,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-extr-emelyne",
+    "t": "emelyne",
     "rel": "collaborated_with",
     "when": "2026-11",
     "note": "mentioned in caption",
@@ -15377,7 +15377,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-tarquin-manek-presense",
+    "t": "tarquin-manek",
     "rel": "collaborated_with",
     "when": "2026-11",
     "note": "mentioned in caption",
@@ -15665,7 +15665,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-djplead",
+    "t": "dj-plead",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -15673,7 +15673,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-extr-emelyne",
+    "t": "emelyne",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -15809,7 +15809,7 @@
   },
   {
     "s": "miscellania",
-    "t": "ig-tarquin-manek-presense",
+    "t": "tarquin-manek",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -19057,7 +19057,7 @@
   },
   {
     "s": "soft-structure",
-    "t": "ig-tangerine-mu",
+    "t": "tangerine",
     "rel": "collaborated_with",
     "when": "2026-03",
     "note": "mentioned in caption",
@@ -19113,7 +19113,7 @@
   },
   {
     "s": "soft-structure",
-    "t": "ig-tangerine-mu",
+    "t": "tangerine",
     "rel": "collaborated_with",
     "when": "2026-02",
     "note": "mentioned in caption",
@@ -19425,7 +19425,7 @@
   },
   {
     "s": "tessellate-club",
-    "t": "ig-tek-dec",
+    "t": "loif",
     "rel": "collaborated_with",
     "when": "2026-08",
     "note": "mentioned in caption",
@@ -19833,7 +19833,7 @@
   },
   {
     "s": "tessellate-club",
-    "t": "ig-tek-dec",
+    "t": "loif",
     "rel": "collaborated_with",
     "when": "2026-10",
     "note": "mentioned in caption",
@@ -29916,6 +29916,1176 @@
     "when": "2026-12",
     "note": "synth meet, 15 Dec 2026",
     "src": "https://thesignalpath.net/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-spittttt",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "promotes night at",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-g0th-mansi0n",
+    "t": "ig-spittttt",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (DISCHARGE 27 Nov)",
+    "src": "https://www.pixnoy.com/profile/rest_in_spit/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-spittttt",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (DISCHARGE 27 Nov)",
+    "src": "https://www.pixnoy.com/profile/rest_in_spit/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "ig-spittttt",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (DISCHARGE 27 Nov)",
+    "src": "https://www.pixnoy.com/profile/rest_in_spit/",
+    "confidence": "high"
+  },
+  {
+    "s": "anastasia",
+    "t": "ig-spittttt",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (DISCHARGE 27 Nov)",
+    "src": "https://www.pixnoy.com/profile/rest_in_spit/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "ig-m3n1o",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "poster/animation (DISCHARGE)",
+    "src": "https://www.pixnoy.com/profile/rest_in_spit/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-g0th-mansi0n",
+    "t": "ig-obelisk",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "duo: Winged Mantis Emerald Dream Machine",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-g0th-mansi0n",
+    "t": "ig-deepwebfm",
+    "rel": "part_of",
+    "when": null,
+    "note": "hosts show",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-mithril",
+    "rel": "part_of",
+    "when": null,
+    "note": "hosts show",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-g0th-mansi0n",
+    "t": "soft-centre",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "involved with",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-deepwebfm",
+    "t": "ig-fbiradio",
+    "rel": "part_of",
+    "when": null,
+    "note": "show on",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-d-i-esel",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-st4cey4101",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-rydeenetc",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "sovblkpssy",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "female-wizard",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-coshnow",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "emelyne",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-katerellim",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-k8m055",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-partylegendstatus",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-bududududadadadada",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-0bolzak0",
+    "rel": "collaborated_with",
+    "when": "2026-10",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "medium"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-goblin-rave",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "co-promote DISCHARGE x Goblin",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-badartistpresents",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Bad:Goblin performance at DISCHARGE x Goblin",
+    "src": "https://www.pixnoy.com/profile/piss.sample/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-rydeenetc",
+    "t": "sovblkpssy",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b partners; DONT TELL ANYONE EP",
+    "src": "https://www.pixnoy.com/profile/sovblkpssy/",
+    "confidence": "high"
+  },
+  {
+    "s": "emelyne",
+    "t": "ig-katerellim",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b at DISCHARGE x Goblin",
+    "src": "https://www.pixnoy.com/profile/katerellim/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-coshnow",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b; duo Crisis Bangers",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-rydeenetc",
+    "t": "ig-silkxsdotcom",
+    "rel": "released_on",
+    "when": null,
+    "note": "label",
+    "src": "https://www.pixnoy.com/profile/rydeenetc/",
+    "confidence": "high"
+  },
+  {
+    "s": "sovblkpssy",
+    "t": "ig-silkxsdotcom",
+    "rel": "released_on",
+    "when": null,
+    "note": "label",
+    "src": "https://www.pixnoy.com/profile/sovblkpssy/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-rydeenetc",
+    "t": "ig-fbiradio",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "bio tag",
+    "src": "https://www.pixnoy.com/profile/rydeenetc/",
+    "confidence": "low"
+  },
+  {
+    "s": "sovblkpssy",
+    "t": "miscellania",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "closed Misc 5th birthday",
+    "src": "https://www.pixnoy.com/profile/sovblkpssy/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "ig-blairdemilo",
+    "rel": "collaborated_with",
+    "when": "2026-05",
+    "note": "billed (DISCHARGE 23 May @ SPIT)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "aaliyah-salem",
+    "rel": "collaborated_with",
+    "when": "2026-05",
+    "note": "billed (DISCHARGE 23 May @ SPIT)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "ig-spittttt",
+    "rel": "performed_at",
+    "when": "2026-05",
+    "note": "billed (DISCHARGE 23 May @ SPIT)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "ig-yaegyl",
+    "rel": "collaborated_with",
+    "when": "2026-05",
+    "note": "billed (DISCHARGE 23 May @ SPIT)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-polyharmony",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-stevzar",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "anastasia",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-happygalagher",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-02",
+    "note": "billed (DISCHARGE Misc rooftop 20 Feb)",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-enter-other",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-06",
+    "note": "billed (DISCHARGE Misc rooftop 19 Jun)",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-quell",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-06",
+    "note": "billed (DISCHARGE Misc rooftop 19 Jun)",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "medium"
+  },
+  {
+    "s": "female-wizard",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-06",
+    "note": "billed (DISCHARGE Misc rooftop 19 Jun)",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-06",
+    "note": "billed (DISCHARGE Misc rooftop 19 Jun)",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-m3n1o",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": "2026-06",
+    "note": "billed (DISCHARGE Misc rooftop 19 Jun)",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-miscrooftop",
+    "t": "miscellania",
+    "rel": "located_at",
+    "when": null,
+    "note": "rooftop of",
+    "src": "https://www.pixnoy.com/profile/miscrooftop/",
+    "confidence": "high"
+  },
+  {
+    "s": "aaliyah-salem",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": null,
+    "note": "rooftop resident sets",
+    "src": "https://www.pixnoy.com/profile/miscrooftop/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-stevzar",
+    "t": "ig-umami-collective",
+    "rel": "runs",
+    "when": null,
+    "note": "co-curator",
+    "src": "https://www.pixnoy.com/profile/stevzar/",
+    "confidence": "high"
+  },
+  {
+    "s": "female-wizard",
+    "t": "make-it-up-club",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Make It Up in the Club x Goblin fundraiser @ Misc",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "medium"
+  },
+  {
+    "s": "female-wizard",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "Female Fundraiser host venue",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "high"
+  },
+  {
+    "s": "female-wizard",
+    "t": "ari-angkasa",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "performer at Female Fundraiser / Make It Up",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "medium"
+  },
+  {
+    "s": "female-wizard",
+    "t": "ig-nexus",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed live at Nexus 3",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "female-wizard",
+    "t": "ig-coshnow",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "video credit",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
+    "confidence": "high"
+  },
+  {
+    "s": "make-it-up-club",
+    "t": "tarquin-manek",
+    "rel": "collaborated_with",
+    "when": "2026",
+    "note": "Safe In Sound 2026",
+    "src": "https://www.pixnoy.com/profile/makeitupclub/",
+    "confidence": "medium"
+  },
+  {
+    "s": "make-it-up-club",
+    "t": "rohan-rebeiro",
+    "rel": "collaborated_with",
+    "when": "2026",
+    "note": "Safe In Sound 2026",
+    "src": "https://www.pixnoy.com/profile/makeitupclub/",
+    "confidence": "medium"
+  },
+  {
+    "s": "make-it-up-club",
+    "t": "tangerine",
+    "rel": "collaborated_with",
+    "when": "2026",
+    "note": "Safe In Sound 2026",
+    "src": "https://www.pixnoy.com/profile/makeitupclub/",
+    "confidence": "medium"
+  },
+  {
+    "s": "make-it-up-club",
+    "t": "liquid-architecture",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "co-present Safe In Sound",
+    "src": "https://www.pixnoy.com/profile/makeitupclub/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-coshnow",
+    "t": "make-it-up-club",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "event with",
+    "src": "https://www.pixnoy.com/profile/coshnow/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-goblin-rave",
+    "t": "ig-badartistpresents",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "bio: hanging with Bad Goblins",
+    "src": "https://www.pixnoy.com/profile/goblin.rave/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-goblin-rave",
+    "t": "ig-partylegendstatus",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "volunteer (Suds!)",
+    "src": "https://www.pixnoy.com/profile/goblin.rave/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-badartistpresents",
+    "t": "ig-goblin-bass",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Swamp Party Fundraiser @ Misc",
+    "src": "https://www.pixnoy.com/profile/badartistpresents/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-badartistpresents",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "Swamp Party venue",
+    "src": "https://www.pixnoy.com/profile/badartistpresents/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-badartistpresents",
+    "t": "ig-quell",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Swamp Party, 31 Jan)",
+    "src": "https://www.pixnoy.com/profile/badartistpresents/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-badartistpresents",
+    "t": "tangerine",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Swamp Party, 31 Jan)",
+    "src": "https://www.pixnoy.com/profile/badartistpresents/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-badartistpresents",
+    "t": "loif",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Swamp Party, 31 Jan)",
+    "src": "https://www.pixnoy.com/profile/badartistpresents/",
+    "confidence": "high"
+  },
+  {
+    "s": "emelyne",
+    "t": "ig-goblin-rave",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Porch Sessions w/ Goblin Sound System",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-simocellmusic",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-piezopz",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "dj-plead",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "tarquin-manek",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-katerellim",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "emelyne",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "yl-hooi",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-lousehome",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-orb-0o",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-ravensburger-xp",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-jc-viva",
+    "t": "miscellania",
+    "rel": "performed_at",
+    "when": "2026-11",
+    "note": "billed (Mutations Weekender, Nov 2026)",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "emelyne",
+    "t": "ig-charms-vt",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b (Mutations)",
+    "src": "https://events.humanitix.com/mutations-weekender",
+    "confidence": "high"
+  },
+  {
+    "s": "yl-hooi",
+    "t": "ig-lousehome",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b (Mutations)",
+    "src": "https://events.humanitix.com/mutations-weekender",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-piezopz",
+    "t": "dj-plead",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b (Mutations)",
+    "src": "https://events.humanitix.com/mutations-weekender",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-rydeenetc",
+    "t": "ig-simocellmusic",
+    "rel": "collaborated_with",
+    "when": "2026-11",
+    "note": "co-billed 11 Nov 2026",
+    "src": "https://www.pixnoy.com/profile/rydeenetc/",
+    "confidence": "high"
+  },
+  {
+    "s": "loif",
+    "t": "tangerine",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Misc rooftop DJs",
+    "src": "https://www.pixnoy.com/profile/miscrooftop/",
+    "confidence": "high"
+  },
+  {
+    "s": "loif",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": null,
+    "note": "rooftop sets",
+    "src": "https://www.pixnoy.com/profile/miscrooftop/",
+    "confidence": "high"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "her-ta",
+    "rel": "runs",
+    "when": null,
+    "note": "founder",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "high"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "speed-bpm",
+    "rel": "runs",
+    "when": null,
+    "note": "founder",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "medium"
+  },
+  {
+    "s": "her-ta",
+    "t": "speed-bpm",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "sibling labels",
+    "src": "https://www.pixnoy.com/profile/hermusicequality/",
+    "confidence": "medium"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "ig-circuitbreaker-naarm",
+    "rel": "released_on",
+    "when": null,
+    "note": "CBRK002 release",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "high"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "ig-amniote-editions",
+    "rel": "released_on",
+    "when": null,
+    "note": "Suzhen Bai releases",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "high"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "ig-notonescar",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "poster (Sub Club ANL)",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "medium"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "ig-tapas-changyang",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "visuals (Sub Club ANL)",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "medium"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "ig-umami-collective",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "cited as Taipei/Melbourne DIY collective",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "low"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "six12",
+    "rel": "performed_at",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "high"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "ig-source-code",
+    "rel": "collaborated_with",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "ig-flatesoteric",
+    "rel": "collaborated_with",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "ig-lysdexic",
+    "rel": "collaborated_with",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "ig-pnortnaomi",
+    "rel": "collaborated_with",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "shut-up-and-dance",
+    "t": "ig-braek-xyz",
+    "rel": "collaborated_with",
+    "when": "2025-06",
+    "note": "billed (1st transmission 28 Jun 2025)",
+    "src": "https://www.pixnoy.com/profile/shutup.and.dance.melbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-transactions",
+    "t": "ig-milneys",
+    "rel": "programmed_at",
+    "when": "2026-11",
+    "note": "slumber party venue 13 Nov 2026",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-transactions",
+    "t": "female-wizard",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (slumber party)",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-shrieking",
+    "t": "ig-transactions",
+    "rel": "runs",
+    "when": null,
+    "note": "organiser/styling",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-wyrmsfae",
+    "t": "ig-transactions",
+    "rel": "presented_by",
+    "when": null,
+    "note": "live artist (slumber party)",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-avadinhvu",
+    "t": "ig-transactions",
+    "rel": "presented_by",
+    "when": null,
+    "note": "live artist (slumber party)",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-f1nn-p4lma",
+    "t": "ig-transactions",
+    "rel": "presented_by",
+    "when": null,
+    "note": "live artist (slumber party)",
+    "src": "https://www.pixnoy.com/profile/transactions___/",
+    "confidence": "medium"
+  },
+  {
+    "s": "anastasia",
+    "t": "ig-transactions",
+    "rel": "presented_by",
+    "when": null,
+    "note": "played Transactions",
+    "src": "https://www.pixnoy.com/profile/hashtaganastasia/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-nexus",
+    "rel": "runs",
+    "when": null,
+    "note": "co-organiser/billed",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-g0th-mansi0n",
+    "t": "ig-nexus",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "bio tag; billed as Index",
+    "src": "https://www.pixnoy.com/profile/g0th_mansi0n/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-fractalc0re",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged co-collaborator",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-v-3lo",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "poster artist",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-scum-noise",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-jungist",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-stevzar",
+    "rel": "collaborated_with",
+    "when": "2024-04",
+    "note": "billed (Nexus Apr 2024)",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-null-hyp0thesis",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Nexus 2)",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-dgradeknockoff",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Nexus 2)",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "ig-teyalogos",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "billed (Nexus 3)",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-nexus",
+    "t": "liquid-architecture",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "partner (Nexus 3)",
+    "src": "https://www.pixnoy.com/profile/nexus__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-fractalc0re",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-fbiradio",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-scum-noise",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-jungist",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-v-3lo",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-mithril",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tag",
+    "src": "https://www.pixnoy.com/profile/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "soft-centre",
+    "t": "miscellania",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tour partner (Naarm date)",
+    "src": "https://www.pixnoy.com/profile/soft_centre/",
+    "confidence": "high"
+  },
+  {
+    "s": "soft-centre",
+    "t": "liquid-architecture",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "co-present Bawal Budots tour",
+    "src": "https://www.pixnoy.com/profile/soft_centre/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-dgradeknockoff",
+    "t": "ig-miscrooftop",
+    "rel": "performed_at",
+    "when": null,
+    "note": "Party, People! b2b",
+    "src": "https://www.pixnoy.com/profile/miscrooftop/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "emelyne",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "b2b",
+    "src": "https://www.pixnoy.com/profile/extr.emelyne/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-enter-other",
+    "t": "liquid-architecture",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "Poly-rhythmic #6 performance",
+    "src": "https://www.pixnoy.com/profile/enter__other/",
+    "confidence": "high"
+  },
+  {
+    "s": "female-wizard",
+    "t": "liquid-architecture",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "RP Boo interview",
+    "src": "https://www.pixnoy.com/profile/female_wizard/",
     "confidence": "high"
   }
 ]
