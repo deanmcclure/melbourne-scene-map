@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Naarm fringe &amp; AV · Jan–Mar 2027</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="icon" href="favicon.ico">
+<meta name="description" content="Calendar of fringe, live and performance art, audiovisual and interactive events in Melbourne / Naarm, January to March 2027.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+:root{--bg:#111;--fg:#eee;--mute:#999;--panel:#1b1b1b;--line:#333;--accent:#e6553f;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.45 system-ui,sans-serif}
+a{color:#8cf}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+#top{position:sticky;top:0;z-index:20;background:rgba(17,17,17,.96);border-bottom:1px solid var(--line);padding:8px 16px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+#top b{font-size:14px}
+#top .sub{color:var(--mute);font-weight:400}
+#top a.nav,#top button,#filters button,#filters select,#top select,#top input{background:#222;border:1px solid #444;border-radius:4px;padding:4px 8px;text-decoration:none;color:#eee}
+#top button.on,#filters button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#top a.nav{border-color:var(--accent);color:#fff;white-space:nowrap}
+#q{min-width:140px}
+#onsale{background:#163d1e;border-color:#2f7d46;color:#b9f6ca}
+#onsale.on{background:var(--accent);border-color:var(--accent);color:#fff}
+#count,.m{color:var(--mute)}
+#filters{padding:8px 16px 10px;border-bottom:1px solid var(--line);background:#141414}
+#filters summary{cursor:pointer;color:#ccc;margin-bottom:6px}
+.frow{display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center;margin:4px 0}
+.flab{color:var(--mute);min-width:72px;font-size:11px;text-transform:uppercase;letter-spacing:.04em}
+.hint{color:var(--mute);margin:4px 0 0}
+.legend{color:var(--mute);margin:8px 0 0;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.swatch{display:inline-block;width:22px;height:10px;border-radius:2px;vertical-align:middle;margin-right:4px;background:#2a2a2a;border-left:3px solid #e6553f}
+.swatch.dashed{border:1px dashed #aa8;border-left:3px solid #e6553f;background:repeating-linear-gradient(-45deg,#2a2a2a,#2a2a2a 3px,#333 3px,#333 5px)}
+.swatch.low{outline:1px solid #e6a23c}
+.swatch.sold{background:#5a1d1d}
+main{padding:12px 16px 64px;max-width:1100px}
+.jumps{display:flex;gap:6px;margin-bottom:10px}
+.month{margin:0 0 22px}
+.month h2{margin:0 0 8px;font-size:16px}
+.month-body{overflow-x:auto}
+.gridish{min-width:760px}
+.dowrow,.days,.lane{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
+.dowrow{color:var(--mute);font-size:11px;text-align:center;margin-bottom:3px}
+.week{margin-bottom:8px}
+.day{background:#161616;border:1px solid #262626;border-radius:4px;min-height:28px;padding:3px 4px}
+.day.out{opacity:.35}
+.day.today{border-color:var(--accent)}
+.day .num{color:#ddd}
+.lane{min-height:22px;margin-top:3px;align-items:stretch}
+.bar{display:block;width:auto;margin:0;text-align:left;background:#2a2a2a;color:#eee;border:0;border-left:3px solid var(--c,#999);border-radius:3px;padding:2px 6px;font-size:11px;line-height:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-height:20px}
+.bar.tentative{background:#2a2418;border:1px dashed #c4a35a;border-left:3px solid var(--c,#e6c36a)}
+.bar.low{outline:1px solid #e6a23c}
+.bar.soldout{text-decoration:line-through;opacity:.75}
+.bar.cont-l{border-top-left-radius:0;border-bottom-left-radius:0}
+.bar.cont-r{border-top-right-radius:0;border-bottom-right-radius:0}
+.ongoing{margin:0 0 10px;padding:8px;background:#161616;border:1px solid #262626;border-radius:6px}
+.ongoing h3{margin:0 0 6px;font-size:12px;font-weight:600;color:#ccc}
+.og{display:grid;grid-template-columns:minmax(0,1fr) 160px;gap:8px;align-items:center;width:100%;text-align:left;background:#1c1c1c;color:inherit;border:1px solid #2c2c2c;border-left:3px solid var(--c,#c9a27e);border-radius:4px;padding:4px 8px;margin:3px 0}
+.og.tentative{border-style:dashed}
+.og.low{outline:1px solid #e6a23c}
+.og-title{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.og-meta{color:var(--mute);font-size:11px;white-space:normal}
+.track{position:relative;height:8px;background:#2a2a2a;border-radius:99px}
+.fill{position:absolute;top:0;bottom:0;border-radius:99px;background:var(--c,#c9a27e)}
+.card{background:#161616;border:1px solid #262626;border-radius:8px;padding:12px 14px;margin:0 0 10px}
+.card.tentative{border-style:dashed;border-color:#6a5a30;background:#17150f}
+.card.low{box-shadow:inset 3px 0 0 #e6a23c}
+.card.soldout{opacity:.88}
+.card.hl{border-color:#8cf}
+.card-h{display:flex;gap:8px;justify-content:space-between;align-items:flex-start}
+.card h3{margin:0;font-size:15px}
+.badges{display:flex;flex-wrap:wrap;gap:4px;justify-content:flex-end}
+.badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;white-space:nowrap}
+.st-on-sale{background:#163d1e;color:#8e8}
+.st-announced{background:#1e2a33;color:#9cf}
+.st-expected,.st-tba{background:#4d3b12;color:#fc6}
+.st-sold-out{background:#5a1d1d;color:#f99}
+.conf-low{background:#4d3b12;color:#fc6}
+.conf-medium{background:#333;color:#bbb}
+.when{margin:6px 0 2px}
+.where{margin:2px 0}
+.date-note,.warn{margin:4px 0;padding:4px 8px;border-radius:4px;background:#2a2418;color:#fc6}
+.warn.lowb{background:#2a2214;color:#e6a23c}
+.artists{margin:6px 0;padding-left:18px}
+.artists .origin{color:var(--mute)}
+.chips{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0}
+.chip.cat,.chip.reg{background:#222;border:1px solid #3a3a3a;border-radius:99px;padding:1px 8px;font-size:11px}
+.chip.cat{border-left:3px solid var(--c,#777)}
+button.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.why{margin:8px 0;padding-left:8px;border-left:3px solid var(--accent);color:#ddd}
+.desc{margin:6px 0}
+.sources{margin:6px 0}
+.price{margin:6px 0}
+#map{height:auto;background:transparent;border:0;overflow:visible}
+#map-canvas{height:520px;border-radius:8px;overflow:hidden;background:#0f1a22;border:1px solid #262626}
+.month{scroll-margin-top:120px}
+button.ics{background:#222;color:#eee;border:1px solid #444;border-radius:4px;padding:4px 8px}
+.bar{min-width:0}
+#map-note,#tilewarn{margin:8px 0;color:var(--mute)}
+#tilewarn{color:#f99}
+.leaflet-container{font:inherit;background:#0f1a22}
+.leaflet-bar a{background:#222;color:#eee;border-color:#444}
+.leaflet-bar a:hover{background:#333}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#1b1b1b;color:#eee;box-shadow:none}
+.leaflet-popup-content-wrapper{border:1px solid #444;border-radius:6px}
+.leaflet-popup-content{margin:8px 10px;max-height:260px;overflow:auto}
+.leaflet-popup-content button{background:#222;color:#eee;border:1px solid #444;border-radius:4px;padding:2px 6px}
+.leaflet-container a.leaflet-popup-close-button{color:#ccc}
+.darkify{filter:brightness(.65) invert(1) contrast(2.2) hue-rotate(190deg) saturate(.25) brightness(.55)}
+.mpop ul{margin:6px 0 0;padding-left:16px}
+.mpop li{margin:4px 0}
+#backdrop{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:40}
+#drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--panel);border-left:1px solid var(--line);z-index:41;overflow:auto;padding:16px 16px 32px}
+#drawer-close{position:sticky;top:0;float:right;background:#222;color:#ccc;border:1px solid #444;border-radius:4px;padding:4px 8px}
+.empty{color:var(--mute);padding:12px 0}
+#range-warn{color:#fc6}
+@media (max-width:700px){
+  .og{grid-template-columns:1fr}
+  #top b{width:100%}
+}
+</style>
+</head>
+<body>
+<header id="top">
+  <b>Naarm fringe &amp; AV <span class="sub">Jan–Mar 2027</span></b>
+  <a class="nav" href="index.html">Scene map</a>
+  <button type="button" data-setview="cal" class="on">Calendar</button>
+  <button type="button" data-setview="list">List</button>
+  <button type="button" data-setview="map">Map</button>
+  <input id="q" type="search" placeholder="search title, artist, venue…" aria-label="Search events">
+  <button type="button" id="onsale" aria-pressed="false">Tickets on sale now (<span id="onsale-n">0</span>)</button>
+  <button type="button" id="ics-filtered">Download calendar (.ics)</button>
+  <label class="m">Sort
+    <select id="sort" aria-label="Sort list">
+      <option value="window">In the window</option>
+      <option value="start">Start date</option>
+      <option value="title">Title</option>
+      <option value="venue">Venue</option>
+      <option value="status">Status</option>
+    </select>
+  </label>
+  <span id="count" class="m"></span>
+</header>
+<div id="filters">
+  <details open>
+    <summary>Filters</summary>
+    <div class="frow"><span class="flab">Category</span><span id="cat-chips" class="chips"></span></div>
+    <div class="frow"><span class="flab">Region</span><span id="region-chips" class="chips"></span></div>
+    <div class="frow"><span class="flab">Status</span><span id="status-chips" class="chips"></span></div>
+    <div class="frow">
+      <span class="flab">Price</span>
+      <button type="button" id="price-any" class="on">Any</button>
+      <button type="button" id="price-free">Free</button>
+      <button type="button" id="price-paid">Paid</button>
+      <label><input type="checkbox" id="hideex"> Hide ongoing exhibitions</label>
+      <label>From <input type="date" id="from" aria-label="From date"></label>
+      <label>To <input type="date" id="to" aria-label="To date"></label>
+      <button type="button" id="clear" hidden>Clear filters</button>
+    </div>
+    <p id="range-warn" class="hint" hidden>That date range is backwards, so nothing matches.</p>
+    <p class="hint">A category or region matches if the event has any selected value. Filters are kept in the page link.</p>
+    <p class="legend">
+      <span><i class="swatch"></i>dated run</span>
+      <span><i class="swatch dashed"></i>expected or TBA</span>
+      <span><i class="swatch low"></i>low confidence</span>
+      <span><i class="swatch sold"></i>sold out</span>
+      <span>Runs sit on each day they cover. Exhibitions, installations, and expected or TBA seasons longer than 14 days use the month track.</span>
+    </p>
+  </details>
+</div>
+<main>
+  <div id="cal">
+    <p class="m">Compiled 27 Nov 2026. Expected and TBA dates are estimates. Low-confidence rows need a check before you buy.</p>
+    <div class="jumps">
+      <button type="button" data-jump="2027-01">January</button>
+      <button type="button" data-jump="2027-02">February</button>
+      <button type="button" data-jump="2027-03">March</button>
+    </div>
+    <div id="cal-body"></div>
+  </div>
+  <div id="list" hidden></div>
+  <div id="map" hidden>
+    <div id="map-canvas"></div>
+    <p id="map-note"></p>
+    <p id="tilewarn" hidden>Map tiles did not load. Pins are still placed.</p>
+  </div>
+</main>
+<div id="backdrop" hidden></div>
+<aside id="drawer" hidden aria-label="Event details">
+  <button type="button" id="drawer-close" aria-label="Close">✕</button>
+  <div id="drawer-body"></div>
+</aside>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const DATA_URL = 'data/v1/arts-events-2027q1.json';
+const WINDOW_START = '2027-01-01';
+const MONTHS = [1, 2, 3];
+const YEAR = 2027;
+const CAT_ORDER = ['performance','live-art','dance','music-experimental','audiovisual','club-av','interactive','installation','exhibition','festival','talk','workshop'];
+const CAT_COLOR = {
+  performance:'#e6553f','live-art':'#ff8a65',dance:'#f48fb1','music-experimental':'#53d769',
+  audiovisual:'#4fc3f7','club-av':'#ce93d8',interactive:'#b388ff',installation:'#f2b134',
+  exhibition:'#c9a27e',festival:'#ffb74d',talk:'#90a4ae',workshop:'#aed581'
+};
+const REGIONS = ['local','asia-pacific','se-asian','first-nations','international-other'];
+const STATUSES = ['on-sale','announced','sold-out','tba','expected'];
+const LABELS = {
+  'music-experimental':'Experimental music','club-av':'Club / AV','live-art':'Live art',
+  'asia-pacific':'Asia-Pacific','se-asian':'SE Asian','first-nations':'First Nations',
+  'international-other':'International',local:'Local','on-sale':'On sale',announced:'Announced',
+  expected:'Expected',tba:'TBA','sold-out':'Sold out'
+};
+const WD = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const MONS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+const MONTH_NAME = ['','January','February','March'];
+
+const $ = id => document.getElementById(id);
+let EVENTS = [];
+let byId = {};
+let lastRows = [];
+let state = defaultState();
+let map, markerLayer, tileWarnBound = false;
+
+function defaultState(){
+  return {view:'cal', cats:new Set(), regions:new Set(), statuses:new Set(), price:'', q:'', hideOngoing:false, from:'', to:'', sort:'window', open:''};
+}
+function esc(s){
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+function labelize(slug){
+  if (LABELS[slug]) return LABELS[slug];
+  return String(slug).replace(/-/g,' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+function parseISO(s){
+  const [y,m,d] = s.split('-').map(Number);
+  return new Date(Date.UTC(y, m-1, d));
+}
+function iso(dt){
+  const y = dt.getUTCFullYear();
+  const m = String(dt.getUTCMonth()+1).padStart(2,'0');
+  const d = String(dt.getUTCDate()).padStart(2,'0');
+  return y+'-'+m+'-'+d;
+}
+function addDaysISO(s, n){
+  const [y,m,d] = s.split('-').map(Number);
+  return iso(new Date(Date.UTC(y, m-1, d+n)));
+}
+function ymdCompact(s, add){
+  return addDaysISO(s, add||0).replace(/-/g,'');
+}
+function inclusiveDays(a, b){
+  return Math.round((parseISO(b) - parseISO(a)) / 86400000) + 1;
+}
+function fmtDay(s){
+  const dt = parseISO(s);
+  return WD[dt.getUTCDay()]+' '+dt.getUTCDate()+' '+MONS[dt.getUTCMonth()]+' '+dt.getUTCFullYear();
+}
+function fmtRange(a, b){
+  if (a === b) return fmtDay(a);
+  const da = parseISO(a), db = parseISO(b);
+  if (da.getUTCFullYear()===db.getUTCFullYear() && da.getUTCMonth()===db.getUTCMonth())
+    return WD[da.getUTCDay()]+' '+da.getUTCDate()+'–'+WD[db.getUTCDay()]+' '+db.getUTCDate()+' '+MONS[da.getUTCMonth()]+' '+da.getUTCFullYear();
+  if (da.getUTCFullYear()===db.getUTCFullYear())
+    return WD[da.getUTCDay()]+' '+da.getUTCDate()+' '+MONS[da.getUTCMonth()]+' – '+WD[db.getUTCDay()]+' '+db.getUTCDate()+' '+MONS[db.getUTCMonth()]+' '+da.getUTCFullYear();
+  return fmtDay(a)+' – '+fmtDay(b);
+}
+function todayISO(){
+  const n = new Date();
+  return iso(new Date(Date.UTC(n.getFullYear(), n.getMonth(), n.getDate())));
+}
+function mon0(s){ return (parseISO(s).getUTCDay()+6)%7; }
+function isLongExhibition(e){
+  const cats = e.categories || [];
+  return inclusiveDays(e.start_date, e.end_date) > 14 && (cats.includes('exhibition') || cats.includes('installation'));
+}
+function onMonthTrack(e){
+  const long = inclusiveDays(e.start_date, e.end_date) > 14;
+  return isLongExhibition(e) || (long && (e.status === 'expected' || e.status === 'tba'));
+}
+function isFree(e){
+  const p = (e.price || '').trim().toLowerCase();
+  return /^free\b/.test(p) || p.includes('likely free');
+}
+function place(e){
+  const v = e.venue || '', s = e.suburb || '';
+  if (!s || v.toLowerCase().includes(s.toLowerCase())) return v;
+  return v+' · '+s;
+}
+function catColor(e){
+  for (const c of e.categories || []) if (CAT_COLOR[c]) return CAT_COLOR[c];
+  return '#999';
+}
+function flags(e){
+  const cls = [];
+  if (e.status === 'expected' || e.status === 'tba') cls.push('tentative');
+  if (e.status === 'sold-out') cls.push('soldout');
+  if (e.confidence === 'low') cls.push('low');
+  return cls;
+}
+function hay(e){
+  return [e.title, e.venue, e.suburb, e.organiser, e.description, e.why_dean, e.price, e.date_note, e.times,
+    ...(e.categories||[]), ...(e.region_focus||[]),
+    ...(e.artists||[]).flatMap(a => [a.name, a.origin])
+  ].filter(Boolean).join(' ').toLowerCase();
+}
+function host(url){
+  try { return new URL(url).hostname.replace(/^www\./,''); }
+  catch { return url; }
+}
+function passes(e, opt){
+  opt = opt || {};
+  if (state.hideOngoing && isLongExhibition(e)) return false;
+  const q = state.q.trim().toLowerCase();
+  if (q && !hay(e).includes(q)) return false;
+  if (state.cats.size && ![...state.cats].some(c => (e.categories||[]).includes(c))) return false;
+  if (state.regions.size && ![...state.regions].some(r => (e.region_focus||[]).includes(r))) return false;
+  if (!opt.ignoreStatus && state.statuses.size && !state.statuses.has(e.status)) return false;
+  if (state.price === 'free' && !isFree(e)) return false;
+  if (state.price === 'paid' && isFree(e)) return false;
+  if (state.from && e.end_date < state.from) return false;
+  if (state.to && e.start_date > state.to) return false;
+  return true;
+}
+function filtersActive(){
+  return !!(state.q.trim() || state.cats.size || state.regions.size || state.statuses.size || state.price || state.hideOngoing || state.from || state.to);
+}
+function sortEvents(rows){
+  const rank = {'on-sale':0,'sold-out':1,announced:2,tba:3,expected:4};
+  const floor = state.from || WINDOW_START;
+  const copy = rows.slice();
+  copy.sort((a,b) => {
+    let c = 0;
+    if (state.sort === 'title') c = a.title.localeCompare(b.title);
+    else if (state.sort === 'venue') c = (a.venue||'').localeCompare(b.venue||'') || (a.suburb||'').localeCompare(b.suburb||'');
+    else if (state.sort === 'status') c = (rank[a.status]??9)-(rank[b.status]??9) || a.start_date.localeCompare(b.start_date);
+    else if (state.sort === 'start') c = a.start_date.localeCompare(b.start_date) || a.end_date.localeCompare(b.end_date);
+    else {
+      const ka = a.start_date < floor ? floor : a.start_date;
+      const kb = b.start_date < floor ? floor : b.start_date;
+      c = ka.localeCompare(kb) || a.start_date.localeCompare(b.start_date);
+    }
+    return c || a.title.localeCompare(b.title);
+  });
+  return copy;
+}
+
+function readHash(){
+  const p = new URLSearchParams(location.hash.startsWith('#') ? location.hash.slice(1) : '');
+  const next = defaultState();
+  const view = p.get('view');
+  if (view === 'list' || view === 'map' || view === 'cal') next.view = view;
+  const sort = p.get('sort');
+  if (['window','start','title','venue','status'].includes(sort)) next.sort = sort;
+  const price = p.get('price');
+  if (price === 'free' || price === 'paid') next.price = price;
+  next.q = p.get('q') || '';
+  next.hideOngoing = p.get('hideex') === '1';
+  next.from = /^\d{4}-\d{2}-\d{2}$/.test(p.get('from')||'') ? p.get('from') : '';
+  next.to = /^\d{4}-\d{2}-\d{2}$/.test(p.get('to')||'') ? p.get('to') : '';
+  const take = (key, allow) => {
+    const set = new Set();
+    for (const part of (p.get(key)||'').split(',')) {
+      const v = part.trim();
+      if (v && (!allow || allow.has(v))) set.add(v);
+    }
+    return set;
+  };
+  next.cats = take('cat', null);
+  next.regions = take('region', new Set(REGIONS));
+  next.statuses = take('status', new Set(STATUSES));
+  next.open = p.get('open') || '';
+  state = next;
+}
+function writeHash(){
+  const p = new URLSearchParams();
+  if (state.view !== 'cal') p.set('view', state.view);
+  if (state.cats.size) p.set('cat', [...state.cats].sort().join(','));
+  if (state.regions.size) p.set('region', [...state.regions].sort().join(','));
+  if (state.statuses.size) p.set('status', [...state.statuses].sort().join(','));
+  if (state.price) p.set('price', state.price);
+  if (state.q.trim()) p.set('q', state.q.trim());
+  if (state.hideOngoing) p.set('hideex', '1');
+  if (state.from) p.set('from', state.from);
+  if (state.to) p.set('to', state.to);
+  if (state.sort !== 'window') p.set('sort', state.sort);
+  if (state.open && byId[state.open]) p.set('open', state.open);
+  const s = p.toString();
+  const want = s ? '#'+s : '';
+  if ((location.hash || '') !== want) history.replaceState(null, '', want || (location.pathname+location.search));
+}
+
+function chipHTML(setName, value){
+  const on = state[setName].has(value);
+  return `<button type="button" class="chip${on?' on':''}" data-set="${setName}" data-value="${esc(value)}" aria-pressed="${on?'true':'false'}">${esc(labelize(value))}</button>`;
+}
+function renderChips(){
+  const cats = CAT_ORDER.filter(c => EVENTS.some(e => (e.categories||[]).includes(c)));
+  const extra = [...new Set(EVENTS.flatMap(e => e.categories||[]))].filter(c => !CAT_ORDER.includes(c)).sort();
+  $('cat-chips').innerHTML = cats.concat(extra).map(c => chipHTML('cats', c)).join('');
+  $('region-chips').innerHTML = REGIONS.map(r => chipHTML('regions', r)).join('');
+  $('status-chips').innerHTML = STATUSES.map(s => chipHTML('statuses', s)).join('');
+}
+function syncControls(){
+  if (document.activeElement !== $('q')) $('q').value = state.q;
+  $('from').value = state.from;
+  $('to').value = state.to;
+  $('hideex').checked = state.hideOngoing;
+  $('sort').value = state.sort;
+  $('price-any').classList.toggle('on', !state.price);
+  $('price-free').classList.toggle('on', state.price==='free');
+  $('price-paid').classList.toggle('on', state.price==='paid');
+  const saleOn = state.statuses.size===1 && state.statuses.has('on-sale');
+  $('onsale').classList.toggle('on', saleOn);
+  $('onsale').setAttribute('aria-pressed', saleOn ? 'true' : 'false');
+  $('clear').hidden = !filtersActive();
+  $('range-warn').hidden = !(state.from && state.to && state.from > state.to);
+  document.querySelectorAll('[data-setview]').forEach(btn => {
+    const on = btn.dataset.setview === state.view;
+    btn.classList.toggle('on', on);
+    btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+  });
+  $('cal').hidden = state.view !== 'cal';
+  $('list').hidden = state.view !== 'list';
+  $('map').hidden = state.view !== 'map';
+  renderChips();
+}
+
+function confBadge(e){
+  if (e.confidence === 'high') return '';
+  const word = e.confidence === 'low' ? 'Low confidence' : 'Medium confidence';
+  return `<span class="badge conf-${esc(e.confidence)}">${word}</span>`;
+}
+function ticketLabel(e){
+  if (e.status === 'sold-out') return 'Sold out — listing';
+  if (e.status === 'on-sale') return 'Tickets';
+  if (e.status === 'expected' || e.status === 'tba') return 'Listing';
+  return 'Details';
+}
+function cardHTML(e, withId){
+  const cls = ['card', ...flags(e)].join(' ');
+  const artists = (e.artists||[]).map(a => `<li>${esc(a.name)} <span class="origin">${esc(a.origin)}</span></li>`).join('');
+  const cats = (e.categories||[]).map(c => `<span class="chip cat" style="--c:${CAT_COLOR[c]||'#777'}">${esc(labelize(c))}</span>`).join('');
+  const regs = (e.region_focus||[]).map(r => `<span class="chip reg">${esc(labelize(r))}</span>`).join('');
+  const when = fmtRange(e.start_date, e.end_date)+(e.times ? ' · '+e.times : '');
+  let warn = '';
+  if (e.confidence === 'low') warn += '<p class="warn lowb">Low confidence — verify this listing before buying.</p>';
+  if (e.status === 'expected') warn += '<p class="warn">Expected, not announced. Dates are an estimate.</p>';
+  if (e.status === 'tba') warn += '<p class="warn">Program not announced yet.</p>';
+  const note = e.date_note ? `<p class="date-note">${esc(e.date_note)}</p>` : '';
+  const release = e.ticket_release_date ? `<p class="release">Tickets release ${esc(fmtDay(e.ticket_release_date))}.</p>` : '';
+  const sources = (e.source_urls||[]).map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join(', ');
+  const idattr = withId ? ` id="ev-${esc(e.id)}"` : '';
+  return `<article class="${cls}"${idattr} data-id="${esc(e.id)}">
+    <header class="card-h"><h3>${esc(e.title)}</h3><span class="badges"><span class="badge st-${esc(e.status)}">${esc(labelize(e.status))}</span>${confBadge(e)}</span></header>
+    ${warn}
+    <p class="when">${esc(when)}</p>
+    ${note}${release}
+    <p class="where">${esc(place(e))}</p>
+    ${artists ? `<ul class="artists">${artists}</ul>` : ''}
+    <div class="chips">${cats}${regs}</div>
+    <p class="price"><b>${esc(e.price)}</b> · <a href="${esc(e.ticket_url)}" target="_blank" rel="noopener">${esc(ticketLabel(e))}</a></p>
+    <p class="why">${esc(e.why_dean)}</p>
+    <p class="desc">${esc(e.description)}</p>
+    <p class="sources"><span class="m">Sources</span> ${sources}</p>
+    <p class="org m">${esc(e.organiser)}</p>
+    <button type="button" class="ics" data-ics="${esc(e.id)}">Add to calendar</button>
+  </article>`;
+}
+
+function monthBounds(month){
+  const start = YEAR+'-'+String(month).padStart(2,'0')+'-01';
+  const end = iso(new Date(Date.UTC(YEAR, month, 0)));
+  return {start, end, dim: Number(end.slice(8))};
+}
+function weeksOf(month){
+  const {start, end} = monthBounds(month);
+  let cursor = addDaysISO(start, -mon0(start));
+  const weeks = [];
+  while (cursor <= end) {
+    const days = [];
+    for (let i=0;i<7;i++) days.push(addDaysISO(cursor, i));
+    weeks.push(days);
+    cursor = addDaysISO(cursor, 7);
+  }
+  return weeks;
+}
+function renderCalendar(rows){
+  const today = todayISO();
+  const html = MONTHS.map(month => {
+    const {start, end, dim} = monthBounds(month);
+    const ongoing = rows.filter(e => onMonthTrack(e) && e.start_date <= end && e.end_date >= start)
+      .sort((a,b) => a.end_date.localeCompare(b.end_date) || a.title.localeCompare(b.title));
+    const pointed = rows.filter(e => !onMonthTrack(e));
+    const ogHTML = ongoing.map(e => {
+      const s = e.start_date > start ? e.start_date : start;
+      const en = e.end_date < end ? e.end_date : end;
+      const left = (Number(s.slice(8))-1)/dim*100;
+      const width = (Number(en.slice(8))-Number(s.slice(8))+1)/dim*100;
+      const cls = ['og', ...flags(e)].join(' ');
+      const tip = [fmtRange(e.start_date, e.end_date), e.date_note, place(e)].filter(Boolean).join(' — ');
+      return `<button type="button" class="${cls}" style="--c:${catColor(e)}" data-id="${esc(e.id)}" title="${esc(tip)}">
+        <span><span class="og-title">${esc(e.title)}</span><span class="og-meta">${esc(fmtRange(e.start_date, e.end_date))}${e.date_note?' · '+esc(e.date_note):''}</span></span>
+        <span class="track" aria-hidden="true"><span class="fill" style="left:${left}%;width:${width}%"></span></span>
+      </button>`;
+    }).join('');
+    const weeks = weeksOf(month).map(days => {
+      const cells = days.map(ds => {
+        const inMonth = ds >= start && ds <= end;
+        const n = Number(ds.slice(8));
+        if (!inMonth) return `<div class="day out"><span class="num">${n}</span></div>`;
+        return `<div class="day${ds===today?' today':''}"><span class="num">${n}</span></div>`;
+      }).join('');
+      const items = [];
+      for (const e of pointed) {
+        let first = -1, last = -1;
+        days.forEach((ds, i) => {
+          if (ds < start || ds > end) return;
+          if (e.start_date <= ds && e.end_date >= ds) {
+            if (first < 0) first = i;
+            last = i;
+          }
+        });
+        if (first < 0) continue;
+        items.push({e, first, last, before: e.start_date < days[first], after: e.end_date > days[last]});
+      }
+      items.sort((a,b) => a.first-b.first || (b.last-b.first)-(a.last-a.first) || a.e.title.localeCompare(b.e.title));
+      const laneEnds = [];
+      for (const item of items) {
+        let lane = laneEnds.findIndex(endCol => endCol < item.first);
+        if (lane < 0) { lane = laneEnds.length; laneEnds.push(item.last); }
+        else laneEnds[lane] = item.last;
+        item.lane = lane;
+      }
+      const lanes = laneEnds.map((_, li) => {
+        const bars = items.filter(it => it.lane===li).map(it => {
+          const span = it.last-it.first+1;
+          const cls = ['bar', ...flags(it.e), it.before?'cont-l':'', it.after?'cont-r':''].filter(Boolean).join(' ');
+          const text = (it.before?'‹ ':'')+it.e.title+(it.after?' ›':'');
+          const tip = [fmtRange(it.e.start_date, it.e.end_date), it.e.times, place(it.e), labelize(it.e.status), it.e.date_note].filter(Boolean).join(' — ');
+          return `<button type="button" class="${cls}" style="grid-column:${it.first+1} / span ${span};--c:${catColor(it.e)}" data-id="${esc(it.e.id)}" title="${esc(tip)}" aria-label="${esc(tip)}">${esc(text)}</button>`;
+        }).join('');
+        return `<div class="lane">${bars}</div>`;
+      }).join('');
+      return `<div class="week"><div class="days">${cells}</div>${lanes}</div>`;
+    }).join('');
+    const n = rows.filter(e => e.start_date <= end && e.end_date >= start).length;
+    const ogBlock = ongoing.length ? `<div class="ongoing"><h3>Across the month (${ongoing.length})</h3>${ogHTML}</div>` : '';
+    return `<section class="month" id="month-${YEAR}-${String(month).padStart(2,'0')}">
+      <h2>${MONTH_NAME[month]} ${YEAR} <span class="m">${n} event${n===1?'':'s'}</span></h2>
+      <div class="month-body"><div class="gridish">
+        <div class="dowrow"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        ${ogBlock}${weeks}
+      </div></div>
+    </section>`;
+  }).join('');
+  const empty = rows.length ? '' : '<p class="empty">No events match these filters.</p>';
+  $('cal-body').innerHTML = empty+html;
+}
+function renderList(rows){
+  const sorted = sortEvents(rows);
+  if (!sorted.length) { $('list').innerHTML = '<p class="empty">No events match these filters.</p>'; return; }
+  $('list').innerHTML = sorted.map(e => cardHTML(e, true)).join('');
+  if (state.open) {
+    const el = $('list').querySelector('[data-id="'+state.open+'"]');
+    if (el) el.classList.add('hl');
+  }
+}
+function renderCount(rows){
+  const onSale = EVENTS.filter(e => e.status==='on-sale' && passes(e, {ignoreStatus:true})).length;
+  $('onsale-n').textContent = String(onSale);
+  $('count').textContent = 'Showing '+rows.length+' of '+EVENTS.length;
+  $('ics-filtered').textContent = 'Download calendar (.ics, '+rows.length+')';
+  $('ics-filtered').disabled = rows.length === 0;
+}
+function popupHTML(list){
+  const items = list.map(e => `<li><button type="button" onclick="openArtsEvent('${esc(e.id)}')">${esc(e.title)}</button><br><span class="m">${esc(fmtRange(e.start_date,e.end_date))} · ${esc(labelize(e.status))}</span> · <a href="${esc(e.ticket_url)}" target="_blank" rel="noopener">${esc(ticketLabel(e))}</a></li>`).join('');
+  return `<div class="mpop"><b>${esc(place(list[0]))}</b><ul>${items}</ul></div>`;
+}
+function renderMap(rows){
+  const mapped = rows.filter(e => e.lat != null && e.lng != null);
+  const skipped = rows.length - mapped.length;
+  $('map-note').textContent = skipped ? skipped+' filtered event'+(skipped===1?' has':'s have')+' no coordinates and '+(skipped===1?'is':'are')+' not on the map.' : (mapped.length ? '' : 'Nothing with a location matches these filters.');
+  if (state.view !== 'map') return;
+  if (!window.L) { $('map-note').textContent = 'The map library did not load. The calendar and list still work.'; return; }
+  if (!map) {
+    map = L.map('map-canvas', {zoomControl:false}).setView([-37.81, 144.96], 12);
+    const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom:19, className:'darkify', attribution:'© OpenStreetMap'});
+    let fails = 0;
+    tiles.on('tileerror', () => { if (++fails === 4) $('tilewarn').hidden = false; });
+    tiles.addTo(map);
+    L.control.zoom({position:'bottomright'}).addTo(map);
+    markerLayer = L.layerGroup().addTo(map);
+  }
+  markerLayer.clearLayers();
+  const groups = new Map();
+  for (const e of mapped) {
+    const key = Number(e.lat).toFixed(4)+','+Number(e.lng).toFixed(4);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(e);
+  }
+  const bounds = [];
+  for (const list of groups.values()) {
+    const lat = Number(list[0].lat), lng = Number(list[0].lng);
+    const onSale = list.some(e => e.status==='on-sale');
+    const marker = L.circleMarker([lat, lng], {
+      radius: 6+Math.min(list.length, 6),
+      color: '#fff', weight: 1,
+      fillColor: onSale ? '#e6553f' : '#4fc3f7',
+      fillOpacity: .9
+    });
+    marker.bindTooltip(list.length+' · '+place(list[0]));
+    marker.bindPopup(popupHTML(list));
+    marker.addTo(markerLayer);
+    bounds.push([lat, lng]);
+  }
+  requestAnimationFrame(() => {
+    if (!map) return;
+    map.invalidateSize();
+    if (bounds.length > 1) map.fitBounds(bounds, {padding:[28,28], maxZoom:14});
+    else if (bounds.length === 1) map.setView(bounds[0], 14);
+  });
+}
+
+function icsEscape(s){
+  return String(s ?? '').replace(/\\/g,'\\\\').replace(/\r\n|\n|\r/g,'\\n').replace(/,/g,'\\,').replace(/;/g,'\\;');
+}
+function fold(line){
+  const enc = new TextEncoder();
+  let out = '', buf = '', n = 0;
+  for (const ch of line) {
+    const nb = enc.encode(ch).length;
+    if (n && n+nb > 73) { out += buf+'\r\n '; buf = ch; n = 1+nb; }
+    else { buf += ch; n += nb; }
+  }
+  return out+buf;
+}
+function vevent(e){
+  const bits = [e.description, '', 'Why: '+(e.why_dean||''), ''];
+  if (e.times) bits.push('When: '+e.times);
+  if (e.date_note) bits.push('Note: '+e.date_note);
+  if (e.ticket_release_date) bits.push('Tickets release: '+e.ticket_release_date);
+  bits.push('Price: '+(e.price||''), 'Status: '+e.status, 'Confidence: '+e.confidence);
+  if (e.artists && e.artists.length) bits.push('Artists: '+e.artists.map(a => a.name+' ('+a.origin+')').join('; '));
+  bits.push('', 'Sources:', ...(e.source_urls||[]));
+  let summary = e.title;
+  if (e.status === 'expected') summary = '[expected] '+summary;
+  else if (e.status === 'tba') summary = '[tba] '+summary;
+  else if (e.status === 'sold-out') summary = '[sold out] '+summary;
+  const tentative = e.status === 'expected' || e.status === 'tba' || e.confidence === 'low';
+  const stamp = new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'');
+  const lines = [
+    'BEGIN:VEVENT',
+    'UID:'+e.id+'@melbourne-scene-map',
+    'DTSTAMP:'+stamp,
+    'DTSTART;VALUE=DATE:'+ymdCompact(e.start_date, 0),
+    'DTEND;VALUE=DATE:'+ymdCompact(e.end_date, 1),
+    'SUMMARY:'+icsEscape(summary),
+    'LOCATION:'+icsEscape(place(e)),
+    'DESCRIPTION:'+icsEscape(bits.join('\n')),
+    'URL:'+e.ticket_url,
+    'STATUS:'+(tentative ? 'TENTATIVE' : 'CONFIRMED'),
+    'CATEGORIES:'+icsEscape((e.categories||[]).join(',')),
+    'END:VEVENT'
+  ];
+  return lines.map(fold).join('\r\n');
+}
+function calendarICS(rows){
+  const body = rows.map(vevent).join('\r\n');
+  return [
+    'BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Naarm Scene Map//Arts Calendar//EN',
+    'CALSCALE:GREGORIAN','METHOD:PUBLISH','X-WR-CALNAME:Naarm fringe and AV Jan-Mar 2027',
+    body, 'END:VCALENDAR',''
+  ].join('\r\n');
+}
+function download(name, text){
+  const blob = new Blob([text], {type:'text/calendar;charset=utf-8'});
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1500);
+}
+function showDrawer(id){
+  const e = byId[id];
+  if (!e) { state.open = ''; $('drawer').hidden = true; $('backdrop').hidden = true; return; }
+  state.open = id;
+  $('drawer-body').innerHTML = cardHTML(e, false);
+  $('drawer').hidden = false;
+  $('backdrop').hidden = false;
+  const inList = $('list').querySelector('[data-id="'+id+'"]');
+  $('list').querySelectorAll('.card.hl').forEach(el => el.classList.remove('hl'));
+  if (inList) inList.classList.add('hl');
+}
+function closeDrawer(){
+  state.open = '';
+  $('drawer').hidden = true;
+  $('backdrop').hidden = true;
+  $('list').querySelectorAll('.card.hl').forEach(el => el.classList.remove('hl'));
+  writeHash();
+}
+window.openArtsEvent = function(id){ showDrawer(id); writeHash(); };
+
+function render(){
+  syncControls();
+  const rows = EVENTS.filter(e => passes(e));
+  lastRows = rows;
+  renderCount(rows);
+  renderCalendar(rows);
+  renderList(rows);
+  renderMap(rows);
+  if (state.open && byId[state.open]) showDrawer(state.open);
+  else { $('drawer').hidden = true; $('backdrop').hidden = true; }
+}
+
+document.querySelectorAll('[data-setview]').forEach(btn => btn.addEventListener('click', () => {
+  state.view = btn.dataset.setview;
+  writeHash();
+  render();
+}));
+$('q').addEventListener('input', () => { state.q = $('q').value; writeHash(); render(); });
+$('sort').addEventListener('change', () => { state.sort = $('sort').value; writeHash(); render(); });
+$('hideex').addEventListener('change', () => { state.hideOngoing = $('hideex').checked; writeHash(); render(); });
+$('from').addEventListener('change', () => { state.from = $('from').value; writeHash(); render(); });
+$('to').addEventListener('change', () => { state.to = $('to').value; writeHash(); render(); });
+$('onsale').addEventListener('click', () => {
+  if (state.statuses.size===1 && state.statuses.has('on-sale')) state.statuses.clear();
+  else state.statuses = new Set(['on-sale']);
+  writeHash();
+  render();
+});
+$('price-any').addEventListener('click', () => { state.price = ''; writeHash(); render(); });
+$('price-free').addEventListener('click', () => { state.price = 'free'; writeHash(); render(); });
+$('price-paid').addEventListener('click', () => { state.price = 'paid'; writeHash(); render(); });
+$('clear').addEventListener('click', () => {
+  const view = state.view, open = state.open;
+  state = defaultState();
+  state.view = view;
+  state.open = open;
+  writeHash();
+  render();
+});
+$('filters').addEventListener('click', ev => {
+  const chip = ev.target.closest('.chip[data-set]');
+  if (!chip) return;
+  const set = state[chip.dataset.set];
+  if (set.has(chip.dataset.value)) set.delete(chip.dataset.value);
+  else set.add(chip.dataset.value);
+  writeHash();
+  render();
+});
+$('cal').addEventListener('click', ev => {
+  const jump = ev.target.closest('[data-jump]');
+  if (jump) {
+    const el = $('month-'+jump.dataset.jump);
+    if (el) el.scrollIntoView({behavior:'smooth', block:'start'});
+    return;
+  }
+  const hit = ev.target.closest('[data-id]');
+  if (hit) { showDrawer(hit.dataset.id); writeHash(); }
+});
+document.body.addEventListener('click', ev => {
+  const ics = ev.target.closest('[data-ics]');
+  if (!ics) return;
+  const e = byId[ics.dataset.ics];
+  if (e) download('naarm-'+e.id+'.ics', calendarICS([e]));
+});
+$('ics-filtered').addEventListener('click', () => {
+  if (!lastRows.length) return;
+  download('naarm-arts-2027q1.ics', calendarICS(lastRows));
+});
+$('drawer-close').addEventListener('click', closeDrawer);
+$('backdrop').addEventListener('click', closeDrawer);
+document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && state.open) closeDrawer(); });
+window.addEventListener('hashchange', () => { readHash(); render(); });
+
+async function boot(){
+  try {
+    const r = await fetch(DATA_URL);
+    if (!r.ok) throw new Error(DATA_URL+' '+r.status);
+    const data = await r.json();
+    if (!Array.isArray(data)) throw new Error('expected a JSON array');
+    EVENTS = data;
+    byId = Object.fromEntries(EVENTS.map(e => [e.id, e]));
+    readHash();
+    render();
+  } catch (err) {
+    console.error(err);
+    $('cal').hidden = false;
+    $('cal-body').innerHTML = '<p class="empty">Events failed to load ('+esc(err.message)+'). Serve the docs folder over http so the JSON can be fetched.</p>';
+  }
+}
+boot();
+</script>
+</body>
+</html>

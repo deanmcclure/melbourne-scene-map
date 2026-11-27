@@ -1,0 +1,3067 @@
+[
+  {
+    "id": "acmi-feng-mengbo",
+    "title": "Feng Mengbo: Long March Restart 冯梦波: 长征 重启",
+    "start_date": "2026-08-19",
+    "end_date": "2027-05-16",
+    "times": "10am–5pm",
+    "venue": "ACMI, Fed Square",
+    "suburb": "Melbourne",
+    "lat": -37.8176,
+    "lng": 144.969,
+    "organiser": "ACMI (with M+ Sigg Collection)",
+    "artists": [
+      {
+        "name": "Feng Mengbo",
+        "origin": "Asia (China)"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "interactive",
+      "audiovisual",
+      "installation"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.acmi.net.au/whats-on/feng-mengbo-long-march-restart/",
+    "source_urls": [
+      "https://www.acmi.net.au/whats-on/feng-mengbo-long-march-restart/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Landmark playable videogame artwork across two giant screens remixing the Long March, Street Fighter and Coca-Cola; plus three Now or Never-commissioned arcade games in the foyer.",
+    "why_dean": "Interactive, game-based AV art from a pioneering Chinese artist — free, drop in any time.",
+    "confidence": "high"
+  },
+  {
+    "id": "acmi-play-on",
+    "title": "Play On – microgames arcade",
+    "start_date": "2026-08-24",
+    "end_date": "2027-01-31",
+    "times": "10am–5pm",
+    "venue": "ACMI, Fed Square",
+    "suburb": "Melbourne",
+    "lat": -37.8176,
+    "lng": 144.969,
+    "organiser": "ACMI × Now or Never",
+    "artists": [
+      {
+        "name": "Craig Duturbure (\"Quiver\")",
+        "origin": "local"
+      },
+      {
+        "name": "Brie Healy (\"QIP\")",
+        "origin": "local"
+      },
+      {
+        "name": "Ratmouse Games (\"Pop-up Crashout\")",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "interactive",
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.acmi.net.au/whats-on/play-on/",
+    "source_urls": [
+      "https://www.acmi.net.au/whats-on/play-on/",
+      "https://gamesweek.melbourne/events/public-events/microgames"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Walk-in arcade of three commissioned microgames by local developers.",
+    "why_dean": "Local interactive art; closes 31 Jan so go early.",
+    "confidence": "high"
+  },
+  {
+    "id": "bunjilaka-soundscapes",
+    "title": "Boonwurrung Environmental Soundscapes (in \"ngiyama mirrim baany yulendj\")",
+    "start_date": "2026-09-01",
+    "end_date": "2027-04-30",
+    "times": null,
+    "venue": "Bunjilaka Aboriginal Cultural Centre, Melbourne Museum",
+    "suburb": "Carlton",
+    "lat": -37.8033,
+    "lng": 144.9717,
+    "organiser": "Melbourne Museum / slow things (Chuan Khoo) / Jordan Lacey",
+    "artists": [
+      {
+        "name": "Jordan Lacey (sound)",
+        "origin": "local"
+      },
+      {
+        "name": "Chuan Khoo / slow things (interaction)",
+        "origin": "local"
+      },
+      {
+        "name": "Boonwurrung knowledge holders incl. N'arwee't Carolyn Briggs",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "installation",
+      "interactive",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "first-nations",
+      "local"
+    ],
+    "price": "Museum entry",
+    "ticket_url": "https://museumsvictoria.com.au/melbournemuseum/",
+    "source_urls": [
+      "https://slowthings.io/works/bes/",
+      "https://chuank.com/art/boonwurrung-environmental-soundscapes/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "8-channel interactive soundscape: visitors standing under light cones re-mix Boonwurrung Country flora/fauna recordings.",
+    "why_dean": "Interactive spatial sound installation — pair with Nocturnal (4 Feb).",
+    "confidence": "medium",
+    "date_note": "Runs \"Sept 2026 – Apr 2027\"; exact start/end days not published (1 Sep / 30 Apr used as placeholders)."
+  },
+  {
+    "id": "ngva-atong-atem",
+    "title": "Passage: The Art of Atong Atem",
+    "start_date": "2026-10-30",
+    "end_date": "2027-06-14",
+    "times": "10am–5pm",
+    "venue": "The Ian Potter Centre: NGV Australia, Fed Square",
+    "suburb": "Melbourne",
+    "lat": -37.8172,
+    "lng": 144.9696,
+    "organiser": "NGV",
+    "artists": [
+      {
+        "name": "Atong Atem",
+        "origin": "Naarm (South Sudanese-Australian)"
+      }
+    ],
+    "categories": [
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.ngv.vic.gov.au/",
+    "source_urls": [
+      "https://culturemad.com/melbourne-exhibitions-summer-2026-2027/",
+      "https://www.broadsheet.com.au/melbourne/art-and-design/article/melbourne-art-exhibitions"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "First major solo show of the Naarm photographer — performative self-portraiture with paint, textile and Afrofuturist staging.",
+    "why_dean": "Local performative photography; free and central.",
+    "confidence": "high"
+  },
+  {
+    "id": "buxton-hoda-afshar",
+    "title": "a/part: Hoda Afshar (with Vernon Ah Kee & Behrouz Boochani)",
+    "start_date": "2026-10-30",
+    "end_date": "2027-04-24",
+    "times": "Tue–Sat 11am–5pm",
+    "venue": "Buxton Contemporary, Southbank Blvd & Dodds St",
+    "suburb": "Southbank",
+    "lat": -37.825,
+    "lng": 144.9696,
+    "organiser": "Buxton Contemporary (University of Melbourne)",
+    "artists": [
+      {
+        "name": "Hoda Afshar",
+        "origin": "Naarm (Iranian-born)"
+      },
+      {
+        "name": "Vernon Ah Kee",
+        "origin": "First Nations"
+      },
+      {
+        "name": "Behrouz Boochani",
+        "origin": "Kurdish-Iranian/Aotearoa"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual",
+      "installation"
+    ],
+    "region_focus": [
+      "local",
+      "first-nations",
+      "international-other"
+    ],
+    "price": "Free",
+    "ticket_url": "https://buxtoncontemporary.com/whats-on/exhibitions/a-part-hoda-afshar",
+    "source_urls": [
+      "https://buxtoncontemporary.com/whats-on/exhibitions/a-part-hoda-afshar"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "\"Code Black/Riot\" reconfigured as an 8-channel immersive video and sound installation on detention and institutional power.",
+    "why_dean": "The strongest immersive AV installation in town this summer, by a Naarm artist.",
+    "confidence": "high"
+  },
+  {
+    "id": "westspace-daisy",
+    "title": "daisy, Nicholas Currie, Wila Marra Jones & family – West Space Commission",
+    "start_date": "2026-11-07",
+    "end_date": "2027-01-30",
+    "times": null,
+    "venue": "West Space, 4 Bligh Pl",
+    "suburb": "Melbourne",
+    "lat": -37.818,
+    "lng": 144.9632,
+    "organiser": "West Space / ARTIST WRITER WORKER",
+    "artists": [
+      {
+        "name": "daisy (queer Koorie artist: noise, data, installation, performance)",
+        "origin": "First Nations (Naarm)"
+      },
+      {
+        "name": "Nicholas Currie (Mununjali)",
+        "origin": "First Nations (Naarm)"
+      },
+      {
+        "name": "Wila Marra Jones",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation",
+      "performance"
+    ],
+    "region_focus": [
+      "first-nations",
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://westspace.org.au/program/daisy/",
+    "source_urls": [
+      "https://westspace.org.au/program/daisy/",
+      "https://westspace.org.au/whats-on/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Installation commission by an artist whose practice fuses noise, data, installation and performance; closes 30 Jan.",
+    "why_dean": "Exactly the local noise/performance/installation crossover Dean likes — catch it before 30 Jan.",
+    "confidence": "high"
+  },
+  {
+    "id": "acmi-lifelike",
+    "title": "Lifelike: Puppets, Movies & Magic",
+    "start_date": "2026-11-20",
+    "end_date": "2027-04-18",
+    "times": "10am–5pm",
+    "venue": "ACMI, Fed Square",
+    "suburb": "Melbourne",
+    "lat": -37.8176,
+    "lng": 144.969,
+    "organiser": "ACMI",
+    "artists": [],
+    "categories": [
+      "exhibition",
+      "interactive",
+      "installation"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "$27 full / $20 conc",
+    "ticket_url": "https://www.acmi.net.au/whats-on/lifelike/",
+    "source_urls": [
+      "https://www.acmi.net.au/whats-on/lifelike/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "World-premiere exhibition of movie puppetry and animatronics with hands-on puppetry and a horror room.",
+    "why_dean": "Interactive and fun, but Hollywood-centred — lower priority.",
+    "confidence": "high"
+  },
+  {
+    "id": "linden-catherine-bell",
+    "title": "Catherine Bell: Outlier",
+    "start_date": "2026-11-21",
+    "end_date": "2027-02-07",
+    "times": null,
+    "venue": "Linden New Art, 26 Acland St",
+    "suburb": "St Kilda",
+    "lat": -37.8622,
+    "lng": 144.9776,
+    "organiser": "Linden New Art",
+    "artists": [
+      {
+        "name": "Catherine Bell",
+        "origin": "Naarm/local"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "performance",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.lindenarts.org/exhibitions/linden-new-art/catherine-bell/",
+    "source_urls": [
+      "https://www.lindenarts.org/exhibitions/linden-new-art/catherine-bell/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Survey of the Naarm artist incl. 1990s performance videos, socially engaged care/death projects and The Two Cathies collaboration (robot dog!).",
+    "why_dean": "Local performance-video and socially engaged practice survey.",
+    "confidence": "high"
+  },
+  {
+    "id": "bunjil-fifteen-views",
+    "title": "Fifteen Views by Japanese Women Photographers",
+    "start_date": "2026-11-28",
+    "end_date": "2027-03-08",
+    "times": null,
+    "venue": "Bunjil Place",
+    "suburb": "Narre Warren",
+    "lat": -38.0254,
+    "lng": 145.301,
+    "organiser": "Bunjil Place Gallery (with Aperture & CCP)",
+    "artists": [
+      {
+        "name": "Ishiuchi Miyako, Kawauchi Rinko, Ninagawa Mika, Okanoue Toshiko, Shiga Lieko and 10 others",
+        "origin": "Asia (Japan)"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.bunjilplace.com.au/",
+    "source_urls": [
+      "https://www.casey.vic.gov.au/news/world-class-japanese-photography-exhibition-comes-bunjil-place",
+      "https://aperture.org/experience/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "100+ photographs, video and photobooks by 15 Japanese women photographers from the 1950s to now.",
+    "why_dean": "Major Asian photography/video survey; a trek to Narre Warren but worth it.",
+    "confidence": "high"
+  },
+  {
+    "id": "tarrawarra-light-weight",
+    "title": "Light Weight (TarraWarra summer exhibition)",
+    "start_date": "2026-11-28",
+    "end_date": "2027-02-28",
+    "times": null,
+    "venue": "TarraWarra Museum of Art",
+    "suburb": "Healesville",
+    "lat": -37.6641,
+    "lng": 145.4505,
+    "organiser": "TarraWarra Museum of Art",
+    "artists": [
+      {
+        "name": "Collection-led, curated by Dr Emily Cormack",
+        "origin": "Australia"
+      }
+    ],
+    "categories": [
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$12–$18 (typical museum entry)",
+    "ticket_url": "https://www.twma.com.au/",
+    "source_urls": [
+      "https://www.twma.com.au/wp-content/uploads/2026/09/Media_Release_TarraWarra_Museum_of_Art_26_27_Program-1.pdf"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Collection-led summer show on \"the weight of light\".",
+    "why_dean": "Low fit; only if heading to the Yarra Valley anyway.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-kent-monkman",
+    "title": "Kent Monkman: Miss Chief's Picture Show",
+    "start_date": "2026-12-11",
+    "end_date": "2027-02-21",
+    "times": null,
+    "venue": "ACCA (Australian Centre for Contemporary Art), 111 Sturt St",
+    "suburb": "Southbank",
+    "lat": -37.8262,
+    "lng": 144.9668,
+    "organiser": "ACCA (Midsumma Presents)",
+    "artists": [
+      {
+        "name": "Kent Monkman (Cree)",
+        "origin": "North America (Indigenous)"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual",
+      "performance"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "Free",
+    "ticket_url": "https://acca.melbourne/exhibition/kent-monkman-miss-chiefs-picture-show/",
+    "source_urls": [
+      "https://acca.melbourne/exhibition/kent-monkman-miss-chiefs-picture-show/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "First Australian survey of Monkman's video and performance practice, centred on his gender-fluid alter ego Miss Chief Eagle Testickle.",
+    "why_dean": "Video/performance-heavy show; not regional but a strong live-art lineage.",
+    "confidence": "high"
+  },
+  {
+    "id": "ngv-triennial-2026",
+    "title": "NGV Triennial 2026",
+    "start_date": "2026-12-13",
+    "end_date": "2027-04-11",
+    "times": "10am–5pm daily",
+    "venue": "NGV International, 180 St Kilda Rd",
+    "suburb": "Southbank",
+    "lat": -37.8226,
+    "lng": 144.9689,
+    "organiser": "National Gallery of Victoria",
+    "artists": [
+      {
+        "name": "Kawita Vatanajyankur (performance video \"Lady Papaya\")",
+        "origin": "SE Asia (Thailand)"
+      },
+      {
+        "name": "Maria Madeira",
+        "origin": "SE Asia (Timor-Leste)"
+      },
+      {
+        "name": "Shilpa Gupta",
+        "origin": "Asia (India)"
+      },
+      {
+        "name": "Xu Tiantian (Bamboo theatre)",
+        "origin": "Asia (China)"
+      },
+      {
+        "name": "Ocean Vuong",
+        "origin": "SE Asia (Vietnam)/US"
+      },
+      {
+        "name": "Chinar Farooqui",
+        "origin": "Asia (India)"
+      },
+      {
+        "name": "Wu Tsang (immersive film/sound installation)",
+        "origin": "US"
+      },
+      {
+        "name": "Sarah Sze (video-sculpture)",
+        "origin": "US"
+      },
+      {
+        "name": "Christine Sun Kim",
+        "origin": "US"
+      },
+      {
+        "name": "Louise Paramor (participatory chess set)",
+        "origin": "Naarm/local"
+      },
+      {
+        "name": "Angelina Karadada Boona (Waterwall light work)",
+        "origin": "First Nations"
+      },
+      {
+        "name": "Lisa Waup",
+        "origin": "First Nations (Naarm)"
+      },
+      {
+        "name": "Ann Shelton, Yvonne Todd",
+        "origin": "Aotearoa NZ"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation",
+      "audiovisual",
+      "interactive",
+      "festival"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "se-asian",
+      "first-nations",
+      "local",
+      "international-other"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.ngv.vic.gov.au/exhibition/triennial-2026/",
+    "source_urls": [
+      "https://www.ngv.vic.gov.au/exhibition/triennial-2026/",
+      "https://www.ngv.vic.gov.au/media_release/ngv-triennial-2026-jenny-holzer-wolfgang-tillmans-zanele-muholi-ocean-vuong-and-more-feature-in-the-4th-edition-of-the-ngvs-blockbuster-exhibition/",
+      "https://www.ngv.vic.gov.au/triennial-2026/artists-designers/kawita-vatanajyankur/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "~100 artists from 35 countries across all four levels of NGV International, incl. strong South/SE Asian and First Nations representation and several immersive video/sound installations.",
+    "why_dean": "Free anchor show for the whole window; prioritise Kawita Vatanajyankur, Maria Madeira, Shilpa Gupta, Wu Tsang and Xu Tiantian.",
+    "confidence": "high"
+  },
+  {
+    "id": "interrupt-festival",
+    "title": "Interrupt Festival 2027 (chiptune & live hardware electronics)",
+    "start_date": "2027-01-08",
+    "end_date": "2027-01-10",
+    "times": null,
+    "venue": "Kindred Bandroom, 3 Harris St",
+    "suburb": "Footscray",
+    "lat": -37.799,
+    "lng": 144.899,
+    "organiser": "Interrupt Festival",
+    "artists": [
+      {
+        "name": "Trash80",
+        "origin": "US"
+      },
+      {
+        "name": "Chipzel",
+        "origin": "Europe (UK)"
+      },
+      {
+        "name": "Chibi-Tech",
+        "origin": "US"
+      },
+      {
+        "name": "Local supports TBA",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "music-experimental",
+      "festival",
+      "workshop"
+    ],
+    "region_focus": [
+      "international-other",
+      "local"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://interruptfestival.com.au/",
+    "source_urls": [
+      "https://interruptfestival.com.au/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Three nights of chiptune, trackers and custom hardware rigs plus daytime hardware workshops.",
+    "why_dean": "Hardware/live-electronics niche; site is sparse on ticketing, so verify before planning.",
+    "confidence": "low"
+  },
+  {
+    "id": "ngv-friday-nights-triennial",
+    "title": "NGV Friday Nights: TRIENNIAL",
+    "start_date": "2027-01-08",
+    "end_date": "2027-01-08",
+    "times": "6–10pm",
+    "venue": "NGV International, 180 St Kilda Rd",
+    "suburb": "Southbank",
+    "lat": -37.8226,
+    "lng": 144.9689,
+    "organiser": "National Gallery of Victoria",
+    "artists": [],
+    "categories": [
+      "club-av",
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Ticketed (price TBC)",
+    "ticket_url": "https://www.ngv.vic.gov.au/triennial-2026/events/",
+    "source_urls": [
+      "https://www.ngv.vic.gov.au/triennial-2026/events/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Ticketed after-hours Triennial access with music.",
+    "why_dean": "Easy night-time way to see the Triennial; lineup TBC.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pica-overmono",
+    "title": "Overmono – live AV show",
+    "start_date": "2027-01-09",
+    "end_date": "2027-01-09",
+    "times": "From 6:30pm",
+    "venue": "PICA (Port Melbourne Industrial Centre for the Arts)",
+    "suburb": "Port Melbourne",
+    "lat": -37.8351,
+    "lng": 144.9247,
+    "organiser": "Untitled Group & Beyond The Valley",
+    "artists": [
+      {
+        "name": "Overmono",
+        "origin": "Europe (UK/Wales)"
+      }
+    ],
+    "categories": [
+      "club-av",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "$119.90",
+    "ticket_url": "https://palaner.com/events/ra-03fa373fb8",
+    "source_urls": [
+      "https://palaner.com/events/ra-03fa373fb8",
+      "https://beat.com.au/overmono-just-announced-their-only-melbourne-headline-show-this-summer/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Only Melbourne headline show: full audiovisual live production in the PICA warehouse.",
+    "why_dean": "Big club-AV production; European and commercial-ish, so lower on Dean's list.",
+    "confidence": "high"
+  },
+  {
+    "id": "make-it-up-club",
+    "title": "Make It Up Club (weekly improvised & sound-art night)",
+    "start_date": "2027-01-12",
+    "end_date": "2027-03-30",
+    "times": "Tuesdays, doors 7:30pm, 8pm start",
+    "venue": "Bar Open, 317 Brunswick St",
+    "suburb": "Fitzroy",
+    "lat": -37.7987,
+    "lng": 144.9784,
+    "organiser": "Make It Up Club",
+    "artists": [
+      {
+        "name": "Rotating Naarm improvisers and sound artists",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "music-experimental",
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$15 / $10 conc, door only",
+    "ticket_url": "https://baropen.oztix.com.au/outlet/event/b954e987-8c7e-4e52-b511-d3ad7e482fad",
+    "source_urls": [
+      "https://baropen.oztix.com.au/outlet/event/b954e987-8c7e-4e52-b511-d3ad7e482fad",
+      "https://baropen.oztix.com.au/outlet/event/56a252fb-2bf1-41e3-8fc8-04a35b2d445b",
+      "http://makeitupclub.blogspot.com/p/about.html"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Melbourne's long-running weekly avant-garde improv/sound night; 12 & 19 Jan 2027 listed, later Tuesdays expected.",
+    "why_dean": "The steady weekly base of the local experimental-sound scene (@makeitupclub in Dean's graph).",
+    "confidence": "high",
+    "date_note": "Weekly on Tuesdays; 12 and 19 Jan 2027 are listed on Oztix, later dates expected (31 Mar end is a window, not a listing)."
+  },
+  {
+    "id": "ms-glenn-walls-mpavilion",
+    "title": "Glenn Walls: Everything is going to be ok? (MPavilion)",
+    "start_date": "2027-01-17",
+    "end_date": "2027-01-17",
+    "times": null,
+    "venue": "MPavilion, Queen Victoria Gardens",
+    "suburb": "Melbourne",
+    "lat": -37.8215,
+    "lng": 144.9715,
+    "organiser": "Midsumma / MPavilion",
+    "artists": [
+      {
+        "name": "Glenn Walls",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "talk"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/glenn-walls-everything-is-going-to-be-ok/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/glenn-walls-everything-is-going-to-be-ok/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Tracing Melbourne's forgotten queer landscapes of connection and loss.",
+    "why_dean": "One-day MPavilion presentation; minor.",
+    "confidence": "medium"
+  },
+  {
+    "id": "midsumma-2027",
+    "title": "Midsumma Festival 2027: \"Shifting Sands\"",
+    "start_date": "2027-01-17",
+    "end_date": "2027-02-07",
+    "times": null,
+    "venue": "150+ venues across Melbourne and Victoria",
+    "suburb": "Melbourne (citywide)",
+    "lat": null,
+    "lng": null,
+    "organiser": "Midsumma Festival",
+    "artists": [
+      {
+        "name": "200+ LGBTQIA+ artists; curatorial theme centres queer voices across Australia, Asia and the South Pacific",
+        "origin": "mixed"
+      }
+    ],
+    "categories": [
+      "festival",
+      "performance",
+      "exhibition",
+      "live-art"
+    ],
+    "region_focus": [
+      "local",
+      "asia-pacific",
+      "first-nations"
+    ],
+    "price": "Varies; many free events",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/",
+    "source_urls": [
+      "https://www.midsumma.org.au/info/midsumma-festival-dates/",
+      "https://www.midsumma.org.au/media/qq4ixnba/8687-midsumma-festival_2027-festival-program_fa_web_spreads.pdf"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "22-day queer arts festival; 2027 theme \"Shifting Sands\" explicitly focuses on queer life across Australia, Asia and the South Pacific.",
+    "why_dean": "The umbrella for most Jan–Feb live/performance art; this year's Asia-Pacific curatorial lens is squarely Dean's brief.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-art-award",
+    "title": "Midsumma Art Award 2027 exhibition",
+    "start_date": "2027-01-18",
+    "end_date": "2027-02-07",
+    "times": null,
+    "venue": "Gasworks – James McCaughey Foyer",
+    "suburb": "Albert Park",
+    "lat": -37.8424,
+    "lng": 144.9505,
+    "organiser": "Midsumma & Gasworks",
+    "artists": [
+      {
+        "name": "National LGBTQIA+ finalists",
+        "origin": "Australia"
+      }
+    ],
+    "categories": [
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/midsumma-art-award/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/midsumma-art-award/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Finalists exhibition of Australia's leading queer art prize.",
+    "why_dean": "Quick survey of queer contemporary art; low effort add-on.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-begin-to-be",
+    "title": "BEGIN TO BE",
+    "start_date": "2027-01-19",
+    "end_date": "2027-01-24",
+    "times": null,
+    "venue": "The MC Showroom",
+    "suburb": "Melbourne",
+    "lat": null,
+    "lng": null,
+    "organiser": "Actuate",
+    "artists": [
+      {
+        "name": "Actuate",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "audiovisual",
+      "dance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$24–$26",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/begin-to-be/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/begin-to-be/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Contemporary circus, dance and physical theatre with projected cosmic imagery.",
+    "why_dean": "Projection-heavy physical performance; cheap.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ngv-triennial-extra",
+    "title": "Triennial EXTRA (late nights)",
+    "start_date": "2027-01-19",
+    "end_date": "2027-01-28",
+    "times": "Nightly until 11pm",
+    "venue": "NGV International, 180 St Kilda Rd",
+    "suburb": "Southbank",
+    "lat": -37.8226,
+    "lng": 144.9689,
+    "organiser": "National Gallery of Victoria",
+    "artists": [
+      {
+        "name": "Lineup TBA (2024 edition featured Sui Zhen, Mindy Meng Wang, C.FRIM etc.)",
+        "origin": "mixed"
+      }
+    ],
+    "categories": [
+      "festival",
+      "club-av",
+      "performance",
+      "music-experimental",
+      "talk"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.ngv.vic.gov.au/triennial/extra-events/",
+    "source_urls": [
+      "https://www.ngv.vic.gov.au/triennial/extra-events/",
+      "https://www.ngv.vic.gov.au/triennial/triennial-extra/"
+    ],
+    "status": "tba",
+    "ticket_release_date": null,
+    "description": "Ten free after-hours nights of music, DJs, performance, dance and talks inside the Triennial; dates set, program not yet announced.",
+    "why_dean": "Historically books exactly Dean's kind of local AV/experimental acts; watch for lineup drop in December.",
+    "confidence": "high",
+    "date_note": "Dates confirmed; nightly program TBA."
+  },
+  {
+    "id": "ms-digital-fantasy",
+    "title": "Digital Fantasy – Chira Grasby",
+    "start_date": "2027-01-20",
+    "end_date": "2027-02-06",
+    "times": null,
+    "venue": "Bundoora Homestead Art Centre",
+    "suburb": "Bundoora",
+    "lat": -37.7127,
+    "lng": 145.0526,
+    "organiser": "Bundoora Homestead Art Centre & Midsumma",
+    "artists": [
+      {
+        "name": "Chira Grasby",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/digital-fantasy/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/digital-fantasy/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Oil painting on circuit boards, lo-fi video and ceramics mining Y2K internet culture and adolescence online.",
+    "why_dean": "Lo-fi video + internet-culture work by a local artist.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-soft-static",
+    "title": "Soft Static (queer group exhibition)",
+    "start_date": "2027-01-20",
+    "end_date": "2027-01-31",
+    "times": null,
+    "venue": "The Blender Studios",
+    "suburb": "Melbourne",
+    "lat": -37.8053,
+    "lng": 144.9573,
+    "organiser": "Platform (Midsumma)",
+    "artists": [
+      {
+        "name": "35+ queer artists",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/soft-static-exhibition/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/soft-static-exhibition/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Group show across painting, installation, new media, photography and textile exploring \"static\" — noise, interference and softness.",
+    "why_dean": "Big survey of emerging local queer artists, including new media.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-night-flower",
+    "title": "The Night Flower",
+    "start_date": "2027-01-20",
+    "end_date": "2027-01-24",
+    "times": null,
+    "venue": "The Motley Bauhaus – Theatrette",
+    "suburb": "Carlton",
+    "lat": -37.801,
+    "lng": 144.967,
+    "organiser": "Victoria Angelique Mertzanidis (Midsumma)",
+    "artists": [
+      {
+        "name": "Victoria Angelique Mertzanidis",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "live-art",
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$15–$35",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/the-night-flower/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/the-night-flower/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "One-hour solo experimental work of music, poetry, clowning and performance art on neurodivergence, queerness and womanhood.",
+    "why_dean": "Small-room solo performance art from an emerging local maker.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-reflector",
+    "title": "Reflector: A Double Bill – Scimm. Dance",
+    "start_date": "2027-01-21",
+    "end_date": "2027-01-23",
+    "times": null,
+    "venue": "Dancehouse – Sylvia Staehli Theatre",
+    "suburb": "Carlton North",
+    "lat": -37.7893,
+    "lng": 144.9711,
+    "organiser": "Scimm. Dance Company",
+    "artists": [
+      {
+        "name": "Scott Pokorny & Tim Barnes (Scimm. Dance)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "dance",
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$40–$45",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/reflector-a-double-bill/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/reflector-a-double-bill/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Contemporary dance double bill on identity, intimacy and the gaze — one high-fashion and visually hypnotic, one raw.",
+    "why_dean": "Contemporary dance at Dancehouse; secondary fit.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-focus-queer-chinese-cinema",
+    "title": "Focus on Queer 中文 Cinema (ACMI × Midsumma)",
+    "start_date": "2027-01-22",
+    "end_date": "2027-02-09",
+    "times": null,
+    "venue": "ACMI Cinemas",
+    "suburb": "Melbourne",
+    "lat": -37.8176,
+    "lng": 144.969,
+    "organiser": "ACMI, CIFF & Midsumma",
+    "artists": [
+      {
+        "name": "Tsai Ming-liang (\"Days\"), Yau Ching (\"Let's Love Hong Kong\"), Stanley Kwan (\"Lan Yu\") and others",
+        "origin": "asia-pacific"
+      }
+    ],
+    "categories": [
+      "audiovisual"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "$14–$20 per session",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/focus-on-queer-chinese-cinema/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/focus-on-queer-chinese-cinema/",
+      "https://www.acmi.net.au/whats-on/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Season of queer Chinese-language film from China, Taiwan and Hong Kong incl. Tsai Ming-liang's \"Days\" and Yau Ching's experimental \"Let's Love Hong Kong\".",
+    "why_dean": "East Asian moving-image work; \"Let's Love Hong Kong\" (27 Jan, 5 Feb) is the experimental pick.",
+    "confidence": "high",
+    "date_note": "Individual films screen on set dates, e.g. Days 22 Jan; Let's Love Hong Kong 27 Jan & 5 Feb; Lan Yu 24 & 31 Jan."
+  },
+  {
+    "id": "ms-lanterns-of-pride",
+    "title": "Lanterns of Pride (queer Lunar New Year)",
+    "start_date": "2027-01-23",
+    "end_date": "2027-01-23",
+    "times": null,
+    "venue": "75 Reid St",
+    "suburb": "Fitzroy North",
+    "lat": null,
+    "lng": null,
+    "organiser": "Euphoria Foundation & Our Point 3 (Midsumma)",
+    "artists": [],
+    "categories": [
+      "performance",
+      "festival"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/lanterns-of-pride/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/lanterns-of-pride/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "New Lunar New Year celebration for LGBTQIAPN+ Asian communities and families.",
+    "why_dean": "Asian-diaspora queer community event.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-soft-static-opening",
+    "title": "Soft Static – opening night (live performance, DJs, interactive art)",
+    "start_date": "2027-01-23",
+    "end_date": "2027-01-23",
+    "times": null,
+    "venue": "The Blender Studios",
+    "suburb": "Melbourne",
+    "lat": -37.8053,
+    "lng": 144.9573,
+    "organiser": "Platform (Midsumma)",
+    "artists": [
+      {
+        "name": "35+ queer artists across new media, installation, textile etc.",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "interactive",
+      "performance",
+      "installation"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$19.40",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/opening-night-soft-static-exhibition/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/opening-night-soft-static-exhibition/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Ticketed opening of a 35+ artist queer group show \"between noise and softness\", with live performance, DJs and interactive art.",
+    "why_dean": "Multi-format DIY-scale night: performance + DJs + interactive work in a studio complex.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-body-language",
+    "title": "The Body Language Project",
+    "start_date": "2027-01-27",
+    "end_date": "2027-02-14",
+    "times": null,
+    "venue": "Big Eye Studios",
+    "suburb": "Brunswick",
+    "lat": -37.767,
+    "lng": 144.96,
+    "organiser": "Body Language Project (Midsumma)",
+    "artists": [],
+    "categories": [
+      "exhibition",
+      "performance",
+      "talk"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/the-body-language-project/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/the-body-language-project/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Collaborative portraiture project on expansive gender expression, with performance and talks.",
+    "why_dean": "Community-made portrait/performance project; minor pick.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-fekei",
+    "title": "Fekei",
+    "start_date": "2027-01-28",
+    "end_date": "2027-01-31",
+    "times": null,
+    "venue": "Next Wave – Brunswick Mechanics Institute",
+    "suburb": "Brunswick",
+    "lat": -37.768,
+    "lng": 144.9615,
+    "organiser": "Sour Cherry Productions & Midsumma",
+    "artists": [
+      {
+        "name": "Rotuman/Pasifika-led company (Sour Cherry Productions)",
+        "origin": "asia-pacific"
+      }
+    ],
+    "categories": [
+      "performance"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "local"
+    ],
+    "price": "$28–$38",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/fekei/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/fekei/",
+      "https://www.midsumma.org.au/media/qq4ixnba/8687-midsumma-festival_2027-festival-program_fa_web_spreads.pdf"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Rotuman lesbian love story built around fekei (a Rotuman pudding) and the clash of love and tradition.",
+    "why_dean": "Pasifika queer storytelling at Next Wave's home base.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-wasted-light",
+    "title": "Wasted Light – Ronan Apcar & Po Goh (two pianos)",
+    "start_date": "2027-01-28",
+    "end_date": "2027-01-28",
+    "times": null,
+    "venue": "Melbourne Recital Centre – Primrose Potter Salon",
+    "suburb": "Southbank",
+    "lat": -37.8255,
+    "lng": 144.9677,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "Ronan Apcar",
+        "origin": "local"
+      },
+      {
+        "name": "Po Goh",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$40–$45",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/wasted-light/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/wasted-light/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Two-piano program of queer composers including a rare Julius Eastman performance.",
+    "why_dean": "Eastman = minimalist/experimental canon, played by local pianists.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-first-nations-drag",
+    "title": "First Nations Drag Showcase (hosted by 2JOOCEE)",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-29",
+    "times": null,
+    "venue": "Pride of our Footscray Community Bar, 86–88 Hopkins St",
+    "suburb": "Footscray",
+    "lat": -37.7998,
+    "lng": 144.8985,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "2JOOCEE and five First Nations drag/cabaret/dance artists",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "performance",
+      "talk"
+    ],
+    "region_focus": [
+      "first-nations",
+      "local"
+    ],
+    "price": "$0–$25",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/first-nations-drag-showcase/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/first-nations-drag-showcase/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Performances and conversations by queer First Nations creatives.",
+    "why_dean": "Community-scale First Nations performance night in the west.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-house-of-diesel",
+    "title": "House of Diesel | THH – Vogue Night",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-29",
+    "times": null,
+    "venue": "RUBIX Warehouse",
+    "suburb": "Melbourne",
+    "lat": null,
+    "lng": null,
+    "organiser": "House of Diesel",
+    "artists": [
+      {
+        "name": "House of Diesel",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "dance",
+      "performance",
+      "club-av"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$15–$30",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/house-of-diesel-thh-vogue-night/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/house-of-diesel-thh-vogue-night/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Warehouse vogue night.",
+    "why_dean": "DIY warehouse ballroom night.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-temple-after-dark",
+    "title": "Temple After Dark",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-30",
+    "times": null,
+    "venue": "Northcote Town Hall – Main Hall",
+    "suburb": "Northcote",
+    "lat": -37.7698,
+    "lng": 144.9998,
+    "organiser": "Midsumma Festival & Karma Dance",
+    "artists": [
+      {
+        "name": "All-queer and trans cast of artists of colour (creators of Temple of Desire)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "dance",
+      "club-av"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$60–$80",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/temple-after-dark/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/temple-after-dark/",
+      "https://www.midsumma.org.au/media/qq4ixnba/8687-midsumma-festival_2027-festival-program_fa_web_spreads.pdf"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Late-night performance/club hybrid: sensual dance, gender-defiant burlesque and euphoric performance by queer and trans artists of colour.",
+    "why_dean": "Performance that bleeds into a club night, centring local artists of colour.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-werk-serve",
+    "title": "WERK: SERVE with Aysha Buffet",
+    "start_date": "2027-01-29",
+    "end_date": "2027-01-29",
+    "times": "6:30pm–10pm",
+    "venue": "ACCA (Australian Centre for Contemporary Art), 111 Sturt St",
+    "suburb": "Southbank",
+    "lat": -37.8262,
+    "lng": 144.9668,
+    "organiser": "ACCA × Midsumma",
+    "artists": [
+      {
+        "name": "Aysha Buffet (curator/host)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "live-art"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free (registration via Humanitix)",
+    "ticket_url": "https://events.humanitix.com/werk-serve",
+    "source_urls": [
+      "https://acca.melbourne/program/werk-serve/",
+      "https://www.midsumma.org.au/whats-on/events/werk-serve-with-aysha-buffet/",
+      "https://events.humanitix.com/werk-serve"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "One-night \"living exhibition\" of drag and queer performance inside ACCA, alongside the Kent Monkman show; 18+.",
+    "why_dean": "Free live-art night in a contemporary gallery, curated by a local trans drag artist.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-digital-narratives",
+    "title": "Digital Narratives",
+    "start_date": "2027-01-30",
+    "end_date": "2027-03-28",
+    "times": null,
+    "venue": "Incinerator Gallery, 180 Holmes Rd",
+    "suburb": "Aberfeldie",
+    "lat": -37.7584,
+    "lng": 144.9077,
+    "organiser": "Motherless Collective, Incinerator Gallery & Midsumma",
+    "artists": [
+      {
+        "name": "Motherless Collective (First Nations)",
+        "origin": "first-nations"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "first-nations",
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/digital-narratives/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/digital-narratives/",
+      "https://www.midsumma.org.au/media/qq4ixnba/8687-midsumma-festival_2027-festival-program_fa_web_spreads.pdf"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "First Nations exhibition asking whether Indigenous futures can be digitised — oral tradition, code, data centres and Country.",
+    "why_dean": "Tech/digital-themed First Nations show running right through the window.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-joy-stations",
+    "title": "Joy Stations – Slow Art Collective & Lichen Kelp",
+    "start_date": "2027-01-30",
+    "end_date": "2027-01-30",
+    "times": null,
+    "venue": "Woods Street Arts Space",
+    "suburb": "Laverton",
+    "lat": null,
+    "lng": null,
+    "organiser": "Slow Art Collective & Lichen Kelp (Midsumma)",
+    "artists": [
+      {
+        "name": "Slow Art Collective",
+        "origin": "local"
+      },
+      {
+        "name": "Lichen Kelp",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "interactive",
+      "installation",
+      "workshop"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/joy-stations/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/joy-stations/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Pop-up hands-on stations of colour, flowers, sound and everyday objects on queer joy; all ages.",
+    "why_dean": "Participatory, sound-inclusive work by a respected local collective and sound artist.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-fantasy-ball",
+    "title": "The Fantasy Ball II: Strictly Business – House of Furia",
+    "start_date": "2027-01-30",
+    "end_date": "2027-01-30",
+    "times": null,
+    "venue": "Northcote Theatre",
+    "suburb": "Northcote",
+    "lat": -37.7752,
+    "lng": 144.9956,
+    "organiser": "House of Furia & Midsumma",
+    "artists": [
+      {
+        "name": "House of Furia",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "dance",
+      "club-av"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$28.56–$62.42",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/fantasy-ball-ii-strictly-business/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/fantasy-ball-ii-strictly-business/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Ballroom spectacular with categories, voguing and battles.",
+    "why_dean": "Ballroom = live performance with audience energy; local scene staple.",
+    "confidence": "high"
+  },
+  {
+    "id": "dancehouse-season1-2027",
+    "title": "Dancehouse Season 1 2027 (expected)",
+    "start_date": "2027-02-01",
+    "end_date": "2027-04-30",
+    "times": null,
+    "venue": "Dancehouse, 150 Princes St",
+    "suburb": "Carlton North",
+    "lat": -37.7893,
+    "lng": 144.9711,
+    "organiser": "Dancehouse",
+    "artists": [],
+    "categories": [
+      "dance",
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://www.dancehouse.com.au/whats-on/",
+    "source_urls": [
+      "https://www.dancehouse.com.au/whats-on/dancehouse-seasons-2027-eoi/",
+      "https://www.dancehouse.com.au/programs/dancehouse-seasons/"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Dancehouse says 2027 Season 1 runs February–April; works not yet published.",
+    "why_dean": "Independent experimental dance; check announcements.",
+    "confidence": "medium",
+    "date_note": "Dancehouse states Season 1 runs Feb–Apr 2027; specific works/dates TBA."
+  },
+  {
+    "id": "speakeasy-2027",
+    "title": "Darebin Speakeasy 2027 Presentation Season (expected)",
+    "start_date": "2027-02-01",
+    "end_date": "2027-03-31",
+    "times": null,
+    "venue": "Northcote Town Hall Arts Centre",
+    "suburb": "Northcote",
+    "lat": -37.7698,
+    "lng": 144.9998,
+    "organiser": "Darebin Arts Speakeasy",
+    "artists": [],
+    "categories": [
+      "performance",
+      "live-art",
+      "dance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://arts.darebin.vic.gov.au/Programs-and-opportunities/Programs/Speakeasy-presentations",
+    "source_urls": [
+      "https://arts.darebin.vic.gov.au/Programs-and-opportunities/Opportunities/Speakeasy-2027-Presentation-Application"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Season of new theatre, dance, circus and live art at Northcote Town Hall; selections not yet public. Window shown is a guess — Speakeasy seasons run through the year.",
+    "why_dean": "Independent live art at NTH; unannounced.",
+    "confidence": "low",
+    "date_note": "Window is a guess; season not announced."
+  },
+  {
+    "id": "liquid-architecture-2027",
+    "title": "Liquid Architecture early-2027 program (expected)",
+    "start_date": "2027-02-01",
+    "end_date": "2027-03-31",
+    "times": null,
+    "venue": "Various (LA is based at Collingwood Yards)",
+    "suburb": "Collingwood",
+    "lat": null,
+    "lng": null,
+    "organiser": "Liquid Architecture",
+    "artists": [
+      {
+        "name": "Recurring series: Inter.Sonix (SE Asian/Asia-Pacific sound), L(i)quid Listening, Poly-Rhythmic; partners Nongkrong, BLINDSIDE",
+        "origin": "local / SE Asia"
+      }
+    ],
+    "categories": [
+      "music-experimental",
+      "audiovisual",
+      "performance"
+    ],
+    "region_focus": [
+      "local",
+      "se-asian",
+      "asia-pacific"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://www.liquidarchitecture.org.au/program",
+    "source_urls": [
+      "https://www.liquidarchitecture.org.au/program",
+      "https://www.artshouse.com.au/whats-on/archives/"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "2027 program not yet listed (latest is 6 Dec 2026). In 2026 LA curated a live A/V night at Arts House in Feb and Inter.Sonix ran from May. Dates are an estimate.",
+    "why_dean": "Core org for SE Asian experimental sound in Naarm; subscribe to the newsletter.",
+    "confidence": "medium",
+    "date_note": "Estimated window; 2027 program not yet published."
+  },
+  {
+    "id": "electric-fields-aqo",
+    "title": "Electric Fields with the Australian Queer Orchestra",
+    "start_date": "2027-02-04",
+    "end_date": "2027-02-05",
+    "times": null,
+    "venue": "Arts Centre Melbourne – Ian Potter State Theatre",
+    "suburb": "Southbank",
+    "lat": -37.821,
+    "lng": 144.9686,
+    "organiser": "CMA with Arts Centre Melbourne & Midsumma",
+    "artists": [
+      {
+        "name": "Electric Fields (Zaachariaha Fielding & Michael Ross)",
+        "origin": "First Nations"
+      },
+      {
+        "name": "Australian Queer Orchestra",
+        "origin": "Australia"
+      }
+    ],
+    "categories": [
+      "music-experimental",
+      "performance"
+    ],
+    "region_focus": [
+      "first-nations"
+    ],
+    "price": "From $89",
+    "ticket_url": "https://www.midsumma.org.au/electricfields",
+    "source_urls": [
+      "https://www.midsumma.org.au/electricfields",
+      "https://www.midsumma.org.au/whats-on/events/electric-fields-with-the-australian-queer-orchestra/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Electric Fields' electronic/Anangu-language songs with orchestra; premieres \"Kiss Your Tears\".",
+    "why_dean": "Pairs with Fielding's Inma Ungu at ACCA in March.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-nocturnal-pride",
+    "title": "Nocturnal – Pride edition",
+    "start_date": "2027-02-04",
+    "end_date": "2027-02-04",
+    "times": null,
+    "venue": "Melbourne Museum",
+    "suburb": "Carlton",
+    "lat": -37.8033,
+    "lng": 144.9717,
+    "organiser": "Melbourne Museum (Midsumma)",
+    "artists": [],
+    "categories": [
+      "club-av",
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$20–$25",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/nocturnal/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/nocturnal/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "After-dark museum opening with DJ, talks and tours; also the chance to catch the interactive \"Boonwurrung Environmental Soundscapes\" in Bunjilaka.",
+    "why_dean": "Low-key night; pair with the Bunjilaka sound installation.",
+    "confidence": "high"
+  },
+  {
+    "id": "open-air-the-necks-free",
+    "title": "Open Air at the Square 2027 (free music & screen season)",
+    "start_date": "2027-02-04",
+    "end_date": "2027-03-08",
+    "times": null,
+    "venue": "Fed Square",
+    "suburb": "Melbourne",
+    "lat": -37.818,
+    "lng": 144.9691,
+    "organiser": "Fed Square",
+    "artists": [
+      {
+        "name": "The Necks",
+        "origin": "Australia"
+      },
+      {
+        "name": "Tinariwen",
+        "origin": "Mali"
+      },
+      {
+        "name": "Altin Gün",
+        "origin": "Europe (NL/Turkey)"
+      },
+      {
+        "name": "Drifting Clouds (Terry Guyula, Yolŋu)",
+        "origin": "First Nations"
+      },
+      {
+        "name": "Thelma Plum",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "festival",
+      "music-experimental",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "local",
+      "first-nations",
+      "international-other"
+    ],
+    "price": "Free",
+    "ticket_url": "https://fedsquare.com/events/open-air-at-the-square",
+    "source_urls": [
+      "https://fedsquare.com/events/open-air-at-the-square"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Five weeks of free live music and outdoor cinema; The Necks are also billed (date to check on Fed Square program).",
+    "why_dean": "Free; The Necks and Drifting Clouds are the relevant picks.",
+    "confidence": "medium",
+    "date_note": "Season dates confirmed; The Necks' specific Open Air date not shown in the season copy."
+  },
+  {
+    "id": "ms-soft-nights-ncm",
+    "title": "Soft Nights at NCM",
+    "start_date": "2027-02-04",
+    "end_date": "2027-02-04",
+    "times": null,
+    "venue": "National Communication Museum",
+    "suburb": "Hawthorn",
+    "lat": -37.8244,
+    "lng": 145.0391,
+    "organiser": "National Communication Museum (Midsumma)",
+    "artists": [],
+    "categories": [
+      "interactive",
+      "exhibition",
+      "workshop"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$29–$34.50",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/soft-nights-at-ncm/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/soft-nights-at-ncm/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "After-hours queer night in the \"Radical Computing\" exhibition — slow/tender tech, bedazzle a floppy disc, creative coding vibes.",
+    "why_dean": "Playful interactive tech-art night.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-homophonic",
+    "title": "Homophonic! – new music by queer composers",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-06",
+    "times": null,
+    "venue": "Gasworks – Main Theatre",
+    "suburb": "Albert Park",
+    "lat": -37.8424,
+    "lng": 144.9505,
+    "organiser": "Gasworks, Midsumma & Homophonic!",
+    "artists": [
+      {
+        "name": "LGBTQIA+ composers (local, interstate, international)",
+        "origin": "mixed"
+      }
+    ],
+    "categories": [
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$20–$60",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/homophonic/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/homophonic/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "New-music concert program incl. the RESPECT commissions about regional queer pioneers.",
+    "why_dean": "Contemporary composition; secondary.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-jonny-woo",
+    "title": "Jonny Woo: SUBURBIA",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-06",
+    "times": null,
+    "venue": "Chapel Off Chapel – The Loft",
+    "suburb": "Prahran",
+    "lat": -37.8509,
+    "lng": 144.9934,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "Jonny Woo",
+        "origin": "Europe (UK)"
+      }
+    ],
+    "categories": [
+      "performance",
+      "live-art"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "$55–$65",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/jonny-woo-suburbia/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/jonny-woo-suburbia/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Performance art/storytelling memoir from the London alt-drag figure.",
+    "why_dean": "Live-art lineage (London alt-cabaret), though European.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-purple-plastic-maori",
+    "title": "Purple Plastic Māori – Shalom Kaa",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-05",
+    "times": null,
+    "venue": "Wyndham Cultural Centre",
+    "suburb": "Werribee",
+    "lat": -37.9025,
+    "lng": 144.661,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "Shalom Kaa",
+        "origin": "Aotearoa NZ (Māori)"
+      }
+    ],
+    "categories": [
+      "performance"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "$39–$49",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/purple-plastic-maori/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/purple-plastic-maori/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Award-winning autobiographical queer Māori cabaret (\"everybody does the haka\").",
+    "why_dean": "Pacific queer performance; cabaret rather than live art.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-sun-cut",
+    "title": "SUN CUT: a lover's dictionary",
+    "start_date": "2027-02-05",
+    "end_date": "2027-02-06",
+    "times": null,
+    "venue": "Dancehouse – Upstairs Studio",
+    "suburb": "Carlton North",
+    "lat": -37.7893,
+    "lng": 144.9711,
+    "organiser": "Midsumma Presents",
+    "artists": [
+      {
+        "name": "Sun Cut creative team (dance)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance",
+      "dance",
+      "live-art"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$19–$39",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/sun-cut-a-lover-s-dictionary/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/sun-cut-a-lover-s-dictionary/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Durational come-and-go dance work: a living lexicon of 366 gestures embodying Wittig & Zeig's \"Lesbian Peoples: Materials for a Dictionary\".",
+    "why_dean": "Durational, come-and-go live-art format — closest Midsumma analogue to an Aphids-style endurance work.",
+    "confidence": "high"
+  },
+  {
+    "id": "ms-cowboy-country",
+    "title": "Cowboy C*untry with Kath Ebbs",
+    "start_date": "2027-02-06",
+    "end_date": "2027-02-06",
+    "times": null,
+    "venue": "Gasworks – Angel Stage",
+    "suburb": "Albert Park",
+    "lat": -37.8424,
+    "lng": 144.9505,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "Kath Ebbs",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "interactive",
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$35–$40",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/cowboy-c-untry-with-kath-ebbs/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/cowboy-c-untry-with-kath-ebbs/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Interactive queer line-dancing \"rodeo\".",
+    "why_dean": "Participatory/interactive performance; light fun.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-ngv-queer-reflections",
+    "title": "NGV Triennial × Midsumma: Queer Reflections",
+    "start_date": "2027-02-06",
+    "end_date": "2027-02-06",
+    "times": "12–1:30pm",
+    "venue": "NGV International, 180 St Kilda Rd",
+    "suburb": "Southbank",
+    "lat": -37.8226,
+    "lng": 144.9689,
+    "organiser": "NGV & Midsumma",
+    "artists": [],
+    "categories": [
+      "talk"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/ngv-x-midsumma/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/ngv-x-midsumma/",
+      "https://www.ngv.vic.gov.au/triennial-2026/events/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Queer creatives respond to selected Triennial works.",
+    "why_dean": "Free; easy add-on to a Triennial visit.",
+    "confidence": "high"
+  },
+  {
+    "id": "nongkrong-pasar-senja",
+    "title": "Nongkrong: Pasar Senja (twilight fair)",
+    "start_date": "2027-02-06",
+    "end_date": "2027-02-06",
+    "times": "3–10pm",
+    "venue": "Fed Square – Main Square",
+    "suburb": "Melbourne",
+    "lat": -37.818,
+    "lng": 144.9691,
+    "organiser": "Nongkrong × Fed Square",
+    "artists": [
+      {
+        "name": "Gamelan DanAnda",
+        "origin": "local (Indonesian-Australian)"
+      },
+      {
+        "name": "Jawa Pitu",
+        "origin": "local"
+      },
+      {
+        "name": "Seno Ensemble",
+        "origin": "local"
+      },
+      {
+        "name": "Alisya Rae",
+        "origin": "local"
+      },
+      {
+        "name": "Jangkar Bumi",
+        "origin": "local"
+      },
+      {
+        "name": "JGK Dragon & Lion Dance Association",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "festival",
+      "music-experimental",
+      "workshop"
+    ],
+    "region_focus": [
+      "se-asian",
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://fedsquare.com/events/nongkrong-pasar-senja-twilight-fair",
+    "source_urls": [
+      "https://fedsquare.com/events/nongkrong-pasar-senja-twilight-fair",
+      "https://whatson.melbourne.vic.gov.au/things-to-do/nongkrong-festival-pasar-senja"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Indonesian-Australian collective's dusk fair: dangdut, Indonesian experimental jazz, gamelan, art market, screen-printing; on Imlek/eve of Ramadan.",
+    "why_dean": "Local SE Asian diaspora collective (also Liquid Architecture & Asia TOPA collaborators).",
+    "confidence": "high"
+  },
+  {
+    "id": "ark-022",
+    "title": "ark 022 // LLEAHDAVIES + ?????",
+    "start_date": "2027-02-06",
+    "end_date": "2027-02-07",
+    "times": "10pm–7am",
+    "venue": "2 Geddes Ln",
+    "suburb": "Melbourne",
+    "lat": -37.8145,
+    "lng": 144.964,
+    "organiser": "ark",
+    "artists": [
+      {
+        "name": "LLEAHDAVIES",
+        "origin": "Europe (UK)"
+      },
+      {
+        "name": "????? (secret)",
+        "origin": "unknown"
+      }
+    ],
+    "categories": [
+      "club-av",
+      "installation"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "See Humanitix",
+    "ticket_url": "https://events.humanitix.com/ark-022",
+    "source_urls": [
+      "https://events.humanitix.com/ark-022"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Overnight multi-room party; each room \"programmed around its own identity\", dark and hazed, phone cameras covered.",
+    "why_dean": "Environment-designed, no-phones club night — atmospheric if not strictly art.",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-heartland",
+    "title": "Heartland – Emily Dynes (shown at Pride Street Party)",
+    "start_date": "2027-02-07",
+    "end_date": "2027-02-07",
+    "times": null,
+    "venue": "Gertrude & Smith Streets",
+    "suburb": "Fitzroy/Collingwood",
+    "lat": -37.805,
+    "lng": 144.983,
+    "organiser": "Midsumma",
+    "artists": [
+      {
+        "name": "Emily Dynes",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/heartland/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/heartland/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Magic-realist collaborative portraits of queer regional life, shown at Victoria's Pride Street Party.",
+    "why_dean": "Public-art component of the street party.",
+    "confidence": "medium"
+  },
+  {
+    "id": "chinatown-lny",
+    "title": "Melbourne Chinatown Lunar New Year Festival",
+    "start_date": "2027-02-07",
+    "end_date": "2027-02-07",
+    "times": "10am–9pm",
+    "venue": "Little Bourke St, Chinatown",
+    "suburb": "Melbourne",
+    "lat": -37.8115,
+    "lng": 144.968,
+    "organiser": "Chinatown Precinct Association",
+    "artists": [],
+    "categories": [
+      "festival",
+      "performance"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "Free",
+    "ticket_url": "https://melbournelunarnewyear.com.au/",
+    "source_urls": [
+      "https://melbournelunarnewyear.com.au/",
+      "https://whatson.melbourne.vic.gov.au/article/melbournes-lunar-new-year-festival-events"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Street festival with lion dances and performances on Little Bourke St.",
+    "why_dean": "Community festival — low art fit but on the Asia-Pacific calendar (clashes with Pride Street Party).",
+    "confidence": "medium"
+  },
+  {
+    "id": "ms-pride-street-party",
+    "title": "Victoria's Pride Street Party",
+    "start_date": "2027-02-07",
+    "end_date": "2027-02-07",
+    "times": null,
+    "venue": "Gertrude & Smith Streets",
+    "suburb": "Fitzroy/Collingwood",
+    "lat": -37.805,
+    "lng": 144.983,
+    "organiser": "Midsumma",
+    "artists": [],
+    "categories": [
+      "festival",
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.midsumma.org.au/whats-on/events/victoria-s-pride-street-party/",
+    "source_urls": [
+      "https://www.midsumma.org.au/whats-on/events/victoria-s-pride-street-party/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Midsumma closing street party on Gertrude & Smith Sts with stages and Heartland portraits.",
+    "why_dean": "Party/closing event; clashes with Chinatown LNY.",
+    "confidence": "high"
+  },
+  {
+    "id": "artshouse-season1-2027",
+    "title": "Arts House Season 1 2027 (expected)",
+    "start_date": "2027-02-11",
+    "end_date": "2027-03-31",
+    "times": null,
+    "venue": "Arts House, North Melbourne Town Hall, 521 Queensberry St",
+    "suburb": "North Melbourne",
+    "lat": -37.804,
+    "lng": 144.9465,
+    "organiser": "Arts House",
+    "artists": [
+      {
+        "name": "Possible: 2026–27 CultureLAB artists incl. Nikki Lam (\"Fish, Ghost, Goddess\" moving image/performance, Naarm/HK), Emma McManus (\"Mating Dance\"), Rawcus, Jodee Mundy, Kush Kuiy",
+        "origin": "local / Asia-Pacific"
+      }
+    ],
+    "categories": [
+      "performance",
+      "live-art",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "local",
+      "asia-pacific"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://www.artshouse.com.au/",
+    "source_urls": [
+      "https://www.artshouse.com.au/whats-on/archives/",
+      "https://www.artshouse.com.au/announcing-arts-house-developments-2026-2027/"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Season 1 2026 ran 12 Feb–29 Mar (Pey Chi, Rel Pham, Mindy Meng Wang & Monica Lim, Liquid Architecture-curated live A/V); a similar Feb–Mar 2027 season is expected but unannounced. Dates are an estimate.",
+    "why_dean": "Historically the single best venue for Dean's brief (Asian-Australian live art + AV). Watch for announcement.",
+    "confidence": "medium",
+    "date_note": "Estimated from Season 1 2026 (12 Feb–29 Mar). Not announced."
+  },
+  {
+    "id": "potter-essential-tension",
+    "title": "Essential Tension (Potter Museum reopening)",
+    "start_date": "2027-02-12",
+    "end_date": "2027-06-30",
+    "times": null,
+    "venue": "Potter Museum of Art, University of Melbourne",
+    "suburb": "Parkville",
+    "lat": -37.7975,
+    "lng": 144.964,
+    "organiser": "Potter Museum of Art",
+    "artists": [
+      {
+        "name": "Co-curated by Hannah Presley & Debbie Pryor",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "exhibition"
+    ],
+    "region_focus": [
+      "local",
+      "first-nations"
+    ],
+    "price": "Free",
+    "ticket_url": "https://potter-museum.unimelb.edu.au/",
+    "source_urls": [
+      "https://potter-museum.unimelb.edu.au/",
+      "http://www.debbiepryor.org/",
+      "https://events.humanitix.com/2027-program-launch-art-museums"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Potter reopens 12 Feb 2027 with \"Essential Tension\" (Feb–June 2027); exact end date not published.",
+    "why_dean": "New curated show; details still thin — check closer to date.",
+    "confidence": "medium",
+    "date_note": "Reopens 12 Feb 2027; runs \"February to June 2027\" — end day not published (30 Jun placeholder)."
+  },
+  {
+    "id": "box-hill-cny",
+    "title": "Box Hill Chinese New Year Festival",
+    "start_date": "2027-02-13",
+    "end_date": "2027-02-13",
+    "times": "10am–11pm",
+    "venue": "Bank St",
+    "suburb": "Box Hill",
+    "lat": -37.819,
+    "lng": 145.122,
+    "organiser": "Asian Business Association of Whitehorse",
+    "artists": [],
+    "categories": [
+      "festival"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "Free",
+    "ticket_url": "https://boxhillfestival.com.au/",
+    "source_urls": [
+      "https://www.abaw.org.au/2026/10/21/10-09-2026-manningham-chinese-new-year-festival-media-release-2/",
+      "https://boxhillfestival.com.au/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Large suburban Lunar New Year street festival.",
+    "why_dean": "Low art fit.",
+    "confidence": "medium"
+  },
+  {
+    "id": "footscray-lny",
+    "title": "East Meets West Lunar New Year Festival (Footscray)",
+    "start_date": "2027-02-13",
+    "end_date": "2027-02-14",
+    "times": null,
+    "venue": "Byron Plaza / Leeds St",
+    "suburb": "Footscray",
+    "lat": -37.8003,
+    "lng": 144.8996,
+    "organiser": "Maribyrnong City Council",
+    "artists": [],
+    "categories": [
+      "festival"
+    ],
+    "region_focus": [
+      "se-asian",
+      "asia-pacific"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.maribyrnong.vic.gov.au/",
+    "source_urls": [
+      "https://melbournelunarnewyear.com.au/",
+      "https://www.maribyrnong.vic.gov.au/Events/East-Meets-West-Lunar-New-Year-Festival-2026"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Footscray's Vietnamese/SE Asian-centred Lunar New Year festival; 2027 date not yet confirmed (dates shown are a placeholder for the weekend after Lunar New Year).",
+    "why_dean": "SE Asian community festival in the west; low art fit.",
+    "confidence": "low",
+    "date_note": "2027 date not yet confirmed by Maribyrnong; dates shown are a placeholder."
+  },
+  {
+    "id": "open-air-silent-cinema",
+    "title": "Silent Cinema with Live Scores (Open Air at the Square)",
+    "start_date": "2027-02-15",
+    "end_date": "2027-02-18",
+    "times": "8pm nightly",
+    "venue": "Fed Square – Main Square",
+    "suburb": "Melbourne",
+    "lat": -37.818,
+    "lng": 144.9691,
+    "organiser": "Fed Square (Open Air at the Square)",
+    "artists": [
+      {
+        "name": "The New Pollutants (live score to Metropolis, 18 Feb)",
+        "origin": "Australia"
+      },
+      {
+        "name": "Alcides Neto (Caligari, 17 Feb)",
+        "origin": "Naarm (Brazilian-born)"
+      },
+      {
+        "name": "Live DJ score to Phantom of the Opera (15–16 Feb)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "audiovisual",
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://fedsquare.com/events/open-air-at-the-square",
+    "source_urls": [
+      "https://fedsquare.com/events/open-air-at-the-square"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Week of silent classics on the big screen with original live scores, incl. Metropolis' 100th anniversary.",
+    "why_dean": "Free outdoor live-scored cinema = accessible AV.",
+    "confidence": "high"
+  },
+  {
+    "id": "on-and-on-festival",
+    "title": "ON&ON Festival (street dance)",
+    "start_date": "2027-02-16",
+    "end_date": "2027-02-21",
+    "times": null,
+    "venue": "Fed Square – The Edge",
+    "suburb": "Melbourne",
+    "lat": -37.818,
+    "lng": 144.9691,
+    "organiser": "Fed Square & Cypher Culture",
+    "artists": [
+      {
+        "name": "Cypher Culture and Melbourne street-dance crews",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "dance",
+      "festival",
+      "workshop"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free (TBC)",
+    "ticket_url": "https://fedsquare.com/events/open-air-at-the-square",
+    "source_urls": [
+      "https://fedsquare.com/events/open-air-at-the-square"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Six days of street-dance battles, workshops, talks and performances.",
+    "why_dean": "Live local dance culture; secondary fit.",
+    "confidence": "medium"
+  },
+  {
+    "id": "acmi-experimental-forum",
+    "title": "ACMI Experimental Forum (experimental video & performance crit)",
+    "start_date": "2027-02-17",
+    "end_date": "2027-02-17",
+    "times": "6pm",
+    "venue": "ACMI – Gandel Lab 1",
+    "suburb": "Melbourne",
+    "lat": -37.8176,
+    "lng": 144.969,
+    "organiser": "ACMI (moderated by Tanya Cubric)",
+    "artists": [
+      {
+        "name": "Rotating guest artists; Dec 2026 session featured Sekar Sari (Indonesia/Naarm)",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "talk",
+      "audiovisual",
+      "performance"
+    ],
+    "region_focus": [
+      "local",
+      "se-asian"
+    ],
+    "price": "Free (register)",
+    "ticket_url": "https://www.acmi.net.au/whats-on/acmi-experimental-forum/",
+    "source_urls": [
+      "https://www.acmi.net.au/whats-on/acmi-experimental-forum/",
+      "https://www.acmi.net.au/whats-on/"
+    ],
+    "status": "expected",
+    "ticket_release_date": null,
+    "description": "Monthly art-school-style crit of experimental video/performance works-in-development; ACMI lists the run to 17 Feb 2027 (a January session is likely but undated).",
+    "why_dean": "Best way to meet emerging local video/performance makers; free.",
+    "confidence": "medium",
+    "date_note": "ACMI lists the series as running to 17 Feb 2027; a January session is likely but undated."
+  },
+  {
+    "id": "lamama-carrion",
+    "title": "CARRION – Savier D'Arsie-Marquez",
+    "start_date": "2027-02-17",
+    "end_date": "2027-02-28",
+    "times": null,
+    "venue": "La Mama Courthouse, 349 Drummond St",
+    "suburb": "Carlton",
+    "lat": -37.799,
+    "lng": 144.9686,
+    "organiser": "La Mama Presents 2027",
+    "artists": [
+      {
+        "name": "Savier D'Arsie-Marquez",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "See La Mama",
+    "ticket_url": "https://www.lamama.com.au/whats-on/la-mama-presents-2027/carrion",
+    "source_urls": [
+      "https://www.lamama.com.au/whats-on/la-mama-presents-2027/carrion",
+      "https://cms.lamama.com.au/media/tztfhheo/la-mama-presents-2027-mediarelease.pdf"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Punk-rock, anti-establishment pitch-black comedy about family and inheritance.",
+    "why_dean": "Indie local theatre with a punk edge; secondary.",
+    "confidence": "high"
+  },
+  {
+    "id": "acm-operation-orfeo",
+    "title": "Hotel Pro Forma – OPERATION:ORFEO (visual opera)",
+    "start_date": "2027-02-18",
+    "end_date": "2027-02-20",
+    "times": null,
+    "venue": "Arts Centre Melbourne – Ian Potter State Theatre",
+    "suburb": "Southbank",
+    "lat": -37.821,
+    "lng": 144.9686,
+    "organiser": "Arts Centre Melbourne & Arts Projects Australia",
+    "artists": [
+      {
+        "name": "Hotel Pro Forma",
+        "origin": "Europe (Denmark)"
+      },
+      {
+        "name": "Latvian Radio Choir",
+        "origin": "Europe (Latvia)"
+      }
+    ],
+    "categories": [
+      "performance",
+      "audiovisual",
+      "music-experimental"
+    ],
+    "region_focus": [
+      "international-other"
+    ],
+    "price": "See ACM",
+    "ticket_url": "https://www.artsprojects.com.au/current-tours-projects/current-season/hotel-pro-forma-operationorfeo",
+    "source_urls": [
+      "https://www.artsprojects.com.au/current-tours-projects/current-season/hotel-pro-forma-operationorfeo"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "1993 landmark \"visual opera in three movements\": image, light and choral voice instead of narrative, with John Cage excerpts.",
+    "why_dean": "Image/light/sound-driven performance — a European classic of the expanded-theatre form.",
+    "confidence": "high"
+  },
+  {
+    "id": "maf-2027",
+    "title": "Melbourne Art Fair 2027 (incl. VIDEO sector)",
+    "start_date": "2027-02-18",
+    "end_date": "2027-02-21",
+    "times": null,
+    "venue": "Melbourne Convention and Exhibition Centre",
+    "suburb": "South Wharf",
+    "lat": -37.8255,
+    "lng": 144.953,
+    "organiser": "Melbourne Art Foundation",
+    "artists": [
+      {
+        "name": "80+ galleries; VIDEO curated by Matthew Hanson (Artspace Aotearoa)",
+        "origin": "Aotearoa NZ"
+      },
+      {
+        "name": "Chun Yin Rainbow Chan (solo, MARS Gallery)",
+        "origin": "Australia (Hong Kong-born)"
+      },
+      {
+        "name": "Victorian First Peoples Art & Design Fair",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual",
+      "performance"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "first-nations",
+      "local"
+    ],
+    "price": "Ticketed (on sale since 8 Oct)",
+    "ticket_url": "https://melbourneartfair.com.au/buy-tickets/",
+    "source_urls": [
+      "https://melbourneartfair.com.au/wp-content/uploads/2026/10/Melbourne-Art-Fair-2027_Release-01-1.pdf",
+      "https://melbourneartfair.com.au/fair-sectors/video/",
+      "https://melbourneartfair.com.au/in-studio-with-chun-yin-rainbow-chan/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "20th edition; VIDEO sector of moving-image installations, live performances and BEYOND commissions (names TBA).",
+    "why_dean": "VIDEO sector + performance program are the draw; commercial otherwise.",
+    "confidence": "high"
+  },
+  {
+    "id": "muma-karla-dickens",
+    "title": "Karla Dickens: You're Not the Centre of the Universe",
+    "start_date": "2027-02-20",
+    "end_date": "2027-05-08",
+    "times": null,
+    "venue": "Monash University Museum of Art (MUMA), 900 Dandenong Rd",
+    "suburb": "Caulfield East",
+    "lat": -37.8771,
+    "lng": 145.0447,
+    "organiser": "Monash University Museum of Art",
+    "artists": [
+      {
+        "name": "Karla Dickens (Wiradjuri)",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation"
+    ],
+    "region_focus": [
+      "first-nations"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.monash.edu/muma/home",
+    "source_urls": [
+      "https://beat.com.au/whos-really-doing-your-thinking-these-days-muma-wants-to-know/",
+      "https://www.monash.edu/muma/about/news-and-media/2026/announcing-muma-2027-program"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "First major Melbourne exhibition of Dickens' assemblages; puts First Nations knowledge at the centre of the climate emergency, with a major new commission.",
+    "why_dean": "Dean's own campus museum; strong installation-led First Nations show.",
+    "confidence": "high"
+  },
+  {
+    "id": "st-kilda-festival",
+    "title": "St Kilda Festival 2027",
+    "start_date": "2027-02-20",
+    "end_date": "2027-02-21",
+    "times": null,
+    "venue": "Foreshore & Fitzroy/Acland Sts",
+    "suburb": "St Kilda",
+    "lat": -37.8676,
+    "lng": 144.974,
+    "organiser": "City of Port Phillip",
+    "artists": [],
+    "categories": [
+      "festival"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://www.stkildafestival.com.au/",
+    "source_urls": [
+      "https://www.stkildafestival.com.au/",
+      "https://www.visitvictoria.com/regions/melbourne/whats-on/music/festivals/st-kilda-festival-2027"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Free foreshore music festival; mostly mainstream Australian music.",
+    "why_dean": "Low fit — listed only for side programming.",
+    "confidence": "medium"
+  },
+  {
+    "id": "substation-the-necks",
+    "title": "The Necks at The Substation",
+    "start_date": "2027-02-21",
+    "end_date": "2027-02-22",
+    "times": "Doors 7pm, 7:30pm start",
+    "venue": "The Substation, 1 Market St",
+    "suburb": "Newport",
+    "lat": -37.8433,
+    "lng": 144.8836,
+    "organiser": "The Substation & Room40",
+    "artists": [
+      {
+        "name": "The Necks",
+        "origin": "Australia (Sydney)"
+      }
+    ],
+    "categories": [
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "$59 GA / $54 conc",
+    "ticket_url": "https://thesubstation.org.au/program/the-necks/",
+    "source_urls": [
+      "https://thesubstation.org.au/program/the-necks/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Long-form improvised piano-trio sets reopening The Substation for 2027.",
+    "why_dean": "Sun 21 Feb SOLD OUT; Mon 22 Feb has more tickets released — book now.",
+    "confidence": "high"
+  },
+  {
+    "id": "brunswick-music-festival",
+    "title": "Brunswick Music Festival 2027",
+    "start_date": "2027-02-28",
+    "end_date": "2027-03-07",
+    "times": null,
+    "venue": "Venues across Brunswick / Merri-bek",
+    "suburb": "Brunswick",
+    "lat": -37.767,
+    "lng": 144.961,
+    "organiser": "Merri-bek City Council (programmer El Chantry)",
+    "artists": [],
+    "categories": [
+      "festival",
+      "music-experimental"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "TBA",
+    "ticket_url": "https://www.brunswickmusicfestival.com.au/",
+    "source_urls": [
+      "https://www.brunswickmusicfestival.com.au/",
+      "https://www.merri-bek.vic.gov.au/brunswick-music-festival"
+    ],
+    "status": "tba",
+    "ticket_release_date": null,
+    "description": "Week-long Merri-bek festival; program not yet announced. New programmer El Chantry (ex-MRC contemporary programmer, ex-Gertrude St Projection Festival).",
+    "why_dean": "New programmer with a projection/experimental background — watch for program (likely Jan).",
+    "confidence": "medium"
+  },
+  {
+    "id": "lamama-gold-mountain-wives",
+    "title": "Gold Mountain Wives 金山婆",
+    "start_date": "2027-03-05",
+    "end_date": "2027-03-21",
+    "times": null,
+    "venue": "La Mama Courthouse, 349 Drummond St",
+    "suburb": "Carlton",
+    "lat": -37.799,
+    "lng": 144.9686,
+    "organiser": "La Mama Presents 2027",
+    "artists": [
+      {
+        "name": "Jun Bin Lee",
+        "origin": "Australia (Chinese-Australian)"
+      }
+    ],
+    "categories": [
+      "performance"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "local"
+    ],
+    "price": "See La Mama",
+    "ticket_url": "https://www.lamama.com.au/whats-on",
+    "source_urls": [
+      "https://cms.lamama.com.au/media/tztfhheo/la-mama-presents-2027-mediarelease.pdf",
+      "https://limelight-arts.com.au/news/la-mama-marks-60th-anniversary-with-seven-new-australian-works/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "New musical on Chinese-Australian history under exclusion — \"what does it take to make a home in a country determined to exclude you?\"",
+    "why_dean": "Asian-Australian new work at La Mama in its 60th year.",
+    "confidence": "high"
+  },
+  {
+    "id": "substation-zareei",
+    "title": "Mo H. Zareei (mHz): Public Relations",
+    "start_date": "2027-03-05",
+    "end_date": "2027-04-24",
+    "times": null,
+    "venue": "The Substation, 1 Market St",
+    "suburb": "Newport",
+    "lat": -37.8433,
+    "lng": 144.8836,
+    "organiser": "The Substation",
+    "artists": [
+      {
+        "name": "Mo H. Zareei / mHz",
+        "origin": "Aotearoa NZ (Iranian-born)"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "asia-pacific"
+    ],
+    "price": "Free (TBC)",
+    "ticket_url": "https://thesubstation.org.au/",
+    "source_urls": [
+      "https://thesubstation.org.au/",
+      "https://kultu.ro/en/v/the-substation-melbourne"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Exhibition by the NZ-based sound/AV artist behind the \"Cruise Missile Intersectionality\" A/V set.",
+    "why_dean": "Sound-sculpture/AV exhibition that pairs with the Tim Hecker + mHz opening night.",
+    "confidence": "medium"
+  },
+  {
+    "id": "pitch-2027",
+    "title": "Pitch Music & Arts 2027 (10th edition)",
+    "start_date": "2027-03-05",
+    "end_date": "2027-03-09",
+    "times": null,
+    "venue": "Pitch site, Moyston (Gariwerd/Grampians)",
+    "suburb": "Moyston",
+    "lat": -37.296,
+    "lng": 142.768,
+    "organiser": "Pitch Music & Arts",
+    "artists": [
+      {
+        "name": "CLOUDY (Cloudy Ku / Suzhen Bai)",
+        "origin": "Naarm/local (Asian-Australian)"
+      },
+      {
+        "name": "Tangerine",
+        "origin": "local"
+      },
+      {
+        "name": "Hiroko Yamamura",
+        "origin": "US/Japan"
+      },
+      {
+        "name": "HAAi",
+        "origin": "Australia/UK"
+      },
+      {
+        "name": "DJ BORING",
+        "origin": "Australia/UK"
+      },
+      {
+        "name": "Chlär",
+        "origin": "Europe"
+      },
+      {
+        "name": "Peach",
+        "origin": "Canada"
+      },
+      {
+        "name": "61 artists total",
+        "origin": "mixed"
+      }
+    ],
+    "categories": [
+      "festival",
+      "club-av",
+      "installation"
+    ],
+    "region_focus": [
+      "local",
+      "international-other"
+    ],
+    "price": "See site",
+    "ticket_url": "https://www.pitchfestival.com.au/",
+    "source_urls": [
+      "https://thepartae.com/pitch-music-arts-reveals-2027-lineup-for-tenth-edition-featuring-chris-stassy-chlar-cloudy-peach-patrick-mason-haai-x-club-many-more/",
+      "https://culturemad.com/pitch-music-arts-2027-lineup/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Four-day electronic camping festival in Gariwerd with art installations; clashes with Golden Plains weekend.",
+    "why_dean": "Cloudy and Tangerine from Dean's post-club graph play; site-specific art installs.",
+    "confidence": "high"
+  },
+  {
+    "id": "substation-tim-hecker-mhz",
+    "title": "Tim Hecker + mHz (A/V \"Cruise Missile Intersectionality\")",
+    "start_date": "2027-03-05",
+    "end_date": "2027-03-05",
+    "times": "Doors 7pm, show 7:30pm",
+    "venue": "The Substation, 1 Market St",
+    "suburb": "Newport",
+    "lat": -37.8433,
+    "lng": 144.8836,
+    "organiser": "The Substation & Room40 (with Soft Centre)",
+    "artists": [
+      {
+        "name": "Tim Hecker",
+        "origin": "Canada"
+      },
+      {
+        "name": "mHz (Mo H. Zareei)",
+        "origin": "Aotearoa NZ (Iranian-born)"
+      }
+    ],
+    "categories": [
+      "music-experimental",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "international-other"
+    ],
+    "price": "$53 GA / $43 conc (early bird sold out)",
+    "ticket_url": "https://thesubstation.org.au/program/tim-hecker-mhz/",
+    "source_urls": [
+      "https://thesubstation.org.au/program/tim-hecker-mhz/"
+    ],
+    "status": "on-sale",
+    "ticket_release_date": null,
+    "description": "Hecker's saturated ambient live set plus mHz's political A/V work, in the Substation's turbine hall; haze and strobe.",
+    "why_dean": "The clearest high-end AV/experimental gig of the window, co-presented with Soft Centre (in Dean's graph).",
+    "confidence": "high"
+  },
+  {
+    "id": "golden-plains-19",
+    "title": "Golden Plains Nineteen",
+    "start_date": "2027-03-06",
+    "end_date": "2027-03-08",
+    "times": null,
+    "venue": "Meredith Supernatural Amphitheatre",
+    "suburb": "Meredith",
+    "lat": -37.832,
+    "lng": 144.074,
+    "organiser": "Aunty Meredith",
+    "artists": [
+      {
+        "name": "Underworld",
+        "origin": "Europe (UK)"
+      },
+      {
+        "name": "Tinariwen",
+        "origin": "Mali"
+      },
+      {
+        "name": "Rydeen & SOVBLKPSSY",
+        "origin": "Naarm/local"
+      },
+      {
+        "name": "Tongue Dissolver",
+        "origin": "local"
+      },
+      {
+        "name": "Maria Arnal",
+        "origin": "Europe (Spain)"
+      },
+      {
+        "name": "Maurice Fulton",
+        "origin": "US/Japan"
+      },
+      {
+        "name": "Miss Kaninna",
+        "origin": "First Nations"
+      },
+      {
+        "name": "iKeda",
+        "origin": "Australia"
+      }
+    ],
+    "categories": [
+      "festival",
+      "music-experimental",
+      "club-av"
+    ],
+    "region_focus": [
+      "local",
+      "first-nations",
+      "international-other"
+    ],
+    "price": "Ballot (closed Oct 2026)",
+    "ticket_url": "https://goldenplains.com.au/",
+    "source_urls": [
+      "https://beat.com.au/golden-plains-2027-lineup-underworld-and-geese-top-number-19/",
+      "https://www.thenote.com.au/news/golden-plains-nineteen-lineup",
+      "https://melbourne2027.com/festivals-2027/"
+    ],
+    "status": "sold-out",
+    "ticket_release_date": null,
+    "description": "Single-stage camping festival; ballot already drawn.",
+    "why_dean": "Mainly for Rydeen & SOVBLKPSSY (in Dean's graph) — resale only now.",
+    "confidence": "high"
+  },
+  {
+    "id": "acca-leyla-stevens",
+    "title": "Leyla Stevens: A Song Foretold",
+    "start_date": "2027-03-12",
+    "end_date": "2027-05-16",
+    "times": null,
+    "venue": "ACCA (Australian Centre for Contemporary Art), 111 Sturt St",
+    "suburb": "Southbank",
+    "lat": -37.8262,
+    "lng": 144.9668,
+    "organiser": "ACCA",
+    "artists": [
+      {
+        "name": "Leyla Stevens",
+        "origin": "SE Asia (Australian-Balinese, now Naarm-based)"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "audiovisual",
+      "performance",
+      "installation"
+    ],
+    "region_focus": [
+      "se-asian",
+      "local"
+    ],
+    "price": "Free",
+    "ticket_url": "https://acca.melbourne/exhibition/leyla-stevens/",
+    "source_urls": [
+      "https://acca.melbourne/exhibition/leyla-stevens/",
+      "https://acca.melbourne/whats-on/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Solo show of moving image, photography, performance lineages and sculpture drawing on Balinese archives and counter-histories.",
+    "why_dean": "Top-tier SE Asian moving-image/performance practice, newly Naarm-based; opens inside the window.",
+    "confidence": "high"
+  },
+  {
+    "id": "acca-inma-ungu",
+    "title": "Zaachariaha Fielding: Inma Ungu",
+    "start_date": "2027-03-12",
+    "end_date": "2027-05-16",
+    "times": null,
+    "venue": "ACCA (Australian Centre for Contemporary Art), 111 Sturt St",
+    "suburb": "Southbank",
+    "lat": -37.8262,
+    "lng": 144.9668,
+    "organiser": "ACCA",
+    "artists": [
+      {
+        "name": "Zaachariaha Fielding (Aṉangu, Electric Fields)",
+        "origin": "First Nations"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "installation"
+    ],
+    "region_focus": [
+      "first-nations"
+    ],
+    "price": "Free",
+    "ticket_url": "https://acca.melbourne/exhibition/zaachariaha-fiedling-inma-ungu/",
+    "source_urls": [
+      "https://acca.melbourne/exhibition/zaachariaha-fiedling-inma-ungu/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Major commission turning ACCA into an immersive painted landscape (walls, floors, canvases) grounded in Inma — ceremony, song and dance.",
+    "why_dean": "Expansive, immersive installation; pairs with Electric Fields at Midsumma.",
+    "confidence": "high"
+  },
+  {
+    "id": "lamama-enclave",
+    "title": "ENCLAVE – Eliza Dune Daiza",
+    "start_date": "2027-03-19",
+    "end_date": "2027-04-09",
+    "times": null,
+    "venue": "La Mama Courthouse, 349 Drummond St",
+    "suburb": "Carlton",
+    "lat": -37.799,
+    "lng": 144.9686,
+    "organiser": "La Mama Presents 2027",
+    "artists": [
+      {
+        "name": "Eliza Dune Daiza",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "performance"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "See La Mama",
+    "ticket_url": "https://www.lamama.com.au/whats-on",
+    "source_urls": [
+      "https://cms.lamama.com.au/media/tztfhheo/la-mama-presents-2027-mediarelease.pdf"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Verse drama set in a remote commune of punishment, control and identity erasure.",
+    "why_dean": "Formally unusual local theatre; secondary.",
+    "confidence": "high"
+  },
+  {
+    "id": "artshouse-local-encounters-weekend",
+    "title": "Arts House: Local Encounters Community Weekend",
+    "start_date": "2027-03-20",
+    "end_date": "2027-03-21",
+    "times": null,
+    "venue": "Arts House & sites across North and West Melbourne",
+    "suburb": "North Melbourne",
+    "lat": -37.804,
+    "lng": 144.9465,
+    "organiser": "Arts House (City of Melbourne)",
+    "artists": [
+      {
+        "name": "Up to 8 Lab artists (announced 14 Dec 2026); facilitated by Madeleine Flynn & Lana Nguyen",
+        "origin": "local"
+      }
+    ],
+    "categories": [
+      "talk",
+      "workshop",
+      "interactive",
+      "live-art"
+    ],
+    "region_focus": [
+      "local"
+    ],
+    "price": "TBA (likely free)",
+    "ticket_url": "https://www.artshouse.com.au/artist-opportunities/local-encounters-lab/",
+    "source_urls": [
+      "https://www.artshouse.com.au/artist-opportunities/local-encounters-lab/"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Public talks, workshops and events where Lab artists share participatory, place-responsive propositions for North/West Melbourne.",
+    "why_dean": "Participatory/site-specific live art in development — the Arts House end of the Aphids spectrum.",
+    "confidence": "medium"
+  },
+  {
+    "id": "tarrawarra-under-same-sky",
+    "title": "TarraWarra International 2027: Under the Same Sky",
+    "start_date": "2027-03-20",
+    "end_date": "2027-07-11",
+    "times": null,
+    "venue": "TarraWarra Museum of Art",
+    "suburb": "Healesville",
+    "lat": -37.6641,
+    "lng": 145.4505,
+    "organiser": "TarraWarra Museum of Art × Jehangir Nicholson Art Foundation (Mumbai)",
+    "artists": [
+      {
+        "name": "Shilpa Gupta, Mithu Sen, Gauri Gill, Sohrab Hura, Simryn Gill, Khadim Ali, Munem Wasif, Kirtika Kain, Amol Patil and others",
+        "origin": "South Asia / Australia"
+      }
+    ],
+    "categories": [
+      "exhibition",
+      "performance",
+      "installation",
+      "audiovisual"
+    ],
+    "region_focus": [
+      "asia-pacific",
+      "local"
+    ],
+    "price": "$12–$18 (typical museum entry)",
+    "ticket_url": "https://www.twma.com.au/",
+    "source_urls": [
+      "https://www.twma.com.au/wp-content/uploads/2026/09/Media_Release_TarraWarra_Museum_of_Art_26_27_Program-1.pdf"
+    ],
+    "status": "announced",
+    "ticket_release_date": null,
+    "description": "Joint Australia–Mumbai exhibition of South Asian and diasporic artists across film, installation and performance.",
+    "why_dean": "Big South Asian/diaspora show with performance artists like Mithu Sen and Amol Patil; opens in the last fortnight of the window.",
+    "confidence": "high"
+  }
+]
