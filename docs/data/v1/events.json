@@ -3316,13 +3316,14 @@
       "yl-hooi",
       "ig-lousehome",
       "ig-orb-0o",
-      "ig-jc-viva"
+      "ig-jc-viva",
+      "ig-kassoy33"
     ],
     "category": "other",
     "structure": "collective",
     "price": "unknown (via RA)",
     "tickets": "https://ra.co/events/2544749",
-    "description": "Day-into-night club weekender at Miscellania; dance-music adjacent to the experimental crowd (date conflict on listing: 14 vs 15 Nov). Instagram dataset (27 Nov 2026): captions and https://events.humanitix.com/mutations-weekender name a 14–15 Nov 2026 span, with b2bs Emelyne b2b Charms, YL Hooi b2b Louis, and Piezo b2b DJ Plead. The earlier listing already noted a 14 vs 15 Nov conflict, so the row keeps both dates and stays medium confidence.",
+    "description": "Day-into-night club weekender at Miscellania; dance-music adjacent to the experimental crowd (date conflict on listing: 14 vs 15 Nov). Instagram dataset (27 Nov 2026): captions and https://events.humanitix.com/mutations-weekender name a 14–15 Nov 2026 span, with b2bs Emelyne b2b Charms, YL Hooi b2b Louis, and Piezo b2b DJ Plead. The earlier listing already noted a 14 vs 15 Nov conflict, so the row keeps both dates and stays medium confidence. Logged-in browse 27 Nov 2026 and the Mutations bill name @kassoy33 with @zeger94 as Flame J. @zeger94 has no node.",
     "source": "https://www.technoairlines.com/event/mutations-weekender-miscellania-2026-11-14",
     "fetched": "2026-11-07",
     "recurring": null,
@@ -7911,7 +7912,7 @@
     "structure": "commercial_venue",
     "price": "rooftop free 7am–2pm; club room ticketed from 2pm (early entry before 4pm was $10 on Humanitix)",
     "tickets": "https://events.humanitix.com/rainbow-s-room-club-33",
-    "description": "Rainbow hijacks Miscellania, 6 Dec 2026, 7am to 1am. Lineup printed on the page: Proc, Joëlle, Orb, Bensin, YL Hooi b2b Louis 2b Tarquin, Paper Cuts, Loif, Redeye & Crusty, Depresso Martini, Toy, Valona, Jannah Quill, with Linen live. Only acts with their own nodes are linked. Humanitix prints postcode 3004; the venue pin stays on the existing 3000 address.",
+    "description": "Rainbow hijacks Miscellania, 6 Dec 2026, 7am to 1am. Lineup printed on the page: Proc, Joëlle, Orb, Bensin, YL Hooi b2b Louis 2b Tarquin, Paper Cuts, Loif, Redeye & Crusty, Depresso Martini, Toy, Valona, Jannah Quill, with Linen live. Only acts with their own nodes are linked. Humanitix prints postcode 3004; the venue pin stays on the existing 3000 address. Logged-in browse 27 Nov 2026 of @miscellania_ describes an 18-hour rooftop and Rainbow's Room takeover. That matches this Club 33 row (7am–1am, rooftop free until 2pm). No second event was added.",
     "source": "https://events.humanitix.com/rainbow-s-room-club-33",
     "confidence": "high",
     "fetched": "2026-11-27",
@@ -7919,7 +7920,10 @@
     "reviewed": false,
     "venue_relevance": "core",
     "venue_structure": "commercial_venue",
-    "status": "upcoming"
+    "status": "upcoming",
+    "sources": [
+      "https://www.instagram.com/miscellania_/"
+    ]
   },
   {
     "id": "2026-12-11-pop2-003-rubix",
@@ -8295,7 +8299,7 @@
     "structure": "commercial_venue",
     "price": "unknown",
     "tickets": "https://events.humanitix.com/sub-club-presents-cloudy-ku-all-night-long",
-    "description": "Cloudy Ku solo, billed as the last public set before a one-year sabbatical. HER 他 / SPEED went on hiatus from mid-September 2026.",
+    "description": "Cloudy Ku solo, billed as the last public set before a one-year sabbatical. HER 他 / SPEED went on hiatus from mid-September 2026. Logged-in browse 27 Nov 2026 / the v2 edge confirms All Night Long at Sub Club on 15 Aug 2026.",
     "source": "https://events.humanitix.com/sub-club-presents-cloudy-ku-all-night-long",
     "confidence": "high",
     "fetched": "2026-11-27",
@@ -8304,7 +8308,10 @@
     "venue_relevance": "core",
     "venue_structure": "commercial_venue",
     "address": "35 Flinders Court, Melbourne VIC 3000",
-    "status": "past"
+    "status": "past",
+    "sources": [
+      "https://www.instagram.com/subclubmelbourne/"
+    ]
   },
   {
     "id": "2026-09-24-goblin-make-it-up",
@@ -8344,12 +8351,15 @@
       "discharge",
       "pris-crisis"
     ],
-    "artist_ids": [],
+    "artist_ids": [
+      "ig-n33sha",
+      "ig-djali3313"
+    ],
     "category": "post_club",
     "structure": "diy",
     "price": "unknown",
     "tickets": "https://events.humanitix.com/discharge-september-26",
-    "description": "SPIT, Footscray. Lineup in the research: Neesha Alexander, DJ Ali Sal. Tags: techno, deconstructed club, rave, hard groove. The page was not re-fetched on 27 Nov 2026, so those two names are in the description only.",
+    "description": "SPIT, Footscray. Lineup in the research: Neesha Alexander, DJ Ali Sal. Tags: techno, deconstructed club, rave, hard groove. The page was not re-fetched on 27 Nov 2026, so those two names are in the description only. Logged-in browse 27 Nov 2026: @_n33sha_ is matched to Neesha Alexander and @djali3313 to DJ Ali Sal. The dataset note says the @_n33sha_ handle was inferred from tags, so that identity stays medium confidence.",
     "source": "https://events.humanitix.com/discharge-september-26",
     "confidence": "high",
     "fetched": "2026-11-27",
@@ -8501,5 +8511,33 @@
     "venue_relevance": "core",
     "venue_structure": "unknown",
     "status": "past"
+  },
+  {
+    "id": "2026-12-19-hart-popup-sub-club",
+    "title": "HART [POPUP]",
+    "start": "2026-12-19",
+    "end": "2026-12-19",
+    "venue_id": "sub-club",
+    "venue_name": "Sub Club Melbourne",
+    "address": "35 Flinders Court, Melbourne VIC 3000",
+    "presenter_ids": [
+      "sub-club"
+    ],
+    "artist_ids": [
+      "house-mum"
+    ],
+    "category": "other",
+    "structure": "commercial_venue",
+    "price": "unknown",
+    "tickets": null,
+    "description": "Sub Club's grid alt text bills House Mum (Jac) on HART [POPUP], 19 Dec. The year is not printed; 2026 is the dataset window, so this row is medium confidence. The same browse describes the recent Sub Club grid as general techno and club, so the category stays other.",
+    "source": "https://www.instagram.com/subclubmelbourne/",
+    "confidence": "medium",
+    "fetched": "2026-11-27",
+    "recurring": null,
+    "reviewed": false,
+    "venue_relevance": "core",
+    "venue_structure": "commercial_venue",
+    "status": "upcoming"
   }
 ]

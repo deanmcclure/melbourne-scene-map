@@ -4409,22 +4409,6 @@
   },
   {
     "s": "liquid-architecture",
-    "t": "rising",
-    "rel": "collaborated_with",
-    "when": "2025",
-    "note": "listed partner",
-    "src": "https://liquidarchitecture.org.au/support"
-  },
-  {
-    "s": "liquid-architecture",
-    "t": "arts-house",
-    "rel": "collaborated_with",
-    "when": "2025",
-    "note": "listed partner",
-    "src": "https://liquidarchitecture.org.au/support"
-  },
-  {
-    "s": "liquid-architecture",
     "t": "muma",
     "rel": "collaborated_with",
     "when": "2025",
@@ -7424,14 +7408,6 @@
     "src": "https://liquidarchitecture.org.au/support"
   },
   {
-    "s": "liquid-architecture",
-    "t": "city-of-melbourne",
-    "rel": "funded_by",
-    "when": "2025",
-    "note": "City of Melbourne Arts",
-    "src": "https://liquidarchitecture.org.au/support"
-  },
-  {
     "s": "dancehouse",
     "t": "creative-victoria",
     "rel": "funded_by",
@@ -9813,14 +9789,6 @@
     "rel": "performed_at",
     "when": "2026-11",
     "note": "the ghost of Mr Bawky (Composite)",
-    "src": "https://events.humanitix.com/host/composite-moving-image"
-  },
-  {
-    "s": "esther-carlin",
-    "t": "composite",
-    "rel": "presented_by",
-    "when": "2026-11",
-    "note": "the ghost of Mr Bawky",
     "src": "https://events.humanitix.com/host/composite-moving-image"
   },
   {
@@ -29923,7 +29891,7 @@
     "t": "ig-spittttt",
     "rel": "programmed_at",
     "when": null,
-    "note": "promotes night at",
+    "note": "promotes night at — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -29968,7 +29936,7 @@
     "t": "ig-m3n1o",
     "rel": "collaborated_with",
     "when": null,
-    "note": "poster/animation (DISCHARGE)",
+    "note": "poster/animation (DISCHARGE) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/rest_in_spit/",
     "confidence": "medium"
   },
@@ -29977,7 +29945,7 @@
     "t": "ig-obelisk",
     "rel": "collaborated_with",
     "when": null,
-    "note": "duo: Winged Mantis Emerald Dream Machine",
+    "note": "duo: Winged Mantis Emerald Dream Machine — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "low"
   },
@@ -29986,7 +29954,7 @@
     "t": "ig-deepwebfm",
     "rel": "part_of",
     "when": null,
-    "note": "hosts show",
+    "note": "hosts show — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -29995,7 +29963,7 @@
     "t": "ig-mithril",
     "rel": "part_of",
     "when": null,
-    "note": "hosts show",
+    "note": "hosts show — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30004,7 +29972,7 @@
     "t": "soft-centre",
     "rel": "collaborated_with",
     "when": null,
-    "note": "involved with",
+    "note": "involved with — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "low"
   },
@@ -30022,7 +29990,7 @@
     "t": "ig-d-i-esel",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "medium"
   },
@@ -30031,7 +29999,7 @@
     "t": "ig-st4cey4101",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "medium"
   },
@@ -30040,7 +30008,7 @@
     "t": "ig-rydeenetc",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30049,7 +30017,7 @@
     "t": "sovblkpssy",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30058,7 +30026,7 @@
     "t": "female-wizard",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30067,7 +30035,7 @@
     "t": "ig-coshnow",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30076,7 +30044,7 @@
     "t": "emelyne",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30085,7 +30053,7 @@
     "t": "ig-katerellim",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30094,7 +30062,7 @@
     "t": "ig-k8m055",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "medium"
   },
@@ -30103,7 +30071,7 @@
     "t": "ig-partylegendstatus",
     "rel": "collaborated_with",
     "when": "2026-10",
-    "note": "billed (DISCHARGE x Goblin, 31 Oct)",
+    "note": "billed (DISCHARGE x Goblin, 31 Oct) — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30130,7 +30098,7 @@
     "t": "ig-goblin-rave",
     "rel": "collaborated_with",
     "when": null,
-    "note": "co-promote DISCHARGE x Goblin",
+    "note": "co-promote DISCHARGE x Goblin — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30139,7 +30107,7 @@
     "t": "ig-badartistpresents",
     "rel": "collaborated_with",
     "when": null,
-    "note": "Bad:Goblin performance at DISCHARGE x Goblin",
+    "note": "Bad:Goblin performance at DISCHARGE x Goblin — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/piss.sample/",
     "confidence": "high"
   },
@@ -30346,7 +30314,7 @@
     "t": "miscellania",
     "rel": "located_at",
     "when": null,
-    "note": "rooftop of",
+    "note": "rooftop of — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/miscrooftop/",
     "confidence": "high"
   },
@@ -30895,7 +30863,7 @@
     "t": "ig-nexus",
     "rel": "collaborated_with",
     "when": null,
-    "note": "bio tag; billed as Index",
+    "note": "bio tag; billed as Index — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/g0th_mansi0n/",
     "confidence": "low"
   },
@@ -30994,7 +30962,7 @@
     "t": "ig-fbiradio",
     "rel": "collaborated_with",
     "when": null,
-    "note": "tag",
+    "note": "tag — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/obelisk__.__/",
     "confidence": "low"
   },
@@ -31003,7 +30971,7 @@
     "t": "ig-scum-noise",
     "rel": "collaborated_with",
     "when": null,
-    "note": "tag",
+    "note": "tag — logged-in browse, grid alt text (confirms existing tie)",
     "src": "https://www.pixnoy.com/profile/obelisk__.__/",
     "confidence": "low"
   },
@@ -31087,5 +31055,320 @@
     "note": "RP Boo interview",
     "src": "https://www.pixnoy.com/profile/female_wizard/",
     "confidence": "high"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "miscellania",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (23 Nov) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-g0th-mansi0n",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (24 Nov, 11 Nov flyer) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-obelisk",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (24 Nov, 11 Nov flyer) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-charms-vt",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (21 Nov, 11 Nov flyer) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "anastasia",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (18 Nov, 11 Nov flyer) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-juniperbell",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (25 Sep) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "pris-crisis",
+    "t": "ig-n33sha",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (22 Sep) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "ig-djali3313",
+    "rel": "collaborated_with",
+    "when": "2026-09",
+    "note": "tagged (10 Sep) with Neesha Alexander — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/rest_in_spit/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "ig-n33sha",
+    "rel": "collaborated_with",
+    "when": "2026-09",
+    "note": "tagged (10 Sep) with DJ Ali Sal — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/rest_in_spit/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "ig-sal-l",
+    "rel": "collaborated_with",
+    "when": "2026-09",
+    "note": "tagged (10 Sep) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/rest_in_spit/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "ig-skramz-naarm-melb",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (6 Oct, screamo bill) — SPIT venue, other genre — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/rest_in_spit/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-spittttt",
+    "t": "nice-music",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged (1 Oct / 22 Sep, Nice Music nights) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/rest_in_spit/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-geometric-corruption",
+    "rel": "released_on",
+    "when": "2025-12",
+    "note": "debut album Spiritual Reconstruction Engine (18.12.25) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/obelisk__.__/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-uzaaamo",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "album visuals — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/obelisk__.__/",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "soft-centre",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-obelisk",
+    "t": "ig-deepwebfm",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/obelisk__.__/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "ig-galdemrejoice",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "aka Mama Char / bio tag — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/charms.vt/",
+    "confidence": "low"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "ig-blackrhino-radio",
+    "rel": "resident_at",
+    "when": null,
+    "note": "resident (bio) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/charms.vt/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-charms-vt",
+    "t": "ig-rojakmcr",
+    "rel": "resident_at",
+    "when": null,
+    "note": "resident (bio) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/charms.vt/",
+    "confidence": "medium"
+  },
+  {
+    "s": "anastasia",
+    "t": "ig-188naarm",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/hashtaganastasia/",
+    "confidence": "low"
+  },
+  {
+    "s": "rainbows-room",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "18-hour rooftop + Rainbow's Room takeover — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/miscellania_/",
+    "confidence": "high"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "collab (with Kerfew; Shackleton & Iran Sanadzadeh) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/miscellania_/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-kerfew-au",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "collab (with Omniversal Hum) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/miscellania_/",
+    "confidence": "high"
+  },
+  {
+    "s": "ig-kassoy33",
+    "t": "miscellania",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "tagged on Kerfew + Omniversal collab — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/miscellania_/",
+    "confidence": "low"
+  },
+  {
+    "s": "house-mum",
+    "t": "sub-club",
+    "rel": "performed_at",
+    "when": "2026-12",
+    "note": "billed (HART [POPUP], 19 Dec) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/subclubmelbourne/",
+    "confidence": "medium"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "ig-kerfew-au",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "collab show with Miscellania (Shackleton & Iran Sanadzadeh) — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "high"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "ig-kassoy33",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "yl-hooi",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "mia-alexander",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "ig-valentina-magaletti",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "ig-hopestradio",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "omniversal-hum",
+    "t": "ig-dialogue-records",
+    "rel": "collaborated_with",
+    "when": null,
+    "note": "tagged — logged-in browse, grid alt text",
+    "src": "https://www.instagram.com/omniversal_hum/",
+    "confidence": "low"
+  },
+  {
+    "s": "cloudy-ku",
+    "t": "sub-club",
+    "rel": "performed_at",
+    "when": "2026-08",
+    "note": "All Night Long, 15 Aug 2026 (last public appearance before sabbatical)",
+    "src": "https://www.pixnoy.com/profile/cloudyku.her/",
+    "confidence": "high"
+  },
+  {
+    "s": "speed-bpm",
+    "t": "sub-club",
+    "rel": "programmed_at",
+    "when": null,
+    "note": "SPEED nights at Sub Club (earlier research / Humanitix)",
+    "src": "https://events.humanitix.com/sub-club-presents-cloudy-ku-all-night-long",
+    "confidence": "medium"
+  },
+  {
+    "s": "ig-n33sha",
+    "t": "house-of-alexander",
+    "rel": "member_of",
+    "when": null,
+    "note": "Dataset says House of Alexander (Meanjin). house-of-alexander on this map is the Melbourne house directed by Ella Ganza. Same name; chapter not confirmed.",
+    "src": "https://www.instagram.com/piss.sample/",
+    "confidence": "low"
   }
 ]

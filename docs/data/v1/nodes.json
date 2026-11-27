@@ -7933,7 +7933,9 @@
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/soft_centre/"
+      "https://www.pixnoy.com/profile/soft_centre/",
+      "https://www.instagram.com/g0th_mansi0n/",
+      "https://www.instagram.com/obelisk__.__/"
     ]
   },
   {
@@ -8255,7 +8257,7 @@
     "lat": -37.809013,
     "lng": 144.963249,
     "geo_precision": "street",
-    "notes": "Founded 2021 (Vokes/Logan/Fennell); listed as current nightclub on Wikipedia list (2026 snapshot). Street number from existing graph. founded 2021 by Vokes/Logan/Fennell",
+    "notes": "Founded 2021 (Vokes/Logan/Fennell); listed as current nightclub on Wikipedia list (2026 snapshot). Street number from existing graph. founded 2021 by Vokes/Logan/Fennell Logged-in browse 27 Nov 2026. Recent grid includes A Colourful Storm (Moopie) all-wax night, Curb Dancer, INBRAZA, an 18-hour rooftop + Rainbow's Room takeover, and a collab with Omniversal Hum and Kerfew.",
     "confidence": "high",
     "sources": [
       "https://mixmag.net.au/feature/venue-spotlight-miscellania",
@@ -8267,7 +8269,9 @@
       "https://www.pixnoy.com/profile/female_wizard/",
       "https://www.pixnoy.com/profile/miscrooftop/",
       "https://www.pixnoy.com/profile/soft_centre/",
-      "https://www.pixnoy.com/profile/sovblkpssy/"
+      "https://www.pixnoy.com/profile/sovblkpssy/",
+      "https://www.instagram.com/miscellania_/",
+      "https://www.instagram.com/piss.sample/"
     ]
   },
   {
@@ -8372,7 +8376,8 @@
     "instagram": "@sovblkpssy",
     "sources": [
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/sovblkpssy/"
+      "https://www.pixnoy.com/profile/sovblkpssy/",
+      "https://www.instagram.com/piss.sample/"
     ]
   },
   {
@@ -8541,7 +8546,8 @@
       "https://events.humanitix.com/rainbow-s-room-club-33",
       "https://www.technoairlines.com/event/tender-2nd-birthday-yl-hooi-live-secret-guest-dj-us-marley-s-tender-2026-11-27",
       "https://events.humanitix.com/mutations-weekender",
-      "https://www.pixnoy.com/profile/extr.emelyne/"
+      "https://www.pixnoy.com/profile/extr.emelyne/",
+      "https://www.instagram.com/omniversal_hum/"
     ]
   },
   {
@@ -13721,13 +13727,20 @@
     "structure": "unknown",
     "domains": [
       "noise",
-      "sound"
+      "sound",
+      "post_club"
     ],
     "relevance": "core",
     "underground_score": 2,
     "location": "Melbourne",
-    "description": "With Lucas Abella, Absorbed Festival Mar 2026.",
-    "status": "active"
+    "description": "With Lucas Abella, Absorbed Festival Mar 2026. Logged-in browse 27 Nov 2026 tags @mia._alexander on Omniversal Hum, and the dataset lists her as a live artist at Make It Up in the Club.",
+    "status": "active",
+    "instagram": "@mia._alexander",
+    "sources": [
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "notes": "Tagged on @omniversal_hum. Logged-in browse, grid alt text.",
+    "confidence": "medium"
   },
   {
     "id": "tim-reid",
@@ -18370,7 +18383,8 @@
       "https://events.humanitix.com/absorb-ed-v",
       "https://www.pixnoy.com/profile/extr.emelyne/",
       "https://www.pixnoy.com/profile/goblin.rave/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "notes": "Promoted from @goblin.rave. The Humanitix pages name Goblin Sound System and do not print this handle."
   },
@@ -18444,7 +18458,8 @@
       "post_club"
     ],
     "sources": [
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ]
   },
   {
@@ -18711,7 +18726,8 @@
     "sources": [
       "https://www.pixnoy.com/profile/extr.emelyne/",
       "https://www.pixnoy.com/profile/katerellim/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ]
   },
   {
@@ -18731,7 +18747,8 @@
     "sources": [
       "https://www.pixnoy.com/profile/coshnow/",
       "https://www.pixnoy.com/profile/female_wizard/",
-      "https://www.pixnoy.com/profile/miscrooftop/"
+      "https://www.pixnoy.com/profile/miscrooftop/",
+      "https://www.instagram.com/miscellania_/"
     ],
     "address": "Level 2, 401 Swanston St, Melbourne VIC 3000",
     "suburb": "Melbourne CBD",
@@ -18760,7 +18777,7 @@
   },
   {
     "id": "ig-charms-vt",
-    "name": "Charms",
+    "name": "Charms (Mama Char)",
     "kind": "artist",
     "structure": "unknown",
     "relevance": "core",
@@ -18772,25 +18789,38 @@
     ],
     "underground_score": 2.5,
     "location": "Naarm / Melbourne (ex-Manchester)",
-    "description": "Billed on DISCHARGE at SPIT, 27 Nov 2026, with Winged Mantis, Emerald Dream Machine and Anastasia. Also named on ABSORB(ED) V (Orb & Charms in the MiddleZorb slot, per the research notes). No bio was found. The 14 Nov 2026 Mutations weekender in this map already referenced an unresolved id 'charms'; that id now points here. Instagram dataset (27 Nov 2026, high): DJ.",
+    "description": "Billed on DISCHARGE at SPIT, 27 Nov 2026, with Winged Mantis, Emerald Dream Machine and Anastasia. Also named on ABSORB(ED) V (Orb & Charms in the MiddleZorb slot, per the research notes). No bio was found. The 14 Nov 2026 Mutations weekender in this map already referenced an unresolved id 'charms'; that id now points here. Instagram dataset (27 Nov 2026, high): DJ. Logged-in browse 27 Nov 2026: private account, bio readable. AKA Mama Char (@galdemrejoice). Resident at Black Rhino Radio and Rojak MCR. City in the dataset is Naarm (ex-Manchester).",
     "confidence": "high",
     "sources": [
       "https://events.humanitix.com/discharge-november-27",
       "https://events.humanitix.com/absorb-ed-v",
       "https://events.humanitix.com/mutations-weekender",
       "https://www.pixnoy.com/profile/extr.emelyne/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/charms.vt/",
+      "https://www.instagram.com/piss.sample/"
     ],
-    "notes": "Promoted from the bare handle @charms.vt. The DISCHARGE and ABSORB(ED) sources bill 'Charms' but do not print this handle. The 27 Nov 2026 Instagram dataset names this handle as CHARMS."
+    "notes": "Promoted from the bare handle @charms.vt. The DISCHARGE and ABSORB(ED) sources bill 'Charms' but do not print this handle. The 27 Nov 2026 Instagram dataset names this handle as CHARMS. Private account; bio was readable in the logged-in browse 27 Nov 2026."
   },
   {
     "id": "ig-kassoy33",
-    "name": "kassoy33",
-    "kind": "unknown",
+    "name": "Flame J",
+    "kind": "artist",
     "structure": "unknown",
-    "relevance": "unknown",
+    "relevance": "adjacent",
     "instagram": "@kassoy33",
-    "status": "unknown"
+    "status": "active",
+    "location": "Naarm / Melbourne",
+    "confidence": "medium",
+    "domains": [
+      "post_club"
+    ],
+    "sources": [
+      "https://www.instagram.com/miscellania_/",
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "notes": "Dataset name is 'Flame J (with @zeger94, per Mutations bill)'. @zeger94 is not a separate node. City Naarm is the dataset's reading of a 'local acts' line, not a bio.",
+    "description": "Instagram dataset v2 (27 Nov 2026, medium): live artist on the Mutations Weekender, and tagged on a Miscellania / Omniversal Hum / Kerfew collab. The Humanitix bill pairs @kassoy33 with @zeger94 as Flame J."
   },
   {
     "id": "ig-lousehome",
@@ -19235,7 +19265,7 @@
     "lat": -37.8020223,
     "lng": 144.8995098,
     "geo_precision": "street",
-    "description": "DIY space in Footscray used by DISCHARGE. Small capacity, BYO, 2-hour DJ sets. The 27 Nov 2026 Humanitix page says the address is sent to ticket holders on the day and schema.org marks the location TBA. Techno Airlines' listing the same day names 'TBA - SPIT, 58 Irving St, Footscray'. The pin is that street, geocoded 27 Nov 2026. Instagram dataset (27 Nov 2026, high): DIY venue (Footscray), hosts DISCHARGE + punk/noise.",
+    "description": "DIY space in Footscray used by DISCHARGE. Small capacity, BYO, 2-hour DJ sets. The 27 Nov 2026 Humanitix page says the address is sent to ticket holders on the day and schema.org marks the location TBA. Techno Airlines' listing the same day names 'TBA - SPIT, 58 Irving St, Footscray'. The pin is that street, geocoded 27 Nov 2026. Instagram dataset (27 Nov 2026, high): DIY venue (Footscray), hosts DISCHARGE + punk/noise. Logged-in browse 27 Nov 2026 confirms the @rest_in_spit bio. Mixed-genre room: DISCHARGE, and also punk, skramz and hardcore bills.",
     "confidence": "high",
     "sources": [
       "https://events.humanitix.com/discharge-november-27",
@@ -19243,9 +19273,11 @@
       "https://nominatim.openstreetmap.org/",
       "https://www.pixnoy.com/profile/coshnow/",
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/piss.sample/",
+      "https://www.instagram.com/rest_in_spit/"
     ],
-    "notes": "This node's earlier handle was @spittttt, which the Humanitix page does not print. The 27 Nov 2026 Instagram dataset names the venue account @rest_in_spit."
+    "notes": "This node's earlier handle was @spittttt, which the Humanitix page does not print. The 27 Nov 2026 Instagram dataset names the venue account @rest_in_spit. Bio confirmed logged-in 27 Nov 2026. Mixed-genre venue (post-club DISCHARGE plus punk/skramz/hardcore and experimental)."
   },
   {
     "id": "ig-video-loss",
@@ -20617,12 +20649,23 @@
   },
   {
     "id": "ig-kerfew-au",
-    "name": "kerfew_au",
-    "kind": "unknown",
+    "name": "Kerfew",
+    "kind": "series",
     "structure": "unknown",
-    "relevance": "unknown",
+    "relevance": "core",
     "instagram": "@kerfew_au",
-    "status": "unknown"
+    "status": "active",
+    "location": "Naarm / Melbourne",
+    "confidence": "high",
+    "domains": [
+      "post_club"
+    ],
+    "sources": [
+      "https://www.instagram.com/miscellania_/",
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "notes": "Tagged on @miscellania_ and @omniversal_hum. Logged-in browse, grid alt text.",
+    "description": "Instagram dataset v2 (27 Nov 2026, high): promoter and night in Naarm. Logged-in browse: a collab with Omniversal Hum and Miscellania (Shackleton and Iran Sanadzadeh, named in the caption, not added as nodes)."
   },
   {
     "id": "ig-krakatau-music",
@@ -24450,8 +24493,11 @@
     "geo_precision": "suburb",
     "confidence": "high",
     "sources": [
-      "https://nicemusiclabel.com/"
-    ]
+      "https://nicemusiclabel.com/",
+      "https://www.instagram.com/rest_in_spit/"
+    ],
+    "instagram": "@nicemusiclabel_",
+    "notes": "Tagged on @rest_in_spit (Nice Music nights, 1 Oct / 22 Sep). Already on the research Page as a label. Logged-in browse, grid alt text."
   },
   {
     "id": "heavy-machinery-records",
@@ -29101,7 +29147,8 @@
       "https://www.pixnoy.com/profile/female_wizard/",
       "https://www.pixnoy.com/profile/nexus__.__/",
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/transactions___/"
+      "https://www.pixnoy.com/profile/transactions___/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "underground_score": 2.5,
@@ -29240,13 +29287,16 @@
     ],
     "relevance": "adjacent",
     "status": "active",
-    "description": "Fluxx co-founder with Ruby (RBI) and Elle (Yollks), per Beat Magazine. This id was already used, unresolved, on the 13 Nov 2026 Chippy Nonstop bill at Miscellania. Treated as the same person; that bill was not separately checked against the Beat profile.",
+    "description": "Fluxx co-founder with Ruby (RBI) and Elle (Yollks), per Beat Magazine. This id was already used, unresolved, on the 13 Nov 2026 Chippy Nonstop bill at Miscellania. Treated as the same person; that bill was not separately checked against the Beat profile. Logged-in browse 27 Nov 2026 of @subclubmelbourne names @house.mum as House Mum (Jac), billed on HART [POPUP], 19 Dec. The year is not printed on that line.",
     "confidence": "medium",
     "sources": [
-      "https://beat.com.au/33-underground-melbourne-djs-producers-and-labels-you-should-know/"
+      "https://beat.com.au/33-underground-melbourne-djs-producers-and-labels-you-should-know/",
+      "https://www.instagram.com/subclubmelbourne/"
     ],
     "location": "Naarm / Melbourne",
-    "underground_score": 2
+    "underground_score": 2,
+    "instagram": "@house.mum",
+    "notes": "Already on the research Page as House Mum. Tagged on @subclubmelbourne. Logged-in browse, grid alt text."
   },
   {
     "id": "yollks",
@@ -29315,7 +29365,7 @@
     ],
     "relevance": "core",
     "status": "active",
-    "description": "Hosts the DISCHARGE nights at SPIT in Footscray (2-hour DJ sets, BYO, small capacity). The 27 Nov 2026 Humanitix page says First Nations free entry is via DM to @piss.sample. The Instagram dataset names @piss.sample as Pris Crisis. Instagram dataset (27 Nov 2026, high): DJ; runs DISCHARGE; Crisis Bangers w/ Osama Bin Banger.",
+    "description": "Hosts the DISCHARGE nights at SPIT in Footscray (2-hour DJ sets, BYO, small capacity). The 27 Nov 2026 Humanitix page says First Nations free entry is via DM to @piss.sample. The Instagram dataset names @piss.sample as Pris Crisis. Instagram dataset (27 Nov 2026, high): DJ; runs DISCHARGE; Crisis Bangers w/ Osama Bin Banger. Logged-in browse 27 Nov 2026 bio: 'Dirt / I RUN DISCHARGE / I DJ AS PRIS CRISIS'.",
     "confidence": "high",
     "sources": [
       "https://events.humanitix.com/discharge-november-27",
@@ -29323,11 +29373,13 @@
       "https://events.humanitix.com/discharge-september-26",
       "https://www.pixnoy.com/profile/coshnow/",
       "https://www.pixnoy.com/profile/female_wizard/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "underground_score": 2.5,
-    "instagram": "@piss.sample"
+    "instagram": "@piss.sample",
+    "notes": "Bio confirmed logged-in 27 Nov 2026: 'Dirt / I RUN DISCHARGE / I DJ AS PRIS CRISIS'."
   },
   {
     "id": "winged-mantis",
@@ -29406,7 +29458,9 @@
       "https://events.humanitix.com/discharge-november-27",
       "https://www.pixnoy.com/profile/coshnow/",
       "https://www.pixnoy.com/profile/hashtaganastasia/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/hashtaganastasia/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "underground_score": 2.5,
@@ -29466,7 +29520,8 @@
       "https://events.humanitix.com/mutations-weekender",
       "https://www.pixnoy.com/profile/extr.emelyne/",
       "https://www.pixnoy.com/profile/katerellim/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "underground_score": 2,
@@ -29712,14 +29767,18 @@
     "sources": [
       "https://www.linesapp.co/event/1800-play-charades-pres-reptant-4hrs-searlait-2025-10-31-sub-club-melbourne",
       "https://events.humanitix.com/sub-club-presents-cloudy-ku-all-night-long",
-      "https://nominatim.openstreetmap.org/"
+      "https://nominatim.openstreetmap.org/",
+      "https://www.instagram.com/subclubmelbourne/",
+      "https://www.pixnoy.com/profile/cloudyku.her/"
     ],
     "location": "Melbourne",
     "address": "35 Flinders Court, Melbourne VIC 3000",
     "suburb": "Melbourne",
     "lat": -37.817507,
     "lng": 144.9642329,
-    "geo_precision": "street"
+    "geo_precision": "street",
+    "instagram": "@subclubmelbourne",
+    "notes": "Profile read logged-in 27 Nov 2026. Recent grid (HART, JAWANI, Melbourne Techno Collective) is general club/techno, so those tags were not added as post-club nodes."
   },
   {
     "id": "angel-music-bar",
@@ -29960,7 +30019,8 @@
       "https://mixmag.asia/read/techno-zen-cloudy-ku-her-speed-sabbatical-interview-akira-galleries",
       "https://h3r.live/events/speed-5",
       "https://www.pixnoy.com/profile/cloudyku.her/",
-      "https://www.pixnoy.com/profile/hermusicequality/"
+      "https://www.pixnoy.com/profile/hermusicequality/",
+      "https://events.humanitix.com/sub-club-presents-cloudy-ku-all-night-long"
     ],
     "status_date": "2026-09",
     "status_note": "one-year hiatus from mid-September 2026",
@@ -29984,11 +30044,15 @@
     "confidence": "high",
     "sources": [
       "https://omniversalhum.com/ARCHIVE",
-      "https://events.humanitix.com/omniversal-hum-and-her-present-evita-manji-pan"
+      "https://events.humanitix.com/omniversal-hum-and-her-present-evita-manji-pan",
+      "https://www.instagram.com/miscellania_/",
+      "https://www.instagram.com/omniversal_hum/"
     ],
     "website": "https://omniversalhum.com",
     "location": "Naarm / Melbourne",
-    "underground_score": 2.5
+    "underground_score": 2.5,
+    "instagram": "@omniversal_hum",
+    "notes": "Profile read logged-in 27 Nov 2026. Collab with Kerfew and Miscellania (Shackleton & Iran Sanadzadeh)."
   },
   {
     "id": "anterograde",
@@ -30265,10 +30329,13 @@
     "description": "Night hosted at Miscellania. Club 33 (6 Dec 2026, 7am–1am) is billed as Rainbow hijacking the venue for a 33rd birthday, with the rooftop free until 2pm and the club room ticketed after. Host on the Humanitix page is Miscellania. Who Rainbow is, beyond the host name, was not established.",
     "confidence": "high",
     "sources": [
-      "https://events.humanitix.com/rainbow-s-room-club-33"
+      "https://events.humanitix.com/rainbow-s-room-club-33",
+      "https://www.instagram.com/miscellania_/"
     ],
     "location": "Melbourne CBD",
-    "underground_score": 2
+    "underground_score": 2,
+    "instagram": "@r41nb0ww4rr10r",
+    "notes": "Logged-in browse, grid alt text, from @miscellania_."
   },
   {
     "id": "pop2",
@@ -30340,7 +30407,8 @@
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/g0th_mansi0n/",
-      "https://www.pixnoy.com/profile/nexus__.__/"
+      "https://www.pixnoy.com/profile/nexus__.__/",
+      "https://www.instagram.com/g0th_mansi0n/"
     ],
     "location": "Eora/Sydney",
     "instagram": "@nexus__.__"
@@ -30355,16 +30423,19 @@
     ],
     "relevance": "adjacent",
     "status": "active",
-    "description": "Instagram dataset (27 Nov 2026, high): Producer/DJ; WMEDM; Mithril on FBi; Nexus.",
+    "description": "Instagram dataset (27 Nov 2026, high): Producer/DJ; WMEDM; Mithril on FBi; Nexus. Logged-in browse 27 Nov 2026: hosts Mithril on FBi. Debut album Spiritual Reconstruction Engine on Geometric Corruption, dated 18 Dec 2025 in the caption, visuals @uzaaamo. The caption names a venue, Cavern, which is not a node here.",
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/nexus__.__/",
       "https://www.pixnoy.com/profile/obelisk__.__/",
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/obelisk__.__/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Eora/Sydney",
-    "instagram": "@obelisk__.__"
+    "instagram": "@obelisk__.__",
+    "notes": "Logged-in browse: hosts Mithril on @fbiradio; debut album Spiritual Reconstruction Engine on @geometric_corruption (18.12.25), visuals @uzaaamo; venue Cavern."
   },
   {
     "id": "ig-coshnow",
@@ -30381,7 +30452,8 @@
     "sources": [
       "https://www.pixnoy.com/profile/coshnow/",
       "https://www.pixnoy.com/profile/female_wizard/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "instagram": "@coshnow",
@@ -30402,7 +30474,8 @@
     "sources": [
       "https://www.pixnoy.com/profile/badartistpresents/",
       "https://www.pixnoy.com/profile/goblin.rave/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "instagram": "@badartistpresents"
@@ -30428,7 +30501,7 @@
   },
   {
     "id": "ig-g0th-mansi0n",
-    "name": "Index (Krishtie Mofazzal)",
+    "name": "krishtie / Index (Krishtie Mofazzal)",
     "kind": "artist",
     "structure": "unknown",
     "domains": [
@@ -30436,15 +30509,19 @@
     ],
     "relevance": "adjacent",
     "status": "active",
-    "description": "Instagram dataset (27 Nov 2026, high): DJ; WMEDM; Deep Web on FBi; Soft Centre.",
+    "description": "Display name on the account is krishtie. DJ; Winged Mantis Emerald Dream Machine with Obelisk; hosts Deep Web on FBi; Soft Centre; Nexus. Logged-in browse 27 Nov 2026 read a bio of @deepwebfm @soft_centre @nexus.__ and 0 posts. A SPIT caption bills this account beside Obelisk, Charms and #ANASTASIA. The duo name Winged Mantis Emerald Dream Machine stays a low-confidence link.",
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/g0th_mansi0n/",
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/g0th_mansi0n/",
+      "https://www.instagram.com/obelisk__.__/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Eora/Sydney",
-    "instagram": "@g0th_mansi0n"
+    "instagram": "@g0th_mansi0n",
+    "notes": "Logged-in browse 27 Nov 2026 confirms the display name 'krishtie' and the Deep Web / Soft Centre / Nexus bio ties. Profile has 0 posts."
   },
   {
     "id": "ig-rydeenetc",
@@ -30461,7 +30538,8 @@
     "sources": [
       "https://www.pixnoy.com/profile/piss.sample/",
       "https://www.pixnoy.com/profile/rydeenetc/",
-      "https://www.pixnoy.com/profile/sovblkpssy/"
+      "https://www.pixnoy.com/profile/sovblkpssy/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Gadigal/Sydney",
     "instagram": "@rydeenetc"
@@ -30502,14 +30580,15 @@
     "sources": [
       "https://www.pixnoy.com/profile/obelisk__.__/",
       "https://www.pixnoy.com/profile/piss.sample/",
-      "https://www.pixnoy.com/profile/rydeenetc/"
+      "https://www.pixnoy.com/profile/rydeenetc/",
+      "https://www.instagram.com/obelisk__.__/"
     ],
     "location": "Eora/Sydney",
     "instagram": "@fbiradio"
   },
   {
     "id": "ig-m3n1o",
-    "name": "@m3n1o",
+    "name": "m3n1o",
     "kind": "artist",
     "structure": "unknown",
     "domains": [
@@ -30517,14 +30596,17 @@
     ],
     "relevance": "adjacent",
     "status": "active",
-    "description": "Instagram dataset (27 Nov 2026, medium): Poster/animation artist (DISCHARGE; Dreamachine Marseille).",
-    "confidence": "medium",
+    "description": "Designer (studio @k2design.gr). Made the DISCHARGE poster and animation. Logged-in browse 27 Nov 2026: based in Marseille, not Melbourne.",
+    "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/female_wizard/",
-      "https://www.pixnoy.com/profile/rest_in_spit/"
+      "https://www.pixnoy.com/profile/rest_in_spit/",
+      "https://www.instagram.com/m3n1o/",
+      "https://www.instagram.com/rest_in_spit/"
     ],
-    "location": "Unverified",
-    "instagram": "@m3n1o"
+    "location": "Marseille",
+    "instagram": "@m3n1o",
+    "notes": "Logged-in browse 27 Nov 2026 confirms Marseille-based designer, not a Melbourne act."
   },
   {
     "id": "ig-silkxsdotcom",
@@ -30559,7 +30641,8 @@
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/goblin.rave/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "instagram": "@partylegendstatus",
@@ -30677,7 +30760,8 @@
     "confidence": "medium",
     "sources": [
       "https://www.pixnoy.com/profile/nexus__.__/",
-      "https://www.pixnoy.com/profile/obelisk__.__/"
+      "https://www.pixnoy.com/profile/obelisk__.__/",
+      "https://www.instagram.com/obelisk__.__/"
     ],
     "location": "Eora/Sydney",
     "instagram": "@scum.noise"
@@ -30714,7 +30798,9 @@
     "description": "Instagram dataset (27 Nov 2026, high): FBi radio show.",
     "confidence": "high",
     "sources": [
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/g0th_mansi0n/",
+      "https://www.instagram.com/obelisk__.__/"
     ],
     "location": "Eora/Sydney",
     "instagram": "@deepwebfm"
@@ -30733,7 +30819,8 @@
     "confidence": "high",
     "sources": [
       "https://www.pixnoy.com/profile/obelisk__.__/",
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/obelisk__.__/"
     ],
     "location": "Eora/Sydney",
     "instagram": "@mithril__.__"
@@ -30751,7 +30838,8 @@
     "description": "Instagram dataset (27 Nov 2026, medium): DJ (DISCHARGE x Goblin).",
     "confidence": "medium",
     "sources": [
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "instagram": "@d.i.esel",
@@ -30770,7 +30858,8 @@
     "description": "Instagram dataset (27 Nov 2026, medium): DJ (DISCHARGE x Goblin).",
     "confidence": "medium",
     "sources": [
-      "https://www.pixnoy.com/profile/piss.sample/"
+      "https://www.pixnoy.com/profile/piss.sample/",
+      "https://www.instagram.com/piss.sample/"
     ],
     "location": "Naarm / Melbourne",
     "instagram": "@st4cey4101",
@@ -31187,5 +31276,270 @@
     ],
     "location": "Quezon City",
     "instagram": "@teyalogos"
+  },
+  {
+    "id": "ig-n33sha",
+    "name": "Neesha Alexander",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "DJ and ballroom / QTBIPOC promoter. The dataset places House of Alexander in Meanjin / Brisbane and bills Neesha Alexander on DISCHARGE at SPIT, 26 Sep 2026. The note on the dataset says the handle @_n33sha_ was inferred from tags that match that lineup, so this record is medium confidence even though the dataset's confidence field says high. The existing house-of-alexander node is the Melbourne house directed by Ella Ganza.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/piss.sample/",
+      "https://www.instagram.com/rest_in_spit/"
+    ],
+    "location": "Meanjin / Brisbane",
+    "instagram": "@_n33sha_",
+    "notes": "Handle inferred from @_n33sha_ tags on @piss.sample (22 Sep) and @rest_in_spit (10 Sep) matching the DISCHARGE Sep lineup. Logged-in browse, grid alt text."
+  },
+  {
+    "id": "ig-188naarm",
+    "name": "188 Naarm",
+    "kind": "series",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Night or venue in Naarm. Tagged by #ANASTASIA in the logged-in browse, 27 Nov 2026. Not given a pin: the caption does not say whether it is a room or a night.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/hashtaganastasia/"
+    ],
+    "location": "Naarm / Melbourne",
+    "instagram": "@188naarm",
+    "notes": "Logged-in browse, grid alt text, from @hashtaganastasia. Role not spelled out beyond the tag."
+  },
+  {
+    "id": "ig-blackrhino-radio",
+    "name": "Black Rhino Radio",
+    "kind": "org",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Radio in Manchester. CHARMS's bio names it as a residency. ",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/charms.vt/"
+    ],
+    "location": "Manchester",
+    "instagram": "@blackrhino_radio",
+    "notes": "From @charms.vt bio (private account). Logged-in browse."
+  },
+  {
+    "id": "ig-dialogue-records",
+    "name": "Dialogue Records",
+    "kind": "label",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Label tagged on Omniversal Hum. The browse does not state a city or a release.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "location": "Unverified",
+    "instagram": "@dialogue_records",
+    "notes": "Logged-in browse, grid alt text, from @omniversal_hum."
+  },
+  {
+    "id": "ig-djali3313",
+    "name": "DJ Ali Sal",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "DJ Ali Sal. Billed, in the earlier research lineup, on DISCHARGE at SPIT, 26 Sep 2026. The v2 dataset rates the account high and does not state a home city.",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/rest_in_spit/"
+    ],
+    "location": "Unverified",
+    "instagram": "@djali3313",
+    "notes": "Handle @djali3313 matched to DJ Ali Sal on the DISCHARGE Sep bill. Logged-in browse, grid alt text."
+  },
+  {
+    "id": "ig-galdemrejoice",
+    "name": "Mama Char",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Project account named in the CHARMS bio as Mama Char. Alias account of Charms, not a second person. The bio tag is a low-confidence link.",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/charms.vt/"
+    ],
+    "location": "Manchester",
+    "instagram": "@galdemrejoice",
+    "notes": "From @charms.vt bio (account is private). Logged-in browse."
+  },
+  {
+    "id": "ig-geometric-corruption",
+    "name": "Geometric Corruption",
+    "kind": "label",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "unknown",
+    "status": "active",
+    "description": "Label. Obelisk's caption dates the debut album Spiritual Reconstruction Engine to 18 Dec 2025. Home city was not stated.",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/obelisk__.__/"
+    ],
+    "location": "Unverified",
+    "instagram": "@geometric_corruption",
+    "notes": "From @obelisk__.__ bio/grid. Logged-in browse, grid alt text."
+  },
+  {
+    "id": "ig-hopestradio",
+    "name": "@hopestradio",
+    "kind": "org",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Radio or project tagged on Omniversal Hum. The browse does not state the role more precisely.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "location": "Unverified",
+    "instagram": "@hopestradio",
+    "notes": "Logged-in browse, grid alt text, from @omniversal_hum."
+  },
+  {
+    "id": "ig-juniperbell",
+    "name": "@juniperbell_",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Performer tagged by Pris Crisis on 25 Sep, in the Bad:Goblin / Tessellate circle. No display name was printed.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/piss.sample/"
+    ],
+    "location": "Naarm / Melbourne",
+    "instagram": "@juniperbell_",
+    "notes": "Also appeared in a @badartistpresents Pixnoy caption; role from that earlier source plus the logged-in tag."
+  },
+  {
+    "id": "ig-rojakmcr",
+    "name": "Rojak MCR",
+    "kind": "collective",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Night or collective in Manchester. CHARMS's bio names it as a residency.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/charms.vt/"
+    ],
+    "location": "Manchester",
+    "instagram": "@rojakmcr",
+    "notes": "From @charms.vt bio (private account). Logged-in browse."
+  },
+  {
+    "id": "ig-sal-l",
+    "name": "@sal__l",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Tagged at SPIT on 10 Sep with Neesha Alexander and DJ Ali Sal. Also mentioned by Stev Zar as 'my sister'. DJ role not confirmed. Confidence low.",
+    "confidence": "low",
+    "sources": [
+      "https://www.instagram.com/rest_in_spit/"
+    ],
+    "location": "Naarm / Melbourne",
+    "instagram": "@sal__l",
+    "notes": "Included because of the SPIT bill with two DISCHARGE DJs. Logged-in browse, grid alt text."
+  },
+  {
+    "id": "ig-skramz-naarm-melb",
+    "name": "skramz.naarm.melb",
+    "kind": "collective",
+    "structure": "unknown",
+    "domains": [],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "SPIT's skramz / punk scene account. Logged-in browse of @rest_in_spit tagged it on a 6 Oct screamo bill. Kept as the marker for that other side of the venue, not as a post-club act, and not given a second pin.",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/rest_in_spit/"
+    ],
+    "location": "Naarm / Melbourne",
+    "instagram": "@skramz.naarm.melb",
+    "notes": "Tagged on @rest_in_spit (6 Oct, with a screamo bill). Cluster marker for SPIT's punk/skramz programming; individual band tags were not added as nodes."
+  },
+  {
+    "id": "ig-uzaaamo",
+    "name": "@uzaaamo",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Visuals for Obelisk's debut album Spiritual Reconstruction Engine. Home city was not stated.",
+    "confidence": "medium",
+    "sources": [
+      "https://www.instagram.com/obelisk__.__/"
+    ],
+    "location": "Unverified",
+    "instagram": "@uzaaamo",
+    "notes": "Tagged on @obelisk__.__. Also seen earlier on the Pixnoy profile. Logged-in browse, grid alt text."
+  },
+  {
+    "id": "ig-valentina-magaletti",
+    "name": "Valentina Magaletti",
+    "kind": "artist",
+    "structure": "unknown",
+    "domains": [
+      "post_club"
+    ],
+    "relevance": "adjacent",
+    "status": "active",
+    "description": "Experimental percussionist, visiting from London. Tagged on Omniversal Hum in the logged-in browse, 27 Nov 2026.",
+    "confidence": "high",
+    "sources": [
+      "https://www.instagram.com/omniversal_hum/"
+    ],
+    "location": "London (visiting)",
+    "instagram": "@valentina_magaletti",
+    "notes": "Logged-in browse, grid alt text, from @omniversal_hum."
   }
 ]

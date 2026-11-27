@@ -44,13 +44,13 @@ Added for sourced edits:
 
 ### Instagram stubs, and a later import
 
-Bare handles from the Instagram layer are nodes with `kind: "unknown"`, `id` starting `ig-`, and `instagram` set (`@handle`). They have no description. About 520 of these are still unresolved.
+Bare handles from the Instagram layer are nodes with `kind: "unknown"`, `id` starting `ig-`, and `instagram` set (`@handle`). They have no description. About 519 of these are still unresolved.
 
 When a real record is the same account, promote that node in place: keep the `ig-` id, set `name`, `kind`, `description`, `sources` and `confidence`. Links and events already point at the id. If a listing had already used a different id (Charms is `ig-charms-vt`, and one event said `charms`), point the event at the kept id and say so in `notes`.
 
 Do not merge a handle just because the name is similar. Unconfirmed handles stay as stubs with a `notes` line. `@moopiedaily` is still one of those.
 
-The 27 Nov 2026 Instagram network (82 handles, 130 edges) is merged. A handle that already had a fuller record keeps that id: `@piss.sample` is Pris Crisis, `@tek_dec` is LOIF, `@rest_in_spit` is the SPIT venue (the old `@spittttt` handle is in `notes`). `@tangerine.tangerinee` and `@tangerine.mu` are both named Tangerine in that file, at medium confidence, so both stubs were folded into `tangerine` and the second handle is in `notes`. `@orb_________0o` was not folded into the Inter.Sonix `orb` node. Tag, bio, “cited as”, and the Winged Mantis / Emerald Dream Machine duo identity are `confidence: low`.
+The 27 Nov 2026 Instagram network is merged from `ig-network-v2` (104 handles, 164 edges), which replaces the earlier 82-handle file. A handle that already had a fuller record keeps that id: `@piss.sample` is Pris Crisis, `@tek_dec` is LOIF, `@rest_in_spit` is the SPIT venue (the old `@spittttt` handle is in `notes`). `@tangerine.tangerinee` and `@tangerine.mu` are both named Tangerine in that file, at medium confidence, so both stubs were folded into `tangerine` and the second handle is in `notes`. `@orb_________0o` was not folded into the Inter.Sonix `orb` node. `@m3n1o` is a Marseille designer, not a Melbourne act. `@g0th_mansi0n` displays as krishtie (Index). Tag, bio, “cited as”, and the Winged Mantis / Emerald Dream Machine duo identity are `confidence: low`. `@_n33sha_` is matched to Neesha Alexander at medium confidence because the dataset note says that handle was inferred.
 
 A later Instagram file should match on the handle, lowercased, without `@`. New stubs can be appended. Use `collaborated_with` with `src` set to the post or export the edge came from.
 
