@@ -1,5 +1,9 @@
-# Only the built site is published; everything else stays local
+# GitHub Pages publishes docs/. The scene graph in docs/data is the source
+# the viewer loads. README and scripts are kept so the next update has a path.
 *
 !.gitignore
+!README.md
+!scripts/
+!scripts/**
 !docs/
 !docs/**

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "updated": "2026-11-27",
+  "scene_tag": "post_club",
+  "files": {
+    "nodes": "nodes.json",
+    "links": "links.json",
+    "events": "events.json",
+    "suburbs": "suburbs.json",
+    "base": "base.json",
+    "osm": "osm.json"
+  }
+}
