@@ -1208,78 +1208,6 @@
     "confidence": "high"
   },
   {
-    "id": "ms-first-nations-drag",
-    "title": "First Nations Drag Showcase (hosted by 2JOOCEE)",
-    "start_date": "2027-01-29",
-    "end_date": "2027-01-29",
-    "times": null,
-    "venue": "Pride of our Footscray Community Bar, 86–88 Hopkins St",
-    "suburb": "Footscray",
-    "lat": -37.7998,
-    "lng": 144.8985,
-    "organiser": "Midsumma",
-    "artists": [
-      {
-        "name": "2JOOCEE and five First Nations drag/cabaret/dance artists",
-        "origin": "First Nations"
-      }
-    ],
-    "categories": [
-      "performance",
-      "talk"
-    ],
-    "region_focus": [
-      "first-nations",
-      "local"
-    ],
-    "price": "$0–$25",
-    "ticket_url": "https://www.midsumma.org.au/whats-on/events/first-nations-drag-showcase/",
-    "source_urls": [
-      "https://www.midsumma.org.au/whats-on/events/first-nations-drag-showcase/"
-    ],
-    "status": "on-sale",
-    "ticket_release_date": null,
-    "description": "Performances and conversations by queer First Nations creatives.",
-    "why_dean": "Community-scale First Nations performance night in the west.",
-    "confidence": "high"
-  },
-  {
-    "id": "ms-house-of-diesel",
-    "title": "House of Diesel | THH – Vogue Night",
-    "start_date": "2027-01-29",
-    "end_date": "2027-01-29",
-    "times": null,
-    "venue": "RUBIX Warehouse",
-    "suburb": "Melbourne",
-    "lat": null,
-    "lng": null,
-    "organiser": "House of Diesel",
-    "artists": [
-      {
-        "name": "House of Diesel",
-        "origin": "local"
-      }
-    ],
-    "categories": [
-      "dance",
-      "performance",
-      "club-av"
-    ],
-    "region_focus": [
-      "local"
-    ],
-    "price": "$15–$30",
-    "ticket_url": "https://www.midsumma.org.au/whats-on/events/house-of-diesel-thh-vogue-night/",
-    "source_urls": [
-      "https://www.midsumma.org.au/whats-on/events/house-of-diesel-thh-vogue-night/"
-    ],
-    "status": "on-sale",
-    "ticket_release_date": null,
-    "description": "Warehouse vogue night.",
-    "why_dean": "DIY warehouse ballroom night.",
-    "confidence": "medium"
-  },
-  {
     "id": "ms-temple-after-dark",
     "title": "Temple After Dark",
     "start_date": "2027-01-29",
@@ -1429,42 +1357,6 @@
     "ticket_release_date": null,
     "description": "Pop-up hands-on stations of colour, flowers, sound and everyday objects on queer joy; all ages.",
     "why_dean": "Participatory, sound-inclusive work by a respected local collective and sound artist.",
-    "confidence": "high"
-  },
-  {
-    "id": "ms-fantasy-ball",
-    "title": "The Fantasy Ball II: Strictly Business – House of Furia",
-    "start_date": "2027-01-30",
-    "end_date": "2027-01-30",
-    "times": null,
-    "venue": "Northcote Theatre",
-    "suburb": "Northcote",
-    "lat": -37.7752,
-    "lng": 144.9956,
-    "organiser": "House of Furia & Midsumma",
-    "artists": [
-      {
-        "name": "House of Furia",
-        "origin": "local"
-      }
-    ],
-    "categories": [
-      "performance",
-      "dance",
-      "club-av"
-    ],
-    "region_focus": [
-      "local"
-    ],
-    "price": "$28.56–$62.42",
-    "ticket_url": "https://www.midsumma.org.au/whats-on/events/fantasy-ball-ii-strictly-business/",
-    "source_urls": [
-      "https://www.midsumma.org.au/whats-on/events/fantasy-ball-ii-strictly-business/"
-    ],
-    "status": "on-sale",
-    "ticket_release_date": null,
-    "description": "Ballroom spectacular with categories, voguing and battles.",
-    "why_dean": "Ballroom = live performance with audience energy; local scene staple.",
     "confidence": "high"
   },
   {
